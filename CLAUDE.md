@@ -53,11 +53,17 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
   éditer les SNBT à la main, régénérer. Textes dans `quests/lang/en_us.snbt` (FR sous en_us).
   IDs = hash stable de la clé, **bit de poids fort à 0** (FTB lit des long signés, sinon il
   réattribue l'ID et perd dépendances + textes). `--dump` valide chaque ID d'item/entité/structure.
+- **Mod custom** (`mod/`, ModDevGradle 2.0.147, package `fr.derniermoteur`) : le Gardien étend
+  `IronGolem` pour réutiliser modèle/animations (rendu ×2, texture procédurale originale). Le
+  Moteur lit les pièces par ID (`BuiltInRegistries.ITEM`) → pas de dépendance à KubeJS.
+- **Rhino/KubeJS** : pas de `const` dans un bloc (`if`, boucle) ni pour une variable globale
+  réutilisée → « redeclaration of var ». Utiliser `let`.
 - Liste commentée des mods et des écartés : `docs/mods.md`.
 
 ## Outils
 - `tools/gen_textures.py` : textures 16×16 des items KubeJS (Pillow).
 - `tools/quests/build.py --dump <dump.json>` : génère et valide les quêtes FTB.
+- `tools/gen_mod_textures.py` : textures du mod.
 - `tools/gen_patchouli.py` : contenu du Carnet + advancements des journaux.
 - `tools/check_deps.py pack <cache>` : télécharge les jars et vérifie dépendances/incompatibilités.
 - Test serveur headless : installer NeoForge server (`--install-server`), copier les jars
@@ -70,6 +76,6 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
 - [x] Phase 3 — Progression (`docs/progression.md`)
 - [x] Phase 4 — KubeJS (items de lore, recettes, drops de boss, carnet Patchouli) — validé sur serveur de test
 - [x] Phase 5 — FTB Quests (11 chapitres, 236 quêtes, chargées sans perte par FTB 2101.1.36)
-- [ ] Phase 6 — Mod custom `dernier_moteur`
+- [x] Phase 6 — Mod custom `dernier_moteur` (compile ; boss, drops, multibloc et allumage testés sur serveur)
 - [ ] Phase 7 — CI (build + release du mod, intégration packwiz)
 - [ ] Phase 8 — Vérification finale

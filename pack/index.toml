@@ -338,7 +338,7 @@ hash = "c5cf9bc1f040f963429dc65eb73c946e37077d96fc783f592d83b3780877b133"
 
 [[files]]
 file = "kubejs/server_scripts/recipes_progression.js"
-hash = "e465b502c186bc4e8b7c3698321d0d7b69862cb067d1e539d278e220a3de185a"
+hash = "36f8249331bfeb7cb7ab8a8baf1529db18aa9d427bb5898e6a0eba7f863fd0cb"
 
 [[files]]
 file = "kubejs/startup_scripts/dernier_moteur_items.js"

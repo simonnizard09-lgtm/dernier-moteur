@@ -323,4 +323,45 @@ ServerEvents.recipes(event => {
     F: 'mekanismgenerators:fusion_reactor_frame',
     T: 'mekanism:basic_chemical_tank'
   }).id(DM('gate/mekgen_fusion_controller'))
+
+  // ---------------------------------------------------------------------------
+  // Épilogue — objets du mod dernier_moteur (seulement si le mod est chargé)
+  // ---------------------------------------------------------------------------
+  if (Platform.isLoaded('dernier_moteur')) {
+    event.shaped(Item.of(DM('engine_casing'), 4), [
+      'SAS',
+      'ACA',
+      'SAS'
+    ], {
+      S: '#c:plates/steel',
+      A: DM('core_alloy'),
+      C: 'mekanism:steel_casing'
+    }).id(DM('crafting/engine_casing'))
+
+    event.shaped(DM('engine_core'), [
+      'BPB',
+      'CUC',
+      'BPB'
+    ], {
+      B: DM('core_alloy_block'),
+      P: DM('engine_processor'),
+      C: DM('engine_casing'),
+      U: 'mekanism:ultimate_control_circuit'
+    }).id(DM('crafting/engine_core'))
+
+    // Clé du Gardien : les six fragments restent dans la grille
+    let FRAGS = ['gear', 'spark', 'ember', 'storm', 'void', 'abyss'].map(f => DM(`core_fragment_${f}`))
+    event.shaped(DM('guardian_key'), [
+      'GSE',
+      'NBP',
+      'TVA'
+    ], {
+      G: FRAGS[0], S: FRAGS[1], E: FRAGS[2], T: FRAGS[3], V: FRAGS[4], A: FRAGS[5],
+      N: 'minecraft:nether_star',
+      B: DM('core_alloy_block'),
+      P: DM('engine_processor')
+    }).keepIngredient(FRAGS[0]).keepIngredient(FRAGS[1]).keepIngredient(FRAGS[2])
+      .keepIngredient(FRAGS[3]).keepIngredient(FRAGS[4]).keepIngredient(FRAGS[5])
+      .id(DM('crafting/guardian_key'))
+  }
 })

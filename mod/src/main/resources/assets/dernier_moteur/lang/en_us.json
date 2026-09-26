@@ -1,0 +1,12 @@
+{
+  "block.dernier_moteur.engine_casing": "Engine Casing",
+  "block.dernier_moteur.engine_core": "Engine Controller",
+  "item.dernier_moteur.guardian_key": "Guardian's Key",
+  "item.dernier_moteur.guardian_key.desc": "Right-click the ground to awaken the Core Guardian.",
+  "item.dernier_moteur.guardian_heart": "Guardian's Heart",
+  "item.dernier_moteur.core_guardian_spawn_egg": "Core Guardian Spawn Egg",
+  "entity.dernier_moteur.core_guardian": "Core Guardian",
+  "itemGroup.dernier_moteur": "The Last Engine",
+  "advancements.dernier_moteur.engine_ignited.title": "The Last Engine",
+  "advancements.dernier_moteur.engine_ignited.description": "Reignite the Engine and let the world breathe again."
+}

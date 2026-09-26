@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dernier_moteur:block/engine_casing"
+    }
+  }
+}

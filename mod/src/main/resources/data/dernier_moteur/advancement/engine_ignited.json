@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "dernier_moteur:engine_core"
+    },
+    "title": {
+      "translate": "advancements.dernier_moteur.engine_ignited.title"
+    },
+    "description": {
+      "translate": "advancements.dernier_moteur.engine_ignited.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/netherite_block.png"
+  },
+  "criteria": {
+    "ignited": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "ignited"
+    ]
+  ]
+}

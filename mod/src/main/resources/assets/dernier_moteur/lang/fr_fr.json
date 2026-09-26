@@ -1,0 +1,12 @@
+{
+  "block.dernier_moteur.engine_casing": "Boîtier du Moteur",
+  "block.dernier_moteur.engine_core": "Contrôleur du Moteur",
+  "item.dernier_moteur.guardian_key": "Clé du Gardien",
+  "item.dernier_moteur.guardian_key.desc": "Clic droit sur le sol pour éveiller le Gardien du Noyau.",
+  "item.dernier_moteur.guardian_heart": "Cœur du Gardien",
+  "item.dernier_moteur.core_guardian_spawn_egg": "Œuf d'apparition du Gardien du Noyau",
+  "entity.dernier_moteur.core_guardian": "Gardien du Noyau",
+  "itemGroup.dernier_moteur": "Le Dernier Moteur",
+  "advancements.dernier_moteur.engine_ignited.title": "Le Dernier Moteur",
+  "advancements.dernier_moteur.engine_ignited.description": "Rallumer le Moteur et rendre au monde son souffle."
+}

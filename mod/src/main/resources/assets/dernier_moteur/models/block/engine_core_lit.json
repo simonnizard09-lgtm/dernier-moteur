@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "dernier_moteur:block/engine_casing",
+    "side": "dernier_moteur:block/engine_casing",
+    "front": "dernier_moteur:block/engine_core_front_lit"
+  }
+}

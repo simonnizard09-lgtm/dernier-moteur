@@ -1,0 +1,17 @@
+{
+  "name": "n°3 — La tour de la Liche",
+  "icon": "dernier_moteur:journal_3",
+  "category": "patchouli:journaux",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Au-delà du portail du Crépuscule, une tour s'élève au-dessus des arbres. Son maître, la $(l)Liche$(), a trouvé le fragment de l'$(l)Étincelle$() tombé dans sa forêt, et s'en nourrit.$(br2)Elle se cache derrière des boucliers d'ombre et des doubles."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Brise ses boucliers, ignore les faux reflets, frappe l'original.$(br2)Avec l'Étincelle, relie le $(l)Codex de la Forge$(). La forge était notre troisième leçon : fondre le monde, le séparer, le recomposer. Mekanism et les grands fourneaux t'attendent."
+    }
+  ],
+  "advancement": "dernier_moteur:journal/journal_3"
+}

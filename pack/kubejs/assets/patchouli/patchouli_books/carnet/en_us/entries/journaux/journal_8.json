@@ -1,0 +1,17 @@
+{
+  "name": "n°8 — Le dernier gardien",
+  "icon": "dernier_moteur:journal_8",
+  "category": "patchouli:journaux",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Le $(l)Gardien du Noyau$() n'est pas devenu fou. Nous l'avions conçu pour éprouver quiconque voudrait rallumer le Moteur.$(br2)Il se bat en trois temps : il frappe, puis il appelle ses serviteurs et tire, puis il ne retient plus rien."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Son $(l)cœur$() est la dernière pièce. Bâtis le $(l)Moteur$() (5×5×5 de boîtiers autour du contrôleur), remplis sa réserve d'énergie, dépose-y les six fragments, le cœur et quatre processeurs du Moteur.$(br2)Puis rallume-le. Et écoute le monde respirer à nouveau."
+    }
+  ],
+  "advancement": "dernier_moteur:journal/journal_8"
+}

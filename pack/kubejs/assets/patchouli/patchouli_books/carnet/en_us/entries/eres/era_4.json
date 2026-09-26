@@ -1,0 +1,12 @@
+{
+  "name": "Ère IV — Automatisation",
+  "icon": "ae2:controller",
+  "category": "patchouli:eres",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Le Codex de l'Automate déverrouille le graveur AE2 et les cadres d'Industrial Foregoing. Grave le $(l)processeur du Moteur$().$(br2)Portes : l'$(l)Ender Guardian$() (Néant) et le $(l)Léviathan$() (Abysse). Avec six fragments, forge la $(l)Clé du Gardien$()."
+    }
+  ]
+}

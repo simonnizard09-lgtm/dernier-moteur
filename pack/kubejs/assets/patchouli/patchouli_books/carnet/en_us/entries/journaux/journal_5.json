@@ -1,0 +1,17 @@
+{
+  "name": "n°5 — L'usine ancienne",
+  "icon": "dernier_moteur:journal_5",
+  "category": "patchouli:journaux",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "C'est ici que nous fabriquions les gardiens. Le $(l)Harbinger$(), notre contremaître mécanique, supervisait la chaîne.$(br2)Aujourd'hui il tire sur tout ce qui franchit les portes. Il garde le fragment de la $(l)Tempête$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Il se recharge sur ses bobines : coupe-lui l'accès, frappe pendant les pauses.$(br2)Si tu tiens ce journal, tu as vu l'usine. Tu sais maintenant que les machines peuvent fabriquer des machines. C'est la dernière leçon."
+    }
+  ],
+  "advancement": "dernier_moteur:journal/journal_5"
+}

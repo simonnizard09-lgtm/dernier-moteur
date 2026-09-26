@@ -1,0 +1,12 @@
+{
+  "name": "Ère II — Électricité",
+  "icon": "immersiveengineering:hammer",
+  "category": "patchouli:eres",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Le Codex de l'Étincelle déverrouille le marteau et l'établi d'Immersive Engineering, et la $(l)bobine galvanique$() (alternateur, moteur électrique, dynamo).$(br2)Four à coke, acier, fils. Porte : la $(l)Liche$() (fragment de l'Étincelle) → $(l)Codex de la Forge$()."
+    }
+  ]
+}

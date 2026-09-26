@@ -1,0 +1,17 @@
+{
+  "name": "n°2 — Notes sur les gardiens de fer",
+  "icon": "dernier_moteur:journal_2",
+  "category": "patchouli:journaux",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Le premier gardien, le $(l)Wroughtnaut$(), veillait sur l'atelier des rouages. C'est une armure vide que nous avions animée pour garder les mines.$(br2)Depuis l'arrêt, il erre dans les cavernes profondes et frappe tout ce qui bouge."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Son point faible n'a pas changé : après une grande charge, il reste un instant exposé. Frappe-le $(l)dans le dos$() à ce moment-là.$(br2)Il porte le fragment du $(l)Rouage$(). Avec lui, un peu d'écaille de Naga et un mécanisme à vapeur, tu pourras relier le $(l)Codex de l'Étincelle$()."
+    }
+  ],
+  "advancement": "dernier_moteur:journal/journal_2"
+}

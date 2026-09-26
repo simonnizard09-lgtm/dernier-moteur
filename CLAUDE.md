@@ -43,9 +43,17 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
 - **Portes d'ère = boss → fragments → codex catalyseurs** (`keepIngredient`) : voir
   `docs/progression.md`. Items KubeJS et mod partagent le namespace `dernier_moteur`
   (le mod ne déclare que Clé du Gardien, Cœur du Gardien, blocs du Moteur, boss).
+- **Carnet Patchouli** = livre *externe* `patchouli:carnet` : `pack/patchouli_books/carnet/book.json`,
+  contenu dans `pack/kubejs/assets/patchouli/patchouli_books/carnet/en_us/` (texte FR sous en_us =
+  langue de repli). Généré par `tools/gen_patchouli.py` (source unique des textes de journaux).
+- **Drops de boss** : `EntityEvents.death` + `spawnAtLocation` (invulnérable, sans expiration),
+  testé sur les 6 gardiens. Journaux en coffres via Global Loot Modifiers NeoForge (`neoforge:add_table`).
+- **Noms d'items KubeJS** en français via `displayName` (pas de fichier lang pour eux).
 - Liste commentée des mods et des écartés : `docs/mods.md`.
 
 ## Outils
+- `tools/gen_textures.py` : textures 16×16 des items KubeJS (Pillow).
+- `tools/gen_patchouli.py` : contenu du Carnet + advancements des journaux.
 - `tools/check_deps.py pack <cache>` : télécharge les jars et vérifie dépendances/incompatibilités.
 - Test serveur headless : installer NeoForge server (`--install-server`), copier les jars
   `side = both|server`, `./run.sh nogui`, attendre `Done (`. Les erreurs KubeJS sont dans
@@ -55,7 +63,7 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
 - [x] Phase 1 — Structure (packwiz, README, CLAUDE.md)
 - [x] Phase 2 — Mods + configs (86 mods, serveur de test OK)
 - [x] Phase 3 — Progression (`docs/progression.md`)
-- [ ] Phase 4 — KubeJS (items de lore, recettes)
+- [x] Phase 4 — KubeJS (items de lore, recettes, drops de boss, carnet Patchouli) — validé sur serveur de test
 - [ ] Phase 5 — FTB Quests
 - [ ] Phase 6 — Mod custom `dernier_moteur`
 - [ ] Phase 7 — CI (build + release du mod, intégration packwiz)

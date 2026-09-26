@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "has_journal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "dernier_moteur:journal_2"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_journal"
+    ]
+  ]
+}

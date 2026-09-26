@@ -1,0 +1,12 @@
+{
+  "name": "Ère I — Vapeur",
+  "icon": "create:cogwheel",
+  "category": "patchouli:eres",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Create : roues à eau, presse, mixeur, laiton, mécanisme de précision, machine à vapeur. Construis le $(l)mécanisme à vapeur$() (assemblage séquencé).$(br2)Portes : la $(l)Naga$() (écaille) et le $(l)Ferrous Wroughtnaut$() (fragment du Rouage). Puis relie le $(l)Codex de l'Étincelle$()."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "n°1 — Le jour où le Moteur s'est tu",
+  "icon": "dernier_moteur:journal_1",
+  "category": "patchouli:journaux",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Je note ceci pour qui viendra après.$(br2)Ce matin, le Moteur s'est arrêté. Pas de fracas : un long soupir sous la roche, puis le silence. Les rivières se sont troublées avant midi. Au soir, le vent était froid comme un hiver avancé."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Le Moteur ne faisait pas que tourner. Il $(l)tenait le monde$() : l'eau pure, les saisons douces, les bêtes à leur place. Sans lui, tout se dérègle.$(br2)Nos gardiens mécaniques — ceux qui protégeaient le Noyau — se sont figés, puis se sont réveillés… autrement."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Le Noyau s'est brisé en six $(l)fragments$(). Chaque gardien en a emporté un.$(br2)Nos techniques se perdent avec nous. Je les consigne dans l'ordre où nous les avions apprises : le $(l)Rouage$(), l'$(l)Étincelle$(), la $(l)Forge$(), l'$(l)Automate$(). Qui les retrouvera pourra rallumer le Moteur."
+    }
+  ]
+}

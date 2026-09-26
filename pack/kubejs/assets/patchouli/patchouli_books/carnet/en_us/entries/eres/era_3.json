@@ -1,0 +1,12 @@
+{
+  "name": "Ère III — Industrie lourde",
+  "icon": "mekanism:steel_casing",
+  "category": "patchouli:eres",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Le Codex de la Forge déverrouille le boîtier en acier et l'infuseur de Mekanism, et l'ingénierie lourde d'IE.$(br2)Minerais ×5, $(l)alliage du Noyau$(). Portes : $(l)Ignis$() et le $(l)Harbinger$() (Braise, Tempête) → $(l)Codex de l'Automate$()."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Ère 0 — Réveil",
+  "icon": "minecraft:campfire",
+  "category": "patchouli:eres",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Survis d'abord. Bois de l'eau purifiée (gourde, purificateur de Tough As Nails), habille-toi selon la saison, mange varié.$(br2)Les mobs deviennent plus forts avec le temps : abrite-toi vite. Objectif : ton premier $(l)alliage d'andésite$() (Create)."
+    }
+  ]
+}

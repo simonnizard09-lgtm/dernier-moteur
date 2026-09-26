@@ -1,0 +1,6 @@
+{
+  "name": "Journaux de Vaucor",
+  "description": "Les journaux de l'Ingénieure Iléa Vaucor. Chaque page apparaît quand tu retrouves le journal correspondant (quêtes, gardiens, coffres).",
+  "icon": "dernier_moteur:journal_1",
+  "sortnum": 0
+}

@@ -1,0 +1,17 @@
+{
+  "name": "n°6 — Au-delà de l'End",
+  "icon": "dernier_moteur:journal_6",
+  "category": "patchouli:journaux",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Le fragment du $(l)Néant$() a été emporté jusqu'aux îles extérieures de l'End, dans une citadelle en ruine. Son gardien, l'$(l)Ender Guardian$(), fut notre sentinelle la plus loyale.$(br2)Il ne reconnaît plus personne."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Automatise avant d'y aller : réseau ME, processeurs du Moteur, réserves d'énergie. Tu auras besoin de tout ce que tu as bâti pour la fin."
+    }
+  ],
+  "advancement": "dernier_moteur:journal/journal_6"
+}

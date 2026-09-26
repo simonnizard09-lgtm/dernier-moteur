@@ -1,0 +1,12 @@
+{
+  "name": "Carnet de l'Ingénieur",
+  "landing_text": "Ce carnet appartenait à l'Ingénieure Iléa Vaucor, dernière gardienne des plans du Moteur.$(br2)Les pages de ses $(l)journaux$() se remplissent à mesure que tu les retrouves. Le $(l)Guide des ères$() résume ce qu'il faut accomplir pour avancer.",
+  "subtitle": "Le Dernier Moteur",
+  "book_texture": "patchouli:textures/gui/book_brown.png",
+  "model": "patchouli:book_brown",
+  "use_resource_pack": true,
+  "show_progress": false,
+  "creative_tab": "minecraft:tools_and_utilities",
+  "i18n": false,
+  "version": 1
+}

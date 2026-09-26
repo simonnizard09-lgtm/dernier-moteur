@@ -13,6 +13,282 @@ file = "config/simplebackups-common.toml"
 hash = "c26fee98b160b78800aa29d226b33947e568376aab5af4b90cf86684b3115cfd"
 
 [[files]]
+file = "kubejs/assets/dernier_moteur/textures/block/core_alloy_block.png"
+hash = "27a7b37ceee87a20c5ec9f59fcd055d8d6e2e66f8a446f2843c5e619bd1d2947"
+
+[[files]]
+file = "kubejs/assets/dernier_moteur/textures/item/codex_automaton.png"
+hash = "ee84106dca2f4e993c65fd9319a62d6acf4cb52b275616951c9f2859fd442017"
+
+[[files]]
+file = "kubejs/assets/dernier_moteur/textures/item/codex_forge.png"
+hash = "2830bee37d2deb1a95623cc4951a8887e236f157c5715e508d8d04287c296edf"
+
+[[files]]
+file = "kubejs/assets/dernier_moteur/textures/item/codex_spark.png"
+hash = "a0000d70607fd9317fecd6ea7a7b6cb81da02597c495eeb87b70d34f9c98ac7a"
+
+[[files]]
+file = "kubejs/assets/dernier_moteur/textures/item/core_alloy.png"
+hash = "c79f19a2adfa2c372c6f0b823585eac86d3c05fe4dbea10c90e7caa2ba97652c"
+
+[[files]]
+file = "kubejs/assets/dernier_moteur/textures/item/core_fragment_abyss.png"
+hash = "941881af329729f839b7faa295f57659fc69643453321bd10890d2da1f3934fd"
+
+[[files]]
+file = "kubejs/assets/dernier_moteur/textures/item/core_fragment_ember.png"
+hash = "e049cd76c3d03d95867a06901c0dfd59a6acf47290cae476f0383fabeabf994a"
+
+[[files]]
+file = "kubejs/assets/dernier_moteur/textures/item/core_fragment_gear.png"
+hash = "14f28458535a649544172e0c69ea1c57bb5c4aefb1fb5d7817ee6666a4765e2a"
+
+[[files]]
+file = "kubejs/assets/dernier_moteur/textures/item/core_fragment_spark.png"
+hash = "dba90386857f3aaaeb414f54fb36d90f03fc06a5889675dbeee609c8c6c9721a"
+
+[[files]]
+file = "kubejs/assets/dernier_moteur/textures/item/core_fragment_storm.png"
+hash = "03e4ea813cae01029ea6b6a4d2e395bdbbda57f06a7b9a19ccad6435ec773a75"
+
+[[files]]
+file = "kubejs/assets/dernier_moteur/textures/item/core_fragment_void.png"
+hash = "5ca0478388b5a08b2f7c1e7ce3fb398e551b0d1b6a07f067c11b5ac855bb81b2"
+
+[[files]]
+file = "kubejs/assets/dernier_moteur/textures/item/engine_processor.png"
+hash = "f9cefb6b4bf2d75dcc45c3a8ada6700c0094f365221f46f86b75bf46d908e373"
+
+[[files]]
+file = "kubejs/assets/dernier_moteur/textures/item/galvanic_coil.png"
+hash = "8c295909a905980575dbb2a5e739a2b2cd54d0775a297e670e902a6ee749c79f"
+
+[[files]]
+file = "kubejs/assets/dernier_moteur/textures/item/journal_1.png"
+hash = "9a808448b038bf3d5077d804c16bb546313badc43c9484c3ef6fda466cfded7b"
+
+[[files]]
+file = "kubejs/assets/dernier_moteur/textures/item/journal_2.png"
+hash = "4ad8afd519c2684daf8458f75d54f88c8272790e1fc8e0f9a2fe9bd81c22c6bf"
+
+[[files]]
+file = "kubejs/assets/dernier_moteur/textures/item/journal_3.png"
+hash = "3e7be337d2405713e3667a994a8914294f4e3e153c7bf87fff610abebacc8b13"
+
+[[files]]
+file = "kubejs/assets/dernier_moteur/textures/item/journal_4.png"
+hash = "2c0209931dd8022c57b98d9eaec1a824408ad1c287706d786e8b8bfaad2425f9"
+
+[[files]]
+file = "kubejs/assets/dernier_moteur/textures/item/journal_5.png"
+hash = "4c24a4ba3064fb5d8742986cf258f81b9c3295902dc2909e2d718c23fdd691f2"
+
+[[files]]
+file = "kubejs/assets/dernier_moteur/textures/item/journal_6.png"
+hash = "87c81a179cc8b96900613e31b92daf01fcea280794caedd8b14db9e59290aeca"
+
+[[files]]
+file = "kubejs/assets/dernier_moteur/textures/item/journal_7.png"
+hash = "e60c872420f65f1f3b7c32a9685669a10482b07312f7db2fb10addd199648963"
+
+[[files]]
+file = "kubejs/assets/dernier_moteur/textures/item/journal_8.png"
+hash = "0166f64707a589d607931a0d40f6b40f2b76cd7f04a2257e4108bf4e07442c6d"
+
+[[files]]
+file = "kubejs/assets/dernier_moteur/textures/item/steam_mechanism.png"
+hash = "1158348020ff9ad07404559db1815fb16ecafe8a3c08f8543c7433f7a1702a0f"
+
+[[files]]
+file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/categories/eres.json"
+hash = "fcf73f9606dfb736504c0b299f6afed88c6894797c4146d1e08126103d31292f"
+
+[[files]]
+file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/categories/journaux.json"
+hash = "0d6d1e4269496da17e92110008a0dd6726f9893571d1a0748f9fae7841ca7e0b"
+
+[[files]]
+file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/eres/era_0.json"
+hash = "1439b9a5034fff4c58205ffb906441fc2d8984540e9e96a2e04cd5a51796ac37"
+
+[[files]]
+file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/eres/era_1.json"
+hash = "aacc47573011f3907e913855cde575990b9b552abeee8b6bfa1e33e83ed0c0f9"
+
+[[files]]
+file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/eres/era_2.json"
+hash = "b0d838a9eaa0871d7ea4c03415cfe0c63d1e85b24194b51adf0f9f17ca2b6445"
+
+[[files]]
+file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/eres/era_3.json"
+hash = "10836158a5e5fccfb08793fa70133f1be5ea456dcde2d2e1caf7c9f3b2ad4b88"
+
+[[files]]
+file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/eres/era_4.json"
+hash = "9e22234d962c4fc58782ebf84bce376b46a2c90720e4a2a77381ef3aff50e9e2"
+
+[[files]]
+file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/eres/era_5.json"
+hash = "58cb3c3390d62bb9b556aef75843a39053e9e062844b74d0bfbbdc31cbc5ed63"
+
+[[files]]
+file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/journaux/journal_1.json"
+hash = "35889e75c273145d840fe8da57c8eed9880ce102917a78f80c486003749018e8"
+
+[[files]]
+file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/journaux/journal_2.json"
+hash = "93593c860a677543a442935910d640998edc4f01408a777fa623f787cb65755d"
+
+[[files]]
+file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/journaux/journal_3.json"
+hash = "1ea5a12194d2b8e7d732fc6c891424559e54ac736c4ef83e26ca35678c962e7a"
+
+[[files]]
+file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/journaux/journal_4.json"
+hash = "3cff8bcbbde39a060585d9ed77d665c12535c617c1723449cc23686e16686a7f"
+
+[[files]]
+file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/journaux/journal_5.json"
+hash = "74e70ca3926948820879e296e33b27aca140cb99c2dd94269aa4ec03c12158bb"
+
+[[files]]
+file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/journaux/journal_6.json"
+hash = "1c69a6fd1d16b92487b90624f8c609265fd697220b6d8aca106da7b7fda26834"
+
+[[files]]
+file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/journaux/journal_7.json"
+hash = "95845b2ad6ab01b9dd88658cf880677b3cd7a9b8a45a692c3c130b3b8e867cbb"
+
+[[files]]
+file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/journaux/journal_8.json"
+hash = "7ae805aa9a24899473669aef48c75c6c2f7960dd647e89f978f3b1943ed799d4"
+
+[[files]]
+file = "kubejs/client_scripts/tooltips.js"
+hash = "a5e3f8d6e3b541fff90913a019ec0e2c5e562f79a719029f5fa23f2773f410af"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/advancement/journal/journal_1.json"
+hash = "ef7935bf6853681dcd44e82010d97dc756609f2cdc67484d1447509ff1f95071"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/advancement/journal/journal_2.json"
+hash = "9e4fb28faa945e5d102821933ca7c388dd0796d298f941c8495061323b61706a"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/advancement/journal/journal_3.json"
+hash = "db681f5aad3769c3cb118f99b5723f9fc6133f003e2eb4e9defdbaaf208a3c32"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/advancement/journal/journal_4.json"
+hash = "7138cb3d92ff00bef07ebd5838c209a6e4ba239005d462e32fda5f439c464911"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/advancement/journal/journal_5.json"
+hash = "adaac4206d7a07d1d6b085b7dad1959b36ae01aff6e9d174c6aa802d05ae3901"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/advancement/journal/journal_6.json"
+hash = "a57cce2fd1741419e078aa69643866ac535462adb648888fc3a52fe290b8fad1"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/advancement/journal/journal_7.json"
+hash = "390e21853bceded069ff07100887740aacf2b6c3611bde9e40f046e9189298bd"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/advancement/journal/journal_8.json"
+hash = "7ffd914c5b15cf5bee7972d1169b823557cf0d4346a249c6bd5947a1f9d585ef"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_2_abandoned_mineshaft.json"
+hash = "89cd9c6228966eed547a3ec1b1ffc3ee431cb4af95f905ee1d7b38fd138a7776"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_2_simple_dungeon.json"
+hash = "664382a74942a5dee83e6c2e88ce9e3d114a6970757621c04e62e05e673d69c3"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_3_tower_library.json"
+hash = "bded6f90aed64cfa4c55ff940c2c712d6ae491ac8a71ada33a0b9c997dc5a1fd"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_3_tower_room.json"
+hash = "a2d2b5f3376f0ea2b979039447ffc421976e1788723bf8649cd1d9cc232dfc04"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_4_bastion_treasure.json"
+hash = "4520df0ddc638cf37702306682602488755f1780d383fcb5c73559cd4183219d"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_4_nether_bridge.json"
+hash = "aba2b07e0d012e7b8e595b35bbc5cd40b6bbc6873ae79d1b0d48d7032bce1830"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_5_ancient_city.json"
+hash = "f0a9cb336123ef5b522410723c996ea428f82539e13c5c640fb250d4035f0081"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_5_stronghold_library.json"
+hash = "ebcbc6456c118347bc7455f331617a9b6383b75a9992f7194743e4f7ae9e36fd"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_6_end_city_treasure.json"
+hash = "ee83132999af1c43429bc6570193ad82de649dd42b79f74ea855161a56b05d54"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_7_buried_treasure.json"
+hash = "fc505f44187717a7263e5df6dbda4b24fd6e8e5e75dbc94cf339ce8afd458d73"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_7_underwater_ruin_big.json"
+hash = "43e5a6eadcfcb8c894e071ba63d37b181a7a3964312ee8d7d53a9f00afde9ffc"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_table/inject/journal_2.json"
+hash = "a5e00bfbc903e03a45007c8f28dfed2310c8f4fc24ac55b24ad95bbe664b05b0"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_table/inject/journal_3.json"
+hash = "7bf2f5e8038a83ea48711a9cbb855e1cd9ce2b01c8a63edbce0e6dadd2b173f6"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_table/inject/journal_4.json"
+hash = "85e33930efcfe26e94a23160260b705af61fd4828597cc1795a3171657d218f0"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_table/inject/journal_5.json"
+hash = "daccf7908693b9d2e4167ec9918c1caf96fd0979fd4ce1ccf156a176ff58fa7b"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_table/inject/journal_6.json"
+hash = "dd202b5aa8e8eb14623cf245e3037a23292fc97b0e32cd28330cd85a80dcf2c2"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_table/inject/journal_7.json"
+hash = "11a0294082bda72199e51e52a977a3c0b10eee7be4901ca9b2eb2d9f2dfa2c8b"
+
+[[files]]
+file = "kubejs/data/neoforge/loot_modifiers/global_loot_modifiers.json"
+hash = "25f74be79e95bd2900a345548193a0c606607108429b92470a2a2842b64dc686"
+
+[[files]]
+file = "kubejs/server_scripts/boss_drops.js"
+hash = "dda9a00556289341779c8a10e942e51cda414dea11fed32c2f319303530afa47"
+
+[[files]]
+file = "kubejs/server_scripts/first_join.js"
+hash = "c5cf9bc1f040f963429dc65eb73c946e37077d96fc783f592d83b3780877b133"
+
+[[files]]
+file = "kubejs/server_scripts/recipes_progression.js"
+hash = "e465b502c186bc4e8b7c3698321d0d7b69862cb067d1e539d278e220a3de185a"
+
+[[files]]
+file = "kubejs/startup_scripts/dernier_moteur_items.js"
+hash = "204a6807540aa8fb2f38daa398aa92595f4ef336785e898687551f910739b40b"
+
+[[files]]
 file = "mods/ae2.pw.toml"
 hash = "ed45c352a49b65c7221e57d979d0c6935522dfef4968aa5b7421f4d3e670ce40"
 metafile = true
@@ -441,6 +717,10 @@ metafile = true
 file = "mods/yungs-extras.pw.toml"
 hash = "cfb7ce4c2b00cedd2e61f7d345b824d6bcc1471021668d2319ee2e4079108639"
 metafile = true
+
+[[files]]
+file = "patchouli_books/carnet/book.json"
+hash = "8952a223cb38d55b1f1c2bc02520d4432ee88bd0c5650c3f1efd129fcb7fc42c"
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"

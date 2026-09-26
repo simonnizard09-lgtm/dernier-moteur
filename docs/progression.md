@@ -117,8 +117,8 @@ fut bâti le Moteur. »*
 - **Boss-portes** :
   - **Ender Guardian** → **Fragment du Néant** `dernier_moteur:core_fragment_void`.
   - **The Leviathan** → **Fragment de l'Abysse** `dernier_moteur:core_fragment_abyss`.
-- **Sortie** : **Clé du Gardien** (item du mod) = les 6 fragments (conservés) + 4 processeurs
-  du Moteur + étoile du Nether + bloc d'alliage du Noyau.
+- **Sortie** : **Clé du Gardien** (item du mod) = les 6 fragments (conservés) + 1 processeur
+  du Moteur + étoile du Nether + bloc d'alliage du Noyau (établi 3×3).
 
 ## Épilogue — Rallumer le Moteur (mod `dernier_moteur`)
 *« Le dernier gardien n'est pas devenu fou. Il attend quelqu'un qui mérite le Noyau. »*
@@ -167,6 +167,7 @@ fut bâti le Moteur. »*
 | `core_alloy` / `core_alloy_block` | Alliage du Noyau (+ bloc) | Infuseur métallurgique Mekanism |
 | `engine_processor` | Processeur du Moteur | Graveur AE2 |
 | `codex_spark` / `codex_forge` / `codex_automaton` | Codex d'ère | Établi (fragment conservé) |
-| `journal_1` … `journal_8` | Journaux d'ingénieur | Récompenses de quêtes + coffres de structures |
+| `journal_1` … `journal_8` | Journaux d'ingénieur | n°1 à l'arrivée, n°2-7 sur les gardiens, n°8 sur le Gardien du Noyau ; copies (25 %) dans des coffres de structures |
+| `incomplete_steam_mechanism` | Mécanisme à vapeur inachevé | Item de transition de l'assemblage séquencé |
 
 Tag : `dernier_moteur:core_fragments` (les 6 fragments), utilisé par le Moteur et les quêtes.

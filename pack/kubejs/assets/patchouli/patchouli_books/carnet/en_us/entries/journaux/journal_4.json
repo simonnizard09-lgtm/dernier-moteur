@@ -1,0 +1,17 @@
+{
+  "name": "n°4 — La forge des âmes",
+  "icon": "dernier_moteur:journal_4",
+  "category": "patchouli:journaux",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Dans le Nether, notre forge-relais a été reprise par $(l)Ignis$(), un chevalier de flammes que nos maîtres-forgerons avaient éveillé pour attiser le feu.$(br2)Il garde le fragment de la $(l)Braise$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Prévois de quoi résister au feu et de quoi tenir longtemps : Ignis entre en rage quand son bouclier se brise.$(br2)La Braise et la Tempête, réunies avec l'alliage du Noyau, forment le $(l)Codex de l'Automate$()."
+    }
+  ],
+  "advancement": "dernier_moteur:journal/journal_4"
+}

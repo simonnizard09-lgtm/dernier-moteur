@@ -1,0 +1,12 @@
+{
+  "name": "Épilogue — Le Moteur",
+  "icon": "dernier_moteur:core_fragment_gear",
+  "category": "patchouli:eres",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Invoque le $(l)Gardien du Noyau$() avec la clé et prends son cœur.$(br2)Bâtis le $(l)Moteur$(), remplis-le d'énergie (FE) et d'items : six fragments, cœur du gardien, quatre processeurs du Moteur. Puis active-le."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "n°7 — Les cités englouties",
+  "icon": "dernier_moteur:journal_7",
+  "category": "patchouli:journaux",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Le dernier fragment, l'$(l)Abysse$(), repose dans une cité engloutie. Le $(l)Léviathan$() s'y est enroulé comme autour d'un œuf.$(br2)Il frappe depuis les profondeurs et attire ses proies dans les courants."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Respiration aquatique, vitesse de nage, et du recul pour éviter son rayon.$(br2)Avec six fragments, tu pourras forger la $(l)Clé du Gardien$(). Le dernier gardien t'attend."
+    }
+  ],
+  "advancement": "dernier_moteur:journal/journal_7"
+}

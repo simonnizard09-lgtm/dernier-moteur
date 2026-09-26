@@ -1,0 +1,293 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "06_moteur"
+	group: "7FF1C41CBDFBAF8D"
+	icon: {
+		count: 1
+		id: "dernier_moteur:engine_core"
+	}
+	id: "2E14D0558D37C63D"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6CC256A9CCEDF995"
+				"24D3B4CABCD89ED0"
+			]
+			icon: {
+				count: 1
+				id: "dernier_moteur:guardian_key"
+			}
+			id: "5AB561545774140C"
+			rewards: [
+				{
+					id: "0E6A249FE171AF4D"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "gear"
+			size: 1.4d
+			tasks: [
+				{
+					id: "7132B18A4B2B90B0"
+					item: {
+						count: 1
+						id: "dernier_moteur:guardian_key"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"5AB561545774140C"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:obsidian"
+			}
+			id: "48AC212FFC3187E2"
+			tasks: [
+				{
+					id: "7F35BF420934608E"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"48AC212FFC3187E2"
+			]
+			icon: {
+				count: 1
+				id: "dernier_moteur:guardian_key"
+			}
+			id: "2E459C5D6AD6FABE"
+			rewards: [
+				{
+					id: "5A848999D4403982"
+					type: "xp"
+					xp: 3000
+				}
+			]
+			shape: "diamond"
+			size: 1.6d
+			tasks: [
+				{
+					entity: "dernier_moteur:core_guardian"
+					id: "045F9719B150BDF2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"2E459C5D6AD6FABE"
+			]
+			icon: {
+				count: 1
+				id: "dernier_moteur:guardian_heart"
+			}
+			id: "19378371D35A03F1"
+			shape: "octagon"
+			tasks: [
+				{
+					id: "47974B6862EE2123"
+					item: {
+						count: 1
+						id: "dernier_moteur:guardian_heart"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"2E459C5D6AD6FABE"
+			]
+			icon: {
+				count: 1
+				id: "dernier_moteur:journal_8"
+			}
+			id: "5406562D8F83F0CA"
+			rewards: [
+				{
+					id: "7B3AE21E3143363C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "7C2BB94384A876FF"
+					item: {
+						count: 1
+						id: "dernier_moteur:journal_8"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4CDB98EF846854C5"
+			]
+			icon: {
+				count: 1
+				id: "dernier_moteur:engine_casing"
+			}
+			id: "1C1B2CC7D22ADC52"
+			rewards: [
+				{
+					id: "3646A9751CCAA4A3"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					count: 97L
+					id: "11A35C2457B78F2A"
+					item: {
+						count: 1
+						id: "dernier_moteur:engine_casing"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"1C1B2CC7D22ADC52"
+			]
+			icon: {
+				count: 1
+				id: "dernier_moteur:engine_core"
+			}
+			id: "6DC150F0A6820D42"
+			tasks: [
+				{
+					id: "45BF1DF03F5DAFD7"
+					item: {
+						count: 1
+						id: "dernier_moteur:engine_core"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"6DC150F0A6820D42"
+			]
+			icon: {
+				count: 1
+				id: "dernier_moteur:engine_core"
+			}
+			id: "448CBF1F0766EC50"
+			tasks: [
+				{
+					id: "1ED68359F4FE5315"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"448CBF1F0766EC50"
+				"67A7E3B09D22E80A"
+			]
+			icon: {
+				count: 1
+				id: "mekanismgenerators:fusion_reactor_controller"
+			}
+			id: "2072DA5B3C02CCA2"
+			tasks: [
+				{
+					id: "443F06DB4D1F8EB5"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"448CBF1F0766EC50"
+				"19378371D35A03F1"
+			]
+			icon: {
+				count: 1
+				id: "dernier_moteur:core_fragment_gear"
+			}
+			id: "25FC4FEB600580B9"
+			tasks: [
+				{
+					id: "63D8072523740296"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2072DA5B3C02CCA2"
+				"25FC4FEB600580B9"
+				"5406562D8F83F0CA"
+			]
+			icon: {
+				count: 1
+				id: "dernier_moteur:engine_core"
+			}
+			id: "1E316E23D4D50C43"
+			rewards: [
+				{
+					id: "4BF9B60E8D7F9AF4"
+					type: "xp"
+					xp: 10000
+				}
+				{
+					id: "6ADD2D3006BBF13D"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					advancement: "dernier_moteur:engine_ignited"
+					criterion: ""
+					id: "40E23D14510BC1AB"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+}

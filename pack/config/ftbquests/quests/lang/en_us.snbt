@@ -1,0 +1,768 @@
+{
+	"chapter.14D719236BA01615.chapter_subtitle": [
+		"Survivre d'abord."
+	]
+	"chapter.14D719236BA01615.title": "Ère 0 — Réveil"
+	"chapter.1DC22AAF8085932F.chapter_subtitle": [
+		"L'Étincelle : enfermer la foudre dans le cuivre."
+	]
+	"chapter.1DC22AAF8085932F.title": "Ère II — Électricité"
+	"chapter.2E14D0558D37C63D.chapter_subtitle": [
+		"Rallumer le monde."
+	]
+	"chapter.2E14D0558D37C63D.title": "Épilogue — Le Moteur"
+	"chapter.339F2E988EA1E815.chapter_subtitle": [
+		"La Forge : le monde entier devient minerai."
+	]
+	"chapter.339F2E988EA1E815.title": "Ère III — Industrie lourde"
+	"chapter.43C4A2DE11008DD0.chapter_subtitle": [
+		"Rendre le jeu beau… et fluide."
+	]
+	"chapter.43C4A2DE11008DD0.title": "Shaders & réglages"
+	"chapter.47E87087F5AE5AD6.chapter_subtitle": [
+		"Les gardiens ne sont pas les seuls monstres."
+	]
+	"chapter.47E87087F5AE5AD6.title": "Boss"
+	"chapter.4E9A049A0531B940.chapter_subtitle": [
+		"Le Rouage : la première leçon."
+	]
+	"chapter.4E9A049A0531B940.title": "Ère I — Vapeur"
+	"chapter.56CF7A16ACB5E455.chapter_subtitle": [
+		"Là où tout s'est arrêté."
+	]
+	"chapter.56CF7A16ACB5E455.title": "Le Silence"
+	"chapter.6391609A3A492308.chapter_subtitle": [
+		"Tenir, saison après saison."
+	]
+	"chapter.6391609A3A492308.title": "Survie"
+	"chapter.68C436E900EEC04B.chapter_subtitle": [
+		"L'Automate : des machines qui fabriquent des machines."
+	]
+	"chapter.68C436E900EEC04B.title": "Ère IV — Automatisation"
+	"chapter.79E9958FF65B275A.chapter_subtitle": [
+		"Le monde a changé : va voir."
+	]
+	"chapter.79E9958FF65B275A.title": "Exploration"
+	"chapter_group.0C3CEFC8C88B73EB.title": "Annexes"
+	"chapter_group.7FF1C41CBDFBAF8D.title": "Histoire"
+	"quest.00DA5C122F00D480.title": "Forteresse du Nether"
+	"quest.0184147A3F00453C.title": "Stocker l'énergie"
+	"quest.01AF977A340D6E46.quest_desc": [
+		"Mieux vaut l'éviter. Pour les téméraires seulement."
+	]
+	"quest.01AF977A340D6E46.title": "Le Warden"
+	"quest.01CAC87D98E04D67.quest_desc": [
+		"&eCrash Assistant&r ouvre une fenêtre avec les logs à copier. Le fichier utile est &elogs/latest.log&r (et &ecrash-reports/&r)."
+	]
+	"quest.01CAC87D98E04D67.title": "En cas de crash"
+	"quest.02776890BC20C380.quest_desc": [
+		"&7&oIl tourne encore, lentement, sans axe.&r"
+		""
+		"Garde-le précieusement : les six fragments rallumeront le Moteur. Il reste dans la grille quand tu fabriques le Codex."
+	]
+	"quest.02776890BC20C380.title": "Fragment du Rouage"
+	"quest.029A400F467F0E6B.quest_desc": [
+		"La &eminimap&r (Xaero) est en haut à droite ; &eM&r ouvre la carte du monde."
+		"Crée des points de passage avec &eB&r. À ta mort, un point est créé et ton équipement reste dans une &etombe&r (Corpse)."
+	]
+	"quest.029A400F467F0E6B.title": "Ne pas se perdre"
+	"quest.032DCD5D48F7F25C.quest_desc": [
+		"&7&oLe métal dont était fait le Noyau.&r"
+		""
+		"Infuseur métallurgique : &elingot d'acier&r + &eobsidienne raffinée&r (infusion)."
+		"Composant de l'ère : Codex de l'Automate, graveur, Moteur."
+	]
+	"quest.032DCD5D48F7F25C.title": "L'alliage du Noyau"
+	"quest.0393DF872B94318C.quest_desc": [
+		"Chauffe ou refroidit la zone autour de lui. Idéal pour l'usine."
+	]
+	"quest.0393DF872B94318C.title": "Le thermorégulateur"
+	"quest.041253C33805A68B.quest_desc": [
+		"Les mobs apparaissent dans le noir. Éclaire autour de ton abri."
+	]
+	"quest.041253C33805A68B.title": "Repousser l'ombre"
+	"quest.0456C4F55B85EEAB.title": "Câbles universels"
+	"quest.05937C91CC9BDC09.quest_desc": [
+		"Ici, les boss &eoptionnels&r. Aucun ne bloque l'histoire, tous récompensent bien."
+		"Les &6gardiens&r (portes d'ère) sont dans les chapitres d'histoire."
+	]
+	"quest.05937C91CC9BDC09.title": "Chasseur de boss"
+	"quest.064DC2D8C847BC99.title": "Capteur de saison"
+	"quest.06FB86F12CF3A497.quest_desc": [
+		"Dans la grotte glacée du Crépuscule."
+	]
+	"quest.06FB86F12CF3A497.title": "Le Yéti alpha"
+	"quest.072909DA7F13E32A.title": "Moulins d'IE"
+	"quest.07C353F475708D03.quest_desc": [
+		"Il pousse sur des bourgeons de certus. Trouve un &emétéorite&r (boussole de météorite)."
+	]
+	"quest.07C353F475708D03.title": "Quartz de certus"
+	"quest.082E1916483466E2.quest_desc": [
+		"Respiration aquatique, vitesse de nage, et du recul pour esquiver son rayon."
+		"Il garde le &6Fragment du Noyau — Abysse&r et le Journal n°7."
+	]
+	"quest.082E1916483466E2.title": "Le Léviathan"
+	"quest.09D4E4A442A34289.quest_desc": [
+		"Avec des &eplans&r, il fabrique composants, munitions et moules."
+	]
+	"quest.09D4E4A442A34289.title": "L'établi d'ingénieur"
+	"quest.0A4E5E66ABB52C7B.quest_desc": [
+		"&7&o« Je note ceci pour qui viendra après. »&r"
+		""
+		"Garde le Journal n°1 sur toi, puis lis-le dans le Carnet. Les journaux suivants tombent des &egardiens&r, un par ère."
+	]
+	"quest.0A4E5E66ABB52C7B.title": "Journal n°1"
+	"quest.0A7B2F7E6357312B.title": "La roue à eau"
+	"quest.0CAE7AFF6A60A7B5.quest_desc": [
+		"Le chapitre annexe &6Shaders & réglages&r explique comment activer les shaders, régler la mémoire et les touches."
+	]
+	"quest.0CAE7AFF6A60A7B5.title": "Réglages et shaders"
+	"quest.0CBD469833DC594A.quest_desc": [
+		"Dans l'arène brûlante du Nether."
+	]
+	"quest.0CBD469833DC594A.title": "La Netherite Monstrosity"
+	"quest.0D42D072FB3940DA.title": "Carter d'andésite"
+	"quest.0ED33C6F32267A5C.title": "Sac en diamant"
+	"quest.0EF635360E3FA49B.quest_desc": [
+		"Carotteuse pour trouver des gisements, puis l'excavatrice pour les exploiter."
+	]
+	"quest.0EF635360E3FA49B.title": "L'excavatrice"
+	"quest.0FF8D62B42815936.quest_desc": [
+		"Résistance au feu indispensable. Il entre en rage quand son bouclier se brise."
+		"Il garde le &6Fragment du Noyau — Braise&r et le Journal n°4."
+	]
+	"quest.0FF8D62B42815936.title": "Ignis"
+	"quest.102C784F7B98599B.title": "Un bouclier"
+	"quest.108908A1846875CA.quest_desc": [
+		"&7&o« Notre forge-relais a été reprise. »&r"
+	]
+	"quest.108908A1846875CA.title": "La forge des âmes"
+	"quest.119A08E39372B0FF.title": "Broyeur de mobs"
+	"quest.11C26A30DCF8747F.title": "Une taverne"
+	"quest.11DA07D0DEBD0C52.title": "Sac en fer"
+	"quest.12461B5D257B8C2C.title": "Boussole de météorite"
+	"quest.12635A2083732F0C.title": "Le laiton"
+	"quest.13104294923C5DA9.quest_desc": [
+		"Le chef masqué des savanes."
+	]
+	"quest.13104294923C5DA9.title": "Umvuthi"
+	"quest.13D8B07B76156D5D.quest_desc": [
+		"Les manoirs et forteresses illageoises en cachent."
+	]
+	"quest.13D8B07B76156D5D.title": "Une seconde chance"
+	"quest.14A2096E39FD8A64.quest_desc": [
+		"Ta première &eassemblage séquencé&r : une plaque d'or passe plusieurs fois sous des déployeurs et une presse. Regarde la recette dans EMI."
+	]
+	"quest.14A2096E39FD8A64.title": "Le mécanisme de précision"
+	"quest.14D006ADD65686AA.quest_desc": [
+		"Codex de la Forge dans la grille. La base de presque toutes les machines."
+	]
+	"quest.14D006ADD65686AA.title": "Le boîtier en acier"
+	"quest.152EBFDF9A397FA4.quest_desc": [
+		"Plaques d'acier + plaque de laiton + bobines de cuivre (C&A) + bobine BT (IE), Codex de l'Étincelle comme catalyseur."
+		"Composant de l'ère : dynamo, alternateur, moteur électrique, Codex de la Forge."
+	]
+	"quest.152EBFDF9A397FA4.title": "La bobine galvanique"
+	"quest.15483C95FA3B0182.title": "Gourde en diamant"
+	"quest.162616100B176828.title": "Ingénierie légère"
+	"quest.1744DEF7171E0BA8.quest_desc": [
+		"Après une charge, il reste coincé un instant : frappe-le &edans le dos&r."
+		"Il porte le &6Fragment du Noyau — Rouage&r et le Journal n°2."
+	]
+	"quest.1744DEF7171E0BA8.title": "Le Ferrous Wroughtnaut"
+	"quest.176CB25DE8234363.title": "Une clé à molette"
+	"quest.18413DF6FDB2CACF.title": "Cadre avancé"
+	"quest.18495200B844B5B3.title": "Le fourneau"
+	"quest.18EB2FA130FF3B1F.quest_desc": [
+		"Le cœur d'un réseau ME : 32 canaux par face."
+	]
+	"quest.18EB2FA130FF3B1F.title": "Le contrôleur ME"
+	"quest.18EBC0EF4B1EDB99.quest_desc": [
+		"Énorme production d'énergie… et de déchets. Prévois refroidissement et stockage."
+	]
+	"quest.18EBC0EF4B1EDB99.title": "La fission"
+	"quest.19378371D35A03F1.title": "Le Cœur du Gardien"
+	"quest.193ACC828A0F94CF.quest_desc": [
+		"Au cœur des météorites. Elles servent au graveur."
+	]
+	"quest.193ACC828A0F94CF.title": "Les presses"
+	"quest.19C578827A03B526.title": "Séparateur électrolytique"
+	"quest.19F4F362406EEA93.title": "Bassin et mixeur"
+	"quest.1A5A7FF695E51765.quest_desc": [
+		"Codex de l'Automate dans la grille."
+	]
+	"quest.1A5A7FF695E51765.title": "Le graveur"
+	"quest.1A65503E0643A5EF.quest_desc": [
+		"Dans la forteresse des chevaliers."
+	]
+	"quest.1A65503E0643A5EF.title": "Les chevaliers fantômes"
+	"quest.1BB37DAAA36C9EB4.quest_desc": [
+		"Le minerai de zinc se trouve en profondeur."
+	]
+	"quest.1BB37DAAA36C9EB4.title": "Le zinc"
+	"quest.1BE720445BD604BB.title": "L'âge de pierre"
+	"quest.1BF12E32B46CA049.quest_desc": [
+		"&7&oPendant des siècles, un grondement sourd montait de sous la roche : le Moteur.&r"
+		"&7&oCe matin, il s'est arrêté.&r"
+		""
+		"Bienvenue dans &6Le Dernier Moteur&r. Ce livre de quêtes est ton fil conducteur : chaque chapitre correspond à une ère technique à retrouver."
+		""
+		"Clique sur la coche pour commencer."
+	]
+	"quest.1BF12E32B46CA049.title": "Le Moteur s'est tu"
+	"quest.1C1B2CC7D22ADC52.quest_desc": [
+		"Le Moteur est un cube de 5×5×5 : 97 boîtiers sur toute la surface extérieure, le contrôleur au centre d'une face, l'intérieur vide."
+		"Automatise-les : c'est la dernière grosse commande de ton réseau ME."
+	]
+	"quest.1C1B2CC7D22ADC52.title": "Les boîtiers du Moteur"
+	"quest.1C20113A616E422B.quest_desc": [
+		"&7&o« Avant l'électricité, nous faisions tourner le monde avec de l'eau et du vent. »&r"
+		""
+		"Arbres et engrenages transmettent la &erotation&r. Enfile les &elunettes d'ingénieur&r pour lire vitesse et contrainte."
+	]
+	"quest.1C20113A616E422B.title": "La première leçon"
+	"quest.1C76135BAD2A64AF.title": "Le château final"
+	"quest.1D0F8B8BF3D931F9.quest_desc": [
+		"Deux lingots d'osmium + un &ecomposant électronique d'IE&r."
+	]
+	"quest.1D0F8B8BF3D931F9.title": "Circuit de contrôle"
+	"quest.1DA454967E7964CD.quest_desc": [
+		"Codex de l'Automate dans la grille. La base d'Industrial Foregoing."
+	]
+	"quest.1DA454967E7964CD.title": "Cadre de machine"
+	"quest.1DEB72ADBB8DFB22.quest_desc": [
+		"Les câbles BT relient générateurs, accumulateurs et machines."
+	]
+	"quest.1DEB72ADBB8DFB22.title": "Fil de cuivre"
+	"quest.1E316E23D4D50C43.quest_desc": [
+		"&7&o« Puis rallume-le. Et écoute le monde respirer à nouveau. »&r"
+		""
+		"Réserve pleine, pièces en place : clic droit sur le contrôleur, &eaccroupi&r."
+	]
+	"quest.1E316E23D4D50C43.title": "Rallumer le Moteur"
+	"quest.1F593CC10664018B.quest_desc": [
+		"Presse les lingots en &eplaques&r. Beaucoup de recettes du pack en demandent."
+	]
+	"quest.1F593CC10664018B.title": "La presse mécanique"
+	"quest.1F876AB9B1F262E5.title": "Des plaques de fer"
+	"quest.20184255F20751C2.quest_desc": [
+		"&7&oUne ancienne fonderie des Ingénieurs, envahie depuis.&r"
+	]
+	"quest.20184255F20751C2.title": "La fonderie"
+	"quest.2072DA5B3C02CCA2.quest_desc": [
+		"Le contrôleur accepte l'énergie (FE) par n'importe quelle face : câbles Mekanism, IE, Crafts & Additions… Il lui faut une réserve pleine."
+	]
+	"quest.2072DA5B3C02CCA2.title": "Nourrir le Moteur"
+	"quest.21DD99B7CB8EA3A0.quest_desc": [
+		"Au sommet de la tour noire. Utilise ses pièges contre lui."
+	]
+	"quest.21DD99B7CB8EA3A0.title": "L'Ur-Ghast"
+	"quest.21F3FD6E249DEE3D.quest_desc": [
+		"&7&oLe métal des Ingénieurs. Tout ce qui suit en dépend.&r"
+	]
+	"quest.21F3FD6E249DEE3D.title": "L'acier"
+	"quest.221319AA8D6CAB57.title": "Écailles de Naga"
+	"quest.234ECF8FF96834F6.title": "Une cité de l'End"
+	"quest.236068484EA1E393.title": "L'End"
+	"quest.243BFAA74FEF0E5B.title": "La pomme dorée enchantée"
+	"quest.245FF99126D21D5D.title": "Fragment de l'Abysse"
+	"quest.24AA973399F8B8C9.quest_desc": [
+		"Twilight Forest : racines de vie + fer + or dans une table de craft… regarde EMI."
+	]
+	"quest.24AA973399F8B8C9.title": "Bois de fer"
+	"quest.24D3B4CABCD89ED0.quest_desc": [
+		"&7&oDes machines qui pensent comme le Noyau.&r"
+		""
+		"Graveur : processeur d'ingénierie (haut) + alliage du Noyau (milieu) + processeur de calcul (bas)."
+		"Le Moteur en demande quatre."
+	]
+	"quest.24D3B4CABCD89ED0.title": "Le processeur du Moteur"
+	"quest.258D2158016B5029.title": "Une mine abandonnée"
+	"quest.25FC4FEB600580B9.quest_desc": [
+		"Dépose dans le contrôleur (clic droit avec l'objet, ou entonnoir/tuyau) :"
+		"&e6 Fragments du Noyau&r, le &eCœur du Gardien&r et &e4 Processeurs du Moteur&r."
+	]
+	"quest.25FC4FEB600580B9.title": "Les pièces du Noyau"
+	"quest.288B94DB50A9346D.quest_desc": [
+		"Notre sentinelle la plus loyale. Elle ne reconnaît plus personne."
+		"Elle garde le &6Fragment du Noyau — Néant&r et le Journal n°6."
+	]
+	"quest.288B94DB50A9346D.title": "L'Ender Guardian"
+	"quest.28BFBE8C00989E8F.title": "Le fer"
+	"quest.29168AAD138E8F40.title": "Terminal d'artisanat"
+	"quest.2DD360CF3B5771EB.title": "Terminal sans fil"
+	"quest.2E459C5D6AD6FABE.quest_desc": [
+		"Utilise la clé (clic droit au sol). Trois phases : il frappe ; il tire et appelle ses serviteurs ; il ne retient plus rien."
+		"Il lâche le &6Cœur du Gardien&r et le Journal n°8."
+	]
+	"quest.2E459C5D6AD6FABE.title": "Le Gardien du Noyau"
+	"quest.2E47A342C869451C.title": "Journal n°7"
+	"quest.2E830366F9F2DB80.title": "La pyramide maudite"
+	"quest.2EA818E9139A36C3.quest_desc": [
+		"Une bête des neiges endormie. Ne la réveille pas sans être prêt."
+	]
+	"quest.2EA818E9139A36C3.title": "Le Frostmaw"
+	"quest.2EB5102D128CC2B1.quest_desc": [
+		"Les yeux de Cataclysm mènent aux repaires des gardiens. Regarde EMI pour leur recette ou trouve-les dans les coffres."
+	]
+	"quest.2EB5102D128CC2B1.title": "L'œil de flamme"
+	"quest.2ED634389AB5DD3A.quest_desc": [
+		"&eEMI&r affiche toutes les recettes à droite de l'inventaire."
+		"&eR&r sur un item : ses recettes. &eU&r : ses usages. L'onglet &earbre de recettes&r calcule tout ce qu'il faut pour un objet complexe."
+		"Les recettes modifiées par le pack y apparaissent aussi : les &6Codex&r servent de catalyseurs et restent dans la grille."
+	]
+	"quest.2ED634389AB5DD3A.title": "Chercher une recette"
+	"quest.2F7FCD4702E7C76B.quest_desc": [
+		"Multibloc : plaques, tiges, fils à la chaîne."
+	]
+	"quest.2F7FCD4702E7C76B.title": "La presse à métaux"
+	"quest.2F8BE970F4BE22FE.quest_desc": [
+		"&7&o« L'Automate fut la dernière leçon : des machines qui fabriquent des machines. »&r"
+		""
+		"Il déverrouille le &egraveur&r d'AE2 et les &ecadres de machine&r d'Industrial Foregoing."
+		"&6L'ère de l'Automatisation est ouverte.&r"
+	]
+	"quest.2F8BE970F4BE22FE.title": "Le Codex de l'Automate"
+	"quest.303450F74E2ABD3B.quest_desc": [
+		"Le Harbinger lâche un &ebloc de witherite&r : décompose-le en lingots."
+	]
+	"quest.303450F74E2ABD3B.title": "Fragment de la Tempête"
+	"quest.3180D42FD2EF8E73.title": "Le bois traité"
+	"quest.32253ADE93193057.quest_desc": [
+		"&7&oLe Moteur adoucissait les saisons. Plus maintenant.&r"
+		""
+		"Les cultures ne poussent qu'en certaines saisons (voir l'infobulle des graines). L'hiver est long : fais des réserves."
+	]
+	"quest.32253ADE93193057.title": "Le temps des saisons"
+	"quest.328EA3B5429E11BC.quest_desc": [
+		"Le serpent de la cour de pierre. Esquive ses charges, frappe les segments de son corps."
+		"Ses &eécailles&r entrent dans le &6Codex de l'Étincelle&r."
+	]
+	"quest.328EA3B5429E11BC.title": "La Naga"
+	"quest.32963EC20A1B8E54.quest_desc": [
+		"Tu en auras besoin à l'ère suivante (bobine galvanique, alternateur)."
+	]
+	"quest.32963EC20A1B8E54.title": "Bobine de cuivre"
+	"quest.331E18874D532A12.title": "Composants mécaniques"
+	"quest.34B32BCEB83B6EC1.quest_desc": [
+		"Dans l'acropole battue par l'orage."
+	]
+	"quest.34B32BCEB83B6EC1.title": "Scylla"
+	"quest.35493C5D466C39F8.title": "L'œil mécanique"
+	"quest.354F65DE911C204A.title": "Journal n°4"
+	"quest.360D9E1D84481645.quest_desc": [
+		"&eControlling&r permet de chercher une touche et de voir les conflits (Options → Commandes)."
+	]
+	"quest.360D9E1D84481645.title": "Les touches"
+	"quest.362CF25B7FF23F32.quest_desc": [
+		"Le métal de Mekanism. Son minerai est bleuté, assez commun."
+	]
+	"quest.362CF25B7FF23F32.title": "L'osmium"
+	"quest.366CAC619A36A08A.title": "Briques de four à coke"
+	"quest.3796038A910B1585.quest_desc": [
+		"Le purificateur transforme l'eau sale en eau pure avec du combustible."
+	]
+	"quest.3796038A910B1585.title": "Purifier l'eau en masse"
+	"quest.37A6139041B9D56D.quest_desc": [
+		"Un contremaître mécanique armé de missiles et de lasers. Coupe-le de ses bobines."
+		"Il garde le &6Fragment du Noyau — Tempête&r et le Journal n°5."
+	]
+	"quest.37A6139041B9D56D.title": "Le Harbinger"
+	"quest.37C2BBFBB7A6A683.title": "Chambre d'injection (×4)"
+	"quest.38278DF26E619DC0.title": "Silicium"
+	"quest.38CF9409C81CF551.quest_desc": [
+		"Farmer's Delight : planche à découper, marmite, poêle. Varier ses repas donne de meilleurs effets que manger du pain toute la journée."
+	]
+	"quest.38CF9409C81CF551.title": "Cuisiner"
+	"quest.394A9CDAEFE45A32.title": "Les processeurs"
+	"quest.394F474DC6DF4F11.title": "Cristal de fluix"
+	"quest.39BA1A832B936780.title": "Lecteur ME et cellules"
+	"quest.3B3146902DEA40FD.title": "Gourde en fer"
+	"quest.3B8F2F3B3F367075.title": "Le chargeur"
+	"quest.3BC49DDE018592AF.title": "Cube d'énergie"
+	"quest.3BF636DBC0E70138.title": "L'œil de l'abysse"
+	"quest.3DCF7575433ACE78.title": "La tour noire"
+	"quest.3E570A3DA2A9A272.title": "Le mineur digital"
+	"quest.3ED6C2B19F303570.title": "Fragment du Néant"
+	"quest.3F018D7C88262C63.title": "Briques de haut fourneau"
+	"quest.3F45EC53E566BD98.title": "Bobine basse tension"
+	"quest.403388B6CDD65743.title": "Obsidienne raffinée"
+	"quest.40436DB93B6D0E1C.quest_desc": [
+		"Un feu de camp réchauffe (température) et fait bouillir l'eau."
+		"Pose un &ebloc d'eau sale&r dessus… ou plutôt une bouteille : voir la quête suivante."
+	]
+	"quest.40436DB93B6D0E1C.title": "Un feu dans la nuit"
+	"quest.430441746BF0E08C.quest_desc": [
+		"&7&o« Et la vapeur devint courant. »&r"
+		""
+		"Branche ta machine à vapeur de Create sur une dynamo : rotation → énergie (FE)."
+	]
+	"quest.430441746BF0E08C.title": "La dynamo cinétique"
+	"quest.448CBF1F0766EC50.quest_desc": [
+		"Pose le contrôleur au centre d'une face, entoure le cube de boîtiers, puis fais un clic droit à main vide sur le contrôleur : il indique s'il est formé et ce qui lui manque."
+	]
+	"quest.448CBF1F0766EC50.title": "Assembler le Moteur"
+	"quest.453F504ED2838935.title": "Compresseur d'osmium"
+	"quest.45447ABC14C1C051.quest_desc": [
+		"Au sommet du palais de l'aurore."
+	]
+	"quest.45447ABC14C1C051.title": "La Reine des neiges"
+	"quest.45BFA72AF1470148.quest_desc": [
+		"Minerais tirés du vide, sans creuser. Demande un processeur du Moteur."
+	]
+	"quest.45BFA72AF1470148.title": "La foreuse laser"
+	"quest.46F078E29556874E.quest_desc": [
+		"Multibloc géant : fond, allie et recycle. Les électrodes de graphite s'usent."
+	]
+	"quest.46F078E29556874E.title": "Le four à arc"
+	"quest.47E2377AC22303BE.title": "La cité engloutie"
+	"quest.483CE4031917758E.title": "Journal n°5"
+	"quest.48AC212FFC3187E2.quest_desc": [
+		"Le Gardien du Noyau est grand et appelle des serviteurs. Choisis un terrain plat et dégagé, loin de ta base, et reviens équipé (potions, pommes dorées, armure)."
+	]
+	"quest.48AC212FFC3187E2.title": "Préparer l'arène"
+	"quest.4952DE0CA54807DE.quest_desc": [
+		"Create: Central Kitchen permet d'automatiser les repas de Farmer's Delight."
+	]
+	"quest.4952DE0CA54807DE.title": "Cuisine automatisée"
+	"quest.4985CCC6C06FE126.quest_desc": [
+		"Crafts & Additions : fils et tiges métalliques."
+	]
+	"quest.4985CCC6C06FE126.title": "Le laminoir"
+	"quest.4B4FA7969CBFC5AF.quest_desc": [
+		"&7&o« C'est ici que nous fabriquions les gardiens. »&r"
+	]
+	"quest.4B4FA7969CBFC5AF.title": "L'usine ancienne"
+	"quest.4C53E2D41B9FD7A1.title": "La citadelle en ruine"
+	"quest.4CDB98EF846854C5.quest_desc": [
+		"Motifs + fournisseur de motifs + assembleur moléculaire + CPU d'artisanat."
+		"Branche des fournisseurs sur tes machines Create, IE et Mekanism : tout s'enchaîne."
+	]
+	"quest.4CDB98EF846854C5.title": "L'autocrafting"
+	"quest.4CF860895999A26A.title": "Fragment de la Braise"
+	"quest.4D2578E3F08633D9.title": "Journal n°3"
+	"quest.4DA61B9412D1D7D0.title": "Le bras mécanique"
+	"quest.4EC7B1831E7DB304.title": "L'électrum"
+	"quest.4EE3BFF046CB4A85.title": "Carter de laiton"
+	"quest.5064D314EABEF633.quest_desc": [
+		"Infuse carbone, redstone, diamant, obsidienne raffinée… dans les métaux."
+	]
+	"quest.5064D314EABEF633.title": "L'infuseur métallurgique"
+	"quest.517FAB6FD2A1E8E9.quest_desc": [
+		"L'armure de laine protège du froid. L'armure de feuilles protège de la chaleur."
+	]
+	"quest.517FAB6FD2A1E8E9.title": "S'habiller pour l'hiver"
+	"quest.5188F484C0D6733B.quest_desc": [
+		"&7&oSans le Moteur, les bêtes de la nuit n'ont plus de maître.&r"
+		""
+		"&eMobs renforcés&r : ils s'équipent et deviennent plus dangereux avec le temps de jeu, mais ne cassent pas tes machines et ne volent rien."
+		"&eSoif et température&r (Tough As Nails), &esaisons&r (Serene Seasons)."
+		"Difficulté vanilla conseillée : &6Difficile&r."
+	]
+	"quest.5188F484C0D6733B.title": "Un monde hostile"
+	"quest.52580842371BD0EA.quest_desc": [
+		"Minerais concassés = plus de lingots. Premier doublement de ressources."
+	]
+	"quest.52580842371BD0EA.title": "Roues de concassage"
+	"quest.5273D72D973E82BB.quest_desc": [
+		"Trois têtes de feu dans le marais brûlant. Son sang ardent forge l'équipement ardent."
+	]
+	"quest.5273D72D973E82BB.title": "L'Hydre"
+	"quest.5289D5FB0A867A1F.quest_desc": [
+		"Sodium est déjà réglé. Baisse la &edistance de rendu&r (10-12) et la &edistance de simulation&r (6-8) dans les grosses bases."
+		"&e/chunky&r peut prégénérer le monde ; &e/spark profiler&r trouve ce qui ralentit."
+	]
+	"quest.5289D5FB0A867A1F.title": "Performances"
+	"quest.531D301B9E2E0866.quest_desc": [
+		"L'inverse : FE → rotation, pour alimenter Create depuis ton réseau électrique."
+	]
+	"quest.531D301B9E2E0866.title": "Le moteur électrique"
+	"quest.5406562D8F83F0CA.title": "Journal n°8"
+	"quest.5413B090430DE7F0.title": "Gourde en or"
+	"quest.542C3C789999EA45.title": "Récupérer la pluie"
+	"quest.54A5F9D8E1BDAF4E.title": "L'œil du néant"
+	"quest.5580413F7DB0714D.quest_desc": [
+		"Cuis une bouteille d'eau sale dans un four ou un feu de camp pour la purifier."
+	]
+	"quest.5580413F7DB0714D.title": "Faire bouillir"
+	"quest.56016D3C893169BD.title": "Repas complets"
+	"quest.56444CACE41EAA2C.title": "Le jetpack"
+	"quest.56D9323AE00BC418.quest_desc": [
+		"&7&o« Nos premiers mécanismes étaient faits d'andésite et de fer. Humble. Solide. »&r"
+		""
+		"L'&ealliage d'andésite&r est la base de Create. L'ère de la &6Vapeur&r commence ici."
+	]
+	"quest.56D9323AE00BC418.title": "Un alliage étrange"
+	"quest.5710A63B1F41C1FD.title": "Accepteur d'énergie"
+	"quest.575B7DFCDA7B0EC1.quest_desc": [
+		"&7&oUne étincelle prisonnière crépite à l'intérieur.&r"
+	]
+	"quest.575B7DFCDA7B0EC1.title": "Fragment de l'Étincelle"
+	"quest.57650088C4D4B7B9.quest_desc": [
+		"Dans la prison gelée."
+	]
+	"quest.57650088C4D4B7B9.title": "Maledictus"
+	"quest.57DC698E2E348102.quest_desc": [
+		"&7&o« Le premier gardien veillait sur l'atelier des rouages. »&r"
+		""
+		"Trouve une &echambre forgée&r dans les cavernes : une salle aux portes de fer, gardée par une armure vivante."
+	]
+	"quest.57DC698E2E348102.title": "La chambre du gardien"
+	"quest.57EBEA1B3599E4A0.quest_desc": [
+		"Invoque-le loin de tout. Son étoile sert à la Clé du Gardien."
+	]
+	"quest.57EBEA1B3599E4A0.title": "Le Wither"
+	"quest.58B1D307947CA117.quest_desc": [
+		"Codex de la Forge dans la grille. Pour les grands multiblocs d'IE."
+	]
+	"quest.58B1D307947CA117.title": "Ingénierie lourde"
+	"quest.58E11C82107E01AF.quest_desc": [
+		"Assemblage séquencé sur une &eplaque de laiton&r : mécanisme de précision, tube électronique, 250 mB d'eau, pressage."
+	]
+	"quest.58E11C82107E01AF.title": "Le mécanisme à vapeur"
+	"quest.5938DB7985ABAD8A.quest_desc": [
+		"&eSimple Backups&r sauvegarde ton monde toutes les 60 minutes (8 copies gardées), dans le dossier &esimplebackups&r de l'instance."
+		"Avant une expérience risquée : &e/simplebackups backup start&r."
+	]
+	"quest.5938DB7985ABAD8A.title": "Sauvegardes automatiques"
+	"quest.59B8B1AC1C33FEC9.title": "Le Nether"
+	"quest.5A703CCF53FBBDFF.quest_desc": [
+		"Brise ses boucliers, ignore les doubles, frappe l'original."
+		"Elle garde le &6Fragment du Noyau — Étincelle&r et le Journal n°3."
+	]
+	"quest.5A703CCF53FBBDFF.title": "La Liche"
+	"quest.5AB561545774140C.quest_desc": [
+		"&7&o« Le dernier gardien n'est pas devenu fou. Il attend. »&r"
+		""
+		"Les six fragments (conservés), un processeur du Moteur, une étoile du Nether et un bloc d'alliage du Noyau."
+	]
+	"quest.5AB561545774140C.title": "La Clé du Gardien"
+	"quest.5B4FC3CDC63A13D0.title": "Alliage infusé"
+	"quest.5B98DA763447629F.quest_desc": [
+		"&7&o« L'Étincelle fut la deuxième leçon. »&r"
+		""
+		"Le Codex est un &6catalyseur&r : il reste dans la grille quand tu fabriques le marteau et l'établi d'Immersive Engineering, et la bobine galvanique."
+		"&6L'ère de l'Électricité est ouverte.&r"
+	]
+	"quest.5B98DA763447629F.title": "Le Codex de l'Étincelle"
+	"quest.5B9E5CCE707A1DD4.quest_desc": [
+		"Les jus désaltèrent mieux que l'eau."
+	]
+	"quest.5B9E5CCE707A1DD4.title": "Des jus de fruits"
+	"quest.5BB4E2B246C653F1.quest_desc": [
+		"Au fond du labyrinthe du Crépuscule."
+	]
+	"quest.5BB4E2B246C653F1.title": "Le Minoshroom"
+	"quest.5C6C25BD01035570.title": "Composants d'acier"
+	"quest.5D28D0F2686F3ADA.quest_desc": [
+		"Codex de l'Étincelle dans la grille. Le marteau &eforme les multiblocs&r d'IE : frappe le bloc central d'une structure complète."
+		"Le manuel d'IE (&eIngénieur's Manual&r, en jeu) montre chaque structure."
+	]
+	"quest.5D28D0F2686F3ADA.title": "Le marteau d'ingénieur"
+	"quest.5DB0CC596E51AD65.quest_desc": [
+		"Certaines recettes (alternateur, moteur électrique…) se font sur une grille d'&eassembleurs mécaniques&r."
+		"&cAttention&r : n'y place jamais un &6Codex&r ; seule la table de craft le rend intact."
+	]
+	"quest.5DB0CC596E51AD65.title": "L'assembleur mécanique"
+	"quest.5E11E1ECED25F765.quest_desc": [
+		"La boussole d'explorateur trouve les &estructures&r, celle de la nature les &ebiomes&r."
+	]
+	"quest.5E11E1ECED25F765.title": "Boussoles d'explorateur"
+	"quest.5EA4C4E1963573DB.quest_desc": [
+		"Minerai ×2. Le début de la chaîne de traitement."
+	]
+	"quest.5EA4C4E1963573DB.title": "Chambre d'enrichissement"
+	"quest.5ED28548D50F3716.quest_desc": [
+		"&7&oLe premier composant qui n'était pas qu'une pièce de métal.&r"
+	]
+	"quest.5ED28548D50F3716.title": "Le tube électronique"
+	"quest.5EFC4B6434DD5723.quest_desc": [
+		"&7&oUne tour s'élève au-dessus des arbres du Crépuscule.&r"
+	]
+	"quest.5EFC4B6434DD5723.title": "La tour de la Liche"
+	"quest.5FA0503F4B8648B3.title": "Bloc d'alliage du Noyau"
+	"quest.6044F861E5B78401.quest_desc": [
+		"Crafts & Additions : grille d'assembleurs mécaniques 5×5. Autre pont rotation → FE."
+	]
+	"quest.6044F861E5B78401.title": "L'alternateur"
+	"quest.604D90FED0F597A4.title": "Le nid mécanique"
+	"quest.6066CFDBAD8DB888.quest_desc": [
+		"&7&oLes arbres, au moins, n'ont pas changé.&r"
+	]
+	"quest.6066CFDBAD8DB888.title": "Du bois et une table"
+	"quest.60FA5E5154A0A691.quest_desc": [
+		"&eIris Flywheel Compat&r fait fonctionner les machines animées de Create sous shaders."
+		"Si une machine s'affiche mal : essaie un autre shaderpack, ou la commande &e/flywheel backend&r."
+	]
+	"quest.60FA5E5154A0A691.title": "Create et les shaders"
+	"quest.611617D1166D09D8.title": "Four électrique"
+	"quest.61213CF800ED8056.title": "Journal n°2"
+	"quest.6237698312AB5892.quest_desc": [
+		"&7&o« Les rivières se sont troublées avant midi. »&r"
+		""
+		"Boire de l'eau sale donne la &esoif&r (nausée). Remplis une bouteille à une source d'eau."
+	]
+	"quest.6237698312AB5892.title": "L'eau est trouble"
+	"quest.63DC234BC73BE3ED.title": "Le labyrinthe"
+	"quest.64A791BB164D220B.quest_desc": [
+		"&7&oIléa Vaucor, la dernière ingénieure, a tout consigné.&r"
+		""
+		"Tu as reçu le &eCarnet de l'Ingénieur&r à ton arrivée. Il contient le &eGuide des ères&r et les &eJournaux&r de Vaucor, qui se débloquent quand tu les retrouves."
+		"Perdu ? Cette quête t'en redonne un."
+	]
+	"quest.64A791BB164D220B.title": "Le Carnet de l'Ingénieur"
+	"quest.64F7D51A1E231B73.title": "Four à alliages"
+	"quest.6523F26DA0101A4E.quest_desc": [
+		"Aquamirae : navires fantômes dans les océans glacés, et leur capitaine."
+	]
+	"quest.6523F26DA0101A4E.title": "Les terres gelées"
+	"quest.653243621F3914DB.quest_desc": [
+		"&eOptions → Options vidéo → Shader Packs…&r (ou touche &eO&r)."
+		"Fournis : &6Complementary Reimagined&r (beau), &6BSL&r (alternative), &6MakeUp Ultra Fast&r (léger)."
+		"Choisis-en un puis &eAppliquer&r."
+	]
+	"quest.653243621F3914DB.title": "Activer un shader"
+	"quest.668164FE3B33CA95.quest_desc": [
+		"La température dépend du biome, de l'altitude, de la saison et de ce qui t'entoure."
+		"Trop chaud : ombre, eau, armure de feuilles. Trop froid : laine, feu, abri."
+	]
+	"quest.668164FE3B33CA95.title": "Lire la température"
+	"quest.66A24B1EC783C240.quest_desc": [
+		"Un ventilateur à travers de l'eau &elave&r, à travers du feu &efume/cuit&r, à travers de la lave &efond&r. Laver les minerais concassés donne des bonus."
+	]
+	"quest.66A24B1EC783C240.title": "Laver, fumer, fondre"
+	"quest.67150B15030EDF41.title": "Le repaire de l'Hydre"
+	"quest.6733F6256D7A8086.title": "Temple du désert"
+	"quest.67A7E3B09D22E80A.quest_desc": [
+		"L'énergie qui rallumera le Moteur. Le contrôleur demande un processeur du Moteur."
+	]
+	"quest.67A7E3B09D22E80A.title": "La fusion"
+	"quest.67DB1874F24A8D07.title": "Cadre simple"
+	"quest.68311DE8C15EEEDF.quest_desc": [
+		"&7&oIl existe un monde voisin où la lumière ne se lève jamais tout à fait.&r"
+		""
+		"Creuse une mare d'eau de 2×2 entourée de fleurs, et jettes-y un &ediamant&r."
+	]
+	"quest.68311DE8C15EEEDF.title": "Le Crépuscule"
+	"quest.684A5A64F834A5F3.title": "Générateur thermique"
+	"quest.686FEC68841F465E.quest_desc": [
+		"Le gardien de l'End."
+	]
+	"quest.686FEC68841F465E.title": "L'Ender Dragon"
+	"quest.695E70A2C5FA26A3.quest_desc": [
+		"Le bandeau en haut de l'écran décrit le bloc visé : énergie, progression, contenu."
+	]
+	"quest.695E70A2C5FA26A3.title": "Jade"
+	"quest.6ABC47CD9865F7D3.title": "Broyeur"
+	"quest.6B6BF2C768C38B7D.title": "Module aimant"
+	"quest.6C0D3A6DD854C2FB.quest_desc": [
+		"Minerai ×3 avec de l'oxygène (séparateur électrolytique)."
+	]
+	"quest.6C0D3A6DD854C2FB.title": "Chambre de purification (×3)"
+	"quest.6C14CD1C9A7636B5.quest_desc": [
+		"3×3×3 de briques, marteau sur le centre d'une face. Il donne du &ecoke&r et de la &ecréosote&r (bois traité)."
+	]
+	"quest.6C14CD1C9A7636B5.title": "Le four à coke"
+	"quest.6C4168284DBACE61.title": "La foreuse"
+	"quest.6C4F438714F4ABD9.quest_desc": [
+		"Multibloc de broyage d'IE (voir le manuel). Coche quand il est formé."
+	]
+	"quest.6C4F438714F4ABD9.title": "Le broyeur"
+	"quest.6CC256A9CCEDF995.quest_desc": [
+		"&7&oSix éclats. Un seul Noyau.&r"
+		""
+		"Réunis-les dans ton inventaire."
+	]
+	"quest.6CC256A9CCEDF995.title": "Les six fragments"
+	"quest.6CF3D63CAF0A0865.title": "Terre riche"
+	"quest.6D2F8AF488B72FB5.title": "Réservoirs et pompes"
+	"quest.6DC150F0A6820D42.title": "Le contrôleur du Moteur"
+	"quest.6F1FC09672F809A8.quest_desc": [
+		"Sous la pyramide maudite."
+	]
+	"quest.6F1FC09672F809A8.title": "L'Ancient Remnant"
+	"quest.7074E98EEA52C6DA.quest_desc": [
+		"&7&o« La Forge fut la troisième leçon : fondre, séparer, recomposer. »&r"
+		""
+		"Il déverrouille le &eboîtier en acier&r et l'&einfuseur métallurgique&r de Mekanism, et l'&eingénierie lourde&r d'IE."
+		"&6L'ère de l'Industrie lourde est ouverte.&r"
+	]
+	"quest.7074E98EEA52C6DA.title": "Le Codex de la Forge"
+	"quest.70841150813DCA42.title": "Un vrai repas"
+	"quest.71088EC2B6039852.title": "Moudre"
+	"quest.72132A53B98BBC93.quest_desc": [
+		"Les mobs renforcés s'équipent au fil du temps. Fais de même."
+	]
+	"quest.72132A53B98BBC93.title": "Protection"
+	"quest.72691BDEA00C8411.quest_desc": [
+		"Le sommet du traitement : minerai ×5. Une vraie usine."
+	]
+	"quest.72691BDEA00C8411.title": "Chambre de dissolution (×5)"
+	"quest.72AA78BB5FBF4155.title": "Récolte automatique"
+	"quest.72E12341C6888938.title": "Forteresse illageoise"
+	"quest.73813E2057E34AD6.title": "La marmite"
+	"quest.7396855FED952EF2.quest_desc": [
+		"Dans Prism Launcher : &e6 à 10 Go&r (12 Go maximum avec Distant Horizons). Plus n'est pas mieux : le ramasse-miettes ralentit."
+		"Le README du dépôt donne les arguments JVM conseillés."
+	]
+	"quest.7396855FED952EF2.title": "La mémoire"
+	"quest.73DB58497B67F27F.quest_desc": [
+		"Sur son navire fantôme, dans les mers gelées."
+	]
+	"quest.73DB58497B67F27F.title": "La capitaine Cornelia"
+	"quest.73DF53C6466DE12E.title": "Le déployeur"
+	"quest.745F55AF2495989C.quest_desc": [
+		"&7&o« La vapeur fut notre premier grand souffle. »&r"
+		""
+		"Chaudière (réservoirs + brûleurs) + machines à vapeur = énormément de rotation."
+	]
+	"quest.745F55AF2495989C.title": "La machine à vapeur"
+	"quest.74E74243C77ADEC5.quest_desc": [
+		"Proposé au premier lancement, désactivé par défaut. Pour l'activer plus tard : supprime &epackwiz.json&r dans le dossier minecraft de l'instance et relance (voir README)."
+	]
+	"quest.74E74243C77ADEC5.title": "Distant Horizons (optionnel)"
+	"quest.753A8DBB1DDE2456.quest_desc": [
+		"Latex → caoutchouc sec (unité de traitement du latex) → plastique (four)."
+	]
+	"quest.753A8DBB1DDE2456.title": "Le plastique"
+	"quest.76FEAC322DBFD737.title": "Journal n°6"
+	"quest.770BCB452E8AC4FC.title": "Un donjon de YUNG"
+	"quest.7763BD8FD36A49B3.quest_desc": [
+		"Les coffres des donjons contiennent parfois des &eartefacts&r (ici : chaussures de course)."
+	]
+	"quest.7763BD8FD36A49B3.title": "Un artefact"
+	"quest.7A03F25D3FB1E692.quest_desc": [
+		"Active les waystones trouvées dans le monde, ou fabrique les tiennes. Voyager coûte de l'XP selon la distance."
+	]
+	"quest.7A03F25D3FB1E692.title": "Les pierres de passage"
+	"quest.7A6C3EADFB6DA0B2.quest_desc": [
+		"Les sacs Sophisticated Backpacks s'améliorent (fer, or, diamant…) et acceptent des modules (ramassage, tri, magnétisme…)."
+	]
+	"quest.7A6C3EADFB6DA0B2.title": "Un sac à dos"
+	"quest.7A783D49911BDEA2.quest_desc": [
+		"Pose-le contre un tronc : il en tire du latex."
+	]
+	"quest.7A783D49911BDEA2.title": "Extracteur de fluide"
+	"quest.7B9609B97195A2DF.quest_desc": [
+		"&7&oCommence par survivre. La technique viendra.&r"
+		""
+		"Le chapitre &6Ère 0 — Réveil&r t'attend."
+	]
+	"quest.7B9609B97195A2DF.title": "Premiers pas"
+	"quest.7D290E51D0DD7E82.quest_desc": [
+		"La gourde contient plusieurs gorgées. Remplis-la puis purifie-la comme une bouteille."
+	]
+	"quest.7D290E51D0DD7E82.title": "Une gourde"
+	"quest.7E9769A6BB24EDFC.title": "Plaques de laiton"
+	"quest.7EC6C2DA04D302B3.quest_desc": [
+		"Le cœur des circuits. Mekanism en exigera pour ses circuits de contrôle."
+	]
+	"quest.7EC6C2DA04D302B3.title": "Composant électronique"
+	"quest.7EE829369281E60B.quest_desc": [
+		"Capture un blaze du Nether (ou un feu follet de brûleur vide) : il chauffe le bassin."
+		"Le laiton exige une chaleur vive."
+	]
+	"quest.7EE829369281E60B.title": "Un brûleur à blaze"
+	"quest.7F5958EEBF2BA599.title": "Feuille d'acier"
+	"quest.7FE168DD6AB4803A.title": "Accumulateur modulaire"
+}

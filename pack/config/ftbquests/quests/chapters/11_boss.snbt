@@ -1,0 +1,532 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "11_boss"
+	group: "0C3CEFC8C88B73EB"
+	icon: {
+		count: 1
+		id: "minecraft:wither_skeleton_skull"
+	}
+	id: "47E87087F5AE5AD6"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7B9609B97195A2DF"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:iron_sword"
+			}
+			id: "05937C91CC9BDC09"
+			tasks: [
+				{
+					id: "4B45EC6A89AFA4B3"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"05937C91CC9BDC09"
+				"328EA3B5429E11BC"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:minoshroom_trophy"
+			}
+			id: "5BB4E2B246C653F1"
+			optional: true
+			rewards: [
+				{
+					id: "121B425D14CD55DA"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "2D9CDB9732D5AE8B"
+					item: {
+						count: 2
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "twilightforest:minoshroom"
+					id: "55844F05FFFB00FD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"5BB4E2B246C653F1"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:hydra_trophy"
+			}
+			id: "5273D72D973E82BB"
+			optional: true
+			rewards: [
+				{
+					id: "388EF71B48AC112F"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "6F8E88A2735FF60A"
+					item: {
+						count: 3
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "twilightforest:hydra"
+					id: "2E219B6B45E58A75"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5273D72D973E82BB"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:knight_phantom_trophy"
+			}
+			id: "1A65503E0643A5EF"
+			optional: true
+			rewards: [
+				{
+					id: "3B547C79A5E35955"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "twilightforest:knight_phantom"
+					id: "23B702204AC561C4"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 6.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"1A65503E0643A5EF"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:ur_ghast_trophy"
+			}
+			id: "21DD99B7CB8EA3A0"
+			optional: true
+			rewards: [
+				{
+					id: "10AC19F2A4365A34"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "twilightforest:ur_ghast"
+					id: "46A2D80DF7EBB754"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 8.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"5273D72D973E82BB"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:alpha_yeti_trophy"
+			}
+			id: "06FB86F12CF3A497"
+			optional: true
+			rewards: [
+				{
+					id: "684943F366242CFC"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "twilightforest:alpha_yeti"
+					id: "304F0D672F13F0D1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 6.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"06FB86F12CF3A497"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:snow_queen_trophy"
+			}
+			id: "45447ABC14C1C051"
+			optional: true
+			rewards: [
+				{
+					id: "4FB1F7DD78AC87B7"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "0401A0E887AC0C5C"
+					item: {
+						count: 4
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "twilightforest:snow_queen"
+					id: "7D7A63ED9EF06599"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 8.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"05937C91CC9BDC09"
+			]
+			icon: {
+				count: 1
+				id: "mowziesmobs:ice_crystal"
+			}
+			id: "2EA818E9139A36C3"
+			optional: true
+			rewards: [
+				{
+					id: "671D3476322CB6EA"
+					type: "xp"
+					xp: 800
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "mowziesmobs:frostmaw"
+					id: "6F4D7520D6314FA7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.0d
+			y: -6.4d
+		}
+		{
+			dependencies: [
+				"05937C91CC9BDC09"
+			]
+			icon: {
+				count: 1
+				id: "mowziesmobs:sol_visage"
+			}
+			id: "13104294923C5DA9"
+			optional: true
+			rewards: [
+				{
+					id: "192BD3E2139CB077"
+					type: "xp"
+					xp: 800
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "mowziesmobs:umvuthi"
+					id: "57FAAB0C7DB5B3E8"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.0d
+			y: -4.800000000000001d
+		}
+		{
+			dependencies: [
+				"05937C91CC9BDC09"
+				"59B8B1AC1C33FEC9"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:infernal_forge"
+			}
+			id: "0CBD469833DC594A"
+			optional: true
+			rewards: [
+				{
+					id: "5A27C76C6A680527"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					id: "102900A1B76253DB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.0d
+			y: -3.2d
+		}
+		{
+			dependencies: [
+				"05937C91CC9BDC09"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:desert_eye"
+			}
+			id: "6F1FC09672F809A8"
+			optional: true
+			rewards: [
+				{
+					id: "75A7CD29EC2401F3"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "cataclysm:ancient_remnant"
+					id: "7C98DF6AC0056608"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"05937C91CC9BDC09"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:cursed_eye"
+			}
+			id: "57650088C4D4B7B9"
+			optional: true
+			rewards: [
+				{
+					id: "68B28DCC58871BAB"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "cataclysm:maledictus"
+					id: "4A00693A77FCE90A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"05937C91CC9BDC09"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:storm_eye"
+			}
+			id: "34B32BCEB83B6EC1"
+			optional: true
+			rewards: [
+				{
+					id: "605B7571229B97C0"
+					type: "xp"
+					xp: 2000
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "cataclysm:scylla"
+					id: "2BF8E1BF68EEC241"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"05937C91CC9BDC09"
+			]
+			icon: {
+				count: 1
+				id: "aquamirae:frozen_key"
+			}
+			id: "73DB58497B67F27F"
+			optional: true
+			rewards: [
+				{
+					id: "6A779A3DCC8782BF"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "aquamirae:captain_cornelia"
+					id: "442B4BA9361ADE3A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"05937C91CC9BDC09"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:nether_star"
+			}
+			id: "57EBEA1B3599E4A0"
+			optional: true
+			rewards: [
+				{
+					id: "27938D30F98A901A"
+					type: "xp"
+					xp: 1500
+				}
+				{
+					id: "2561053A84380063"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					id: "3DFDA9DB7589D0B4"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.0d
+			y: 4.800000000000001d
+		}
+		{
+			dependencies: [
+				"05937C91CC9BDC09"
+				"236068484EA1E393"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:dragon_head"
+			}
+			id: "686FEC68841F465E"
+			optional: true
+			rewards: [
+				{
+					id: "345ACD403E7596ED"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					id: "3B066E9BBA5DFEA7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.0d
+			y: 6.4d
+		}
+		{
+			dependencies: [
+				"05937C91CC9BDC09"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:sculk_catalyst"
+			}
+			id: "01AF977A340D6E46"
+			optional: true
+			rewards: [
+				{
+					id: "265E929079F7F079"
+					type: "xp"
+					xp: 2000
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "47FE040FD491FD3C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+	]
+}

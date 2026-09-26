@@ -1,0 +1,1089 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "05_automatisation"
+	group: "7FF1C41CBDFBAF8D"
+	icon: {
+		count: 1
+		id: "ae2:controller"
+	}
+	id: "68C436E900EEC04B"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2F8BE970F4BE22FE"
+			]
+			icon: {
+				count: 1
+				id: "ae2:certus_quartz_crystal"
+			}
+			id: "07C353F475708D03"
+			tasks: [
+				{
+					count: 16L
+					id: "2E7A8EF7B6299F90"
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_crystal"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.2d
+		}
+		{
+			dependencies: [
+				"07C353F475708D03"
+			]
+			icon: {
+				count: 1
+				id: "ae2:meteorite_compass"
+			}
+			id: "12461B5D257B8C2C"
+			tasks: [
+				{
+					id: "089642D1A6D018D1"
+					item: {
+						count: 1
+						id: "ae2:meteorite_compass"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"12461B5D257B8C2C"
+			]
+			icon: {
+				count: 1
+				id: "ae2:logic_processor_press"
+			}
+			id: "193ACC828A0F94CF"
+			rewards: [
+				{
+					id: "7D15A1C177276C1A"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "0876A5F35BCCBBEE"
+					item: {
+						count: 1
+						id: "ae2:logic_processor_press"
+					}
+					type: "item"
+				}
+				{
+					id: "497D7AED945B3B28"
+					item: {
+						count: 1
+						id: "ae2:calculation_processor_press"
+					}
+					type: "item"
+				}
+				{
+					id: "187767BC168DB96D"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor_press"
+					}
+					type: "item"
+				}
+				{
+					id: "443DECF5604DAC66"
+					item: {
+						count: 1
+						id: "ae2:silicon_press"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.4000000000000004d
+		}
+		{
+			dependencies: [
+				"2F8BE970F4BE22FE"
+			]
+			icon: {
+				count: 1
+				id: "ae2:inscriber"
+			}
+			id: "1A5A7FF695E51765"
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{
+					id: "3EEBB600F8CDDAAC"
+					item: {
+						count: 1
+						id: "ae2:inscriber"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"07C353F475708D03"
+			]
+			icon: {
+				count: 1
+				id: "ae2:charger"
+			}
+			id: "3B8F2F3B3F367075"
+			tasks: [
+				{
+					id: "62C810CCEE247D1C"
+					item: {
+						count: 1
+						id: "ae2:charger"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.4000000000000004d
+		}
+		{
+			dependencies: [
+				"3B8F2F3B3F367075"
+			]
+			icon: {
+				count: 1
+				id: "ae2:fluix_crystal"
+			}
+			id: "394F474DC6DF4F11"
+			tasks: [
+				{
+					count: 16L
+					id: "1244CB02307AC770"
+					item: {
+						count: 1
+						id: "ae2:fluix_crystal"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"07C353F475708D03"
+			]
+			icon: {
+				count: 1
+				id: "ae2:silicon"
+			}
+			id: "38278DF26E619DC0"
+			tasks: [
+				{
+					count: 8L
+					id: "365186435F59DDCB"
+					item: {
+						count: 1
+						id: "ae2:silicon"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"1A5A7FF695E51765"
+				"193ACC828A0F94CF"
+				"38278DF26E619DC0"
+				"394F474DC6DF4F11"
+			]
+			icon: {
+				count: 1
+				id: "ae2:engineering_processor"
+			}
+			id: "394A9CDAEFE45A32"
+			rewards: [
+				{
+					id: "7DA062112D6AD3A5"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "3C1BA4E6F3A0CAE1"
+					item: {
+						count: 1
+						id: "ae2:logic_processor"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "37AEEF8B449579E4"
+					item: {
+						count: 1
+						id: "ae2:calculation_processor"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "06DAA0208E38F081"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"394A9CDAEFE45A32"
+				"032DCD5D48F7F25C"
+			]
+			icon: {
+				count: 1
+				id: "dernier_moteur:engine_processor"
+			}
+			id: "24D3B4CABCD89ED0"
+			rewards: [
+				{
+					id: "2340BBB3C6960AC3"
+					type: "xp"
+					xp: 400
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [
+				{
+					count: 2L
+					id: "3D271949C68ADA1C"
+					item: {
+						count: 1
+						id: "dernier_moteur:engine_processor"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -3.2d
+		}
+		{
+			dependencies: [
+				"24D3B4CABCD89ED0"
+			]
+			icon: {
+				count: 1
+				id: "ae2:controller"
+			}
+			id: "18EB2FA130FF3B1F"
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{
+					id: "5F24A8DA632888DF"
+					item: {
+						count: 1
+						id: "ae2:controller"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -3.2d
+		}
+		{
+			dependencies: [
+				"394F474DC6DF4F11"
+			]
+			icon: {
+				count: 1
+				id: "ae2:energy_acceptor"
+			}
+			id: "5710A63B1F41C1FD"
+			tasks: [
+				{
+					id: "711E6289AC854318"
+					item: {
+						count: 1
+						id: "ae2:energy_acceptor"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"394A9CDAEFE45A32"
+			]
+			icon: {
+				count: 1
+				id: "ae2:drive"
+			}
+			id: "39BA1A832B936780"
+			tasks: [
+				{
+					id: "70AC20A94BF5909B"
+					item: {
+						count: 1
+						id: "ae2:drive"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5A637DE6AF12B54B"
+					item: {
+						count: 1
+						id: "ae2:item_storage_cell_4k"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"39BA1A832B936780"
+			]
+			icon: {
+				count: 1
+				id: "ae2:crafting_terminal"
+			}
+			id: "29168AAD138E8F40"
+			tasks: [
+				{
+					id: "67BD8CBFC7974C5B"
+					item: {
+						count: 1
+						id: "ae2:crafting_terminal"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"29168AAD138E8F40"
+				"18EB2FA130FF3B1F"
+			]
+			icon: {
+				count: 1
+				id: "ae2:pattern_provider"
+			}
+			id: "4CDB98EF846854C5"
+			rewards: [
+				{
+					id: "71CE7971CABB6361"
+					item: {
+						count: 16
+						id: "ae2:blank_pattern"
+					}
+					type: "item"
+				}
+				{
+					id: "0B936C1B46FC848D"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [
+				{
+					id: "25A071B7DD551613"
+					item: {
+						count: 1
+						id: "ae2:pattern_encoding_terminal"
+					}
+					type: "item"
+				}
+				{
+					id: "7F38A2E8ABC28C0A"
+					item: {
+						count: 1
+						id: "ae2:pattern_provider"
+					}
+					type: "item"
+				}
+				{
+					id: "429021B2252EBBD3"
+					item: {
+						count: 1
+						id: "ae2:molecular_assembler"
+					}
+					type: "item"
+				}
+				{
+					id: "264C2353EB970695"
+					item: {
+						count: 1
+						id: "ae2:crafting_unit"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"29168AAD138E8F40"
+			]
+			icon: {
+				count: 1
+				id: "ae2:wireless_terminal"
+			}
+			id: "2DD360CF3B5771EB"
+			optional: true
+			tasks: [
+				{
+					id: "4782BFDE4D4530A1"
+					item: {
+						count: 1
+						id: "ae2:wireless_terminal"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2F8BE970F4BE22FE"
+			]
+			icon: {
+				count: 1
+				id: "industrialforegoing:machine_frame_pity"
+			}
+			id: "1DA454967E7964CD"
+			shape: "gear"
+			tasks: [
+				{
+					id: "63C57B7077FDB796"
+					item: {
+						count: 1
+						id: "industrialforegoing:machine_frame_pity"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1DA454967E7964CD"
+			]
+			icon: {
+				count: 1
+				id: "industrialforegoing:fluid_extractor"
+			}
+			id: "7A783D49911BDEA2"
+			tasks: [
+				{
+					id: "79A405340DFEBB25"
+					item: {
+						count: 1
+						id: "industrialforegoing:fluid_extractor"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"7A783D49911BDEA2"
+			]
+			icon: {
+				count: 1
+				id: "industrialforegoing:plastic"
+			}
+			id: "753A8DBB1DDE2456"
+			tasks: [
+				{
+					count: 8L
+					id: "6E9F8E80D9D57988"
+					item: {
+						count: 1
+						id: "industrialforegoing:plastic"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"753A8DBB1DDE2456"
+			]
+			icon: {
+				count: 1
+				id: "industrialforegoing:machine_frame_simple"
+			}
+			id: "67DB1874F24A8D07"
+			tasks: [
+				{
+					id: "72D1C266AA43CAB3"
+					item: {
+						count: 1
+						id: "industrialforegoing:machine_frame_simple"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"67DB1874F24A8D07"
+			]
+			icon: {
+				count: 1
+				id: "industrialforegoing:plant_gatherer"
+			}
+			id: "72AA78BB5FBF4155"
+			tasks: [
+				{
+					id: "0D0589AFF92B95E1"
+					item: {
+						count: 1
+						id: "industrialforegoing:plant_gatherer"
+					}
+					type: "item"
+				}
+				{
+					id: "013924E23A9A6296"
+					item: {
+						count: 1
+						id: "industrialforegoing:plant_sower"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"67DB1874F24A8D07"
+			]
+			icon: {
+				count: 1
+				id: "industrialforegoing:mob_crusher"
+			}
+			id: "119A08E39372B0FF"
+			optional: true
+			tasks: [
+				{
+					id: "7DFF7B72500BF809"
+					item: {
+						count: 1
+						id: "industrialforegoing:mob_crusher"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"67DB1874F24A8D07"
+			]
+			icon: {
+				count: 1
+				id: "industrialforegoing:machine_frame_advanced"
+			}
+			id: "18413DF6FDB2CACF"
+			tasks: [
+				{
+					id: "2E21BFC8AE6530F0"
+					item: {
+						count: 1
+						id: "industrialforegoing:machine_frame_advanced"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"18413DF6FDB2CACF"
+				"24D3B4CABCD89ED0"
+			]
+			icon: {
+				count: 1
+				id: "industrialforegoing:ore_laser_base"
+			}
+			id: "45BFA72AF1470148"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "199923480884B771"
+					item: {
+						count: 1
+						id: "industrialforegoing:ore_laser_base"
+					}
+					type: "item"
+				}
+				{
+					id: "4EB487899106C71F"
+					item: {
+						count: 1
+						id: "industrialforegoing:laser_drill"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"24D3B4CABCD89ED0"
+			]
+			icon: {
+				count: 1
+				id: "mekanism:digital_miner"
+			}
+			id: "3E570A3DA2A9A272"
+			optional: true
+			tasks: [
+				{
+					id: "288C381FDBE30BFE"
+					item: {
+						count: 1
+						id: "mekanism:digital_miner"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"24D3B4CABCD89ED0"
+			]
+			icon: {
+				count: 1
+				id: "mekanismgenerators:fission_reactor_casing"
+			}
+			id: "18EBC0EF4B1EDB99"
+			tasks: [
+				{
+					count: 16L
+					id: "669C77EDACC1B6A9"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fission_reactor_casing"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"18EBC0EF4B1EDB99"
+			]
+			icon: {
+				count: 1
+				id: "mekanismgenerators:fusion_reactor_controller"
+			}
+			id: "67A7E3B09D22E80A"
+			rewards: [
+				{
+					id: "6F44709D21EC3D64"
+					type: "xp"
+					xp: 800
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [
+				{
+					id: "58EFF13D54019259"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fusion_reactor_controller"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"2F8BE970F4BE22FE"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:ender_eye"
+			}
+			id: "236068484EA1E393"
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "3C579F5F9818A880"
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"236068484EA1E393"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:void_eye"
+			}
+			id: "54A5F9D8E1BDAF4E"
+			tasks: [
+				{
+					id: "205011230B4A30C6"
+					item: {
+						count: 1
+						id: "cataclysm:void_eye"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.4000000000000004d
+		}
+		{
+			dependencies: [
+				"54A5F9D8E1BDAF4E"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:purpur_block"
+			}
+			id: "4C53E2D41B9FD7A1"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3409344D2E0DF6AA"
+					structure: "cataclysm:ruined_citadel"
+					type: "structure"
+				}
+			]
+			x: 4.0d
+			y: 2.4000000000000004d
+		}
+		{
+			dependencies: [
+				"4C53E2D41B9FD7A1"
+				"4CDB98EF846854C5"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:void_core"
+			}
+			id: "288B94DB50A9346D"
+			rewards: [
+				{
+					id: "4E137DDC6804FC7E"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
+					id: "386342570BDE8726"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 14.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"288B94DB50A9346D"
+			]
+			icon: {
+				count: 1
+				id: "dernier_moteur:core_fragment_void"
+			}
+			id: "3ED6C2B19F303570"
+			shape: "octagon"
+			tasks: [
+				{
+					id: "0113688F0B39C757"
+					item: {
+						count: 1
+						id: "dernier_moteur:core_fragment_void"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -2.4000000000000004d
+		}
+		{
+			dependencies: [
+				"288B94DB50A9346D"
+			]
+			icon: {
+				count: 1
+				id: "dernier_moteur:journal_6"
+			}
+			id: "76FEAC322DBFD737"
+			rewards: [
+				{
+					id: "0518699701F18649"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "02C8963F92A3DF2D"
+					item: {
+						count: 1
+						id: "dernier_moteur:journal_6"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"2F8BE970F4BE22FE"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:abyss_eye"
+			}
+			id: "3BF636DBC0E70138"
+			tasks: [
+				{
+					id: "71D4374E14CD3760"
+					item: {
+						count: 1
+						id: "cataclysm:abyss_eye"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"3BF636DBC0E70138"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:prismarine"
+			}
+			id: "47E2377AC22303BE"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "03502CE620F850F1"
+					structure: "cataclysm:sunken_city"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"47E2377AC22303BE"
+				"4CDB98EF846854C5"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:abyssal_egg"
+			}
+			id: "082E1916483466E2"
+			rewards: [
+				{
+					id: "0B7C7607A79B58BA"
+					type: "xp"
+					xp: 1500
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [
+				{
+					entity: "cataclysm:the_leviathan"
+					id: "601F39208D892449"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 14.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"082E1916483466E2"
+			]
+			icon: {
+				count: 1
+				id: "dernier_moteur:core_fragment_abyss"
+			}
+			id: "245FF99126D21D5D"
+			shape: "octagon"
+			tasks: [
+				{
+					id: "4848D6DDBFDA24BF"
+					item: {
+						count: 1
+						id: "dernier_moteur:core_fragment_abyss"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"082E1916483466E2"
+			]
+			icon: {
+				count: 1
+				id: "dernier_moteur:journal_7"
+			}
+			id: "2E47A342C869451C"
+			rewards: [
+				{
+					id: "6D18702AB7D37F94"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "257937C1A01972F4"
+					item: {
+						count: 1
+						id: "dernier_moteur:journal_7"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 2.4000000000000004d
+		}
+		{
+			dependencies: [
+				"3ED6C2B19F303570"
+				"245FF99126D21D5D"
+			]
+			icon: {
+				count: 1
+				id: "dernier_moteur:core_fragment_void"
+			}
+			id: "6CC256A9CCEDF995"
+			rewards: [
+				{
+					id: "602020A888D3912A"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.6d
+			tasks: [
+				{
+					id: "217F84A5BC039EA8"
+					item: {
+						count: 1
+						id: "dernier_moteur:core_fragment_gear"
+					}
+					type: "item"
+				}
+				{
+					id: "3F6BF36C7728ECB4"
+					item: {
+						count: 1
+						id: "dernier_moteur:core_fragment_spark"
+					}
+					type: "item"
+				}
+				{
+					id: "7E7E841B154E5418"
+					item: {
+						count: 1
+						id: "dernier_moteur:core_fragment_ember"
+					}
+					type: "item"
+				}
+				{
+					id: "170E700BB76508B2"
+					item: {
+						count: 1
+						id: "dernier_moteur:core_fragment_storm"
+					}
+					type: "item"
+				}
+				{
+					id: "54689789A5F7D926"
+					item: {
+						count: 1
+						id: "dernier_moteur:core_fragment_void"
+					}
+					type: "item"
+				}
+				{
+					id: "6CCD7232D53761EB"
+					item: {
+						count: 1
+						id: "dernier_moteur:core_fragment_abyss"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+	]
+}

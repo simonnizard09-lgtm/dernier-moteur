@@ -1,0 +1,270 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "00_intro"
+	group: "7FF1C41CBDFBAF8D"
+	icon: {
+		count: 1
+		id: "dernier_moteur:journal_1"
+	}
+	id: "56CF7A16ACB5E455"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				count: 1
+				id: "dernier_moteur:journal_1"
+			}
+			id: "1BF12E32B46CA049"
+			rewards: [
+				{
+					id: "1DE516601CE73DE8"
+					item: {
+						count: 8
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "330866F3F81C0C21"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1592C679CA0B8C75"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1BF12E32B46CA049"
+			]
+			icon: {
+				count: 1
+				id: "patchouli:guide_book"
+			}
+			id: "64A791BB164D220B"
+			rewards: [
+				{
+					id: "621826115118F3DC"
+					item: {
+						components: {
+							"patchouli:book": "patchouli:carnet"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "21B35304DF6CDD75"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -3.2d
+		}
+		{
+			dependencies: [
+				"1BF12E32B46CA049"
+			]
+			icon: {
+				count: 1
+				id: "dernier_moteur:journal_1"
+			}
+			id: "0A4E5E66ABB52C7B"
+			rewards: [
+				{
+					id: "2A151BFEA0A4B15B"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "73F11E68F92AF2C3"
+					item: {
+						count: 1
+						id: "dernier_moteur:journal_1"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"1BF12E32B46CA049"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:zombie_head"
+			}
+			id: "5188F484C0D6733B"
+			rewards: [
+				{
+					id: "3693A6C23EAB6D0D"
+					item: {
+						count: 1
+						id: "minecraft:shield"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0B30FABE82BADC57"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1BF12E32B46CA049"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:crafting_table"
+			}
+			id: "2ED634389AB5DD3A"
+			rewards: [
+				{
+					id: "3501C1575C031F06"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "3A0122060B340A61"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"1BF12E32B46CA049"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:compass"
+			}
+			id: "029A400F467F0E6B"
+			rewards: [
+				{
+					id: "337AD9FF3D771EE9"
+					item: {
+						count: 16
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "13F34915C92264DB"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"029A400F467F0E6B"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:chest"
+			}
+			id: "5938DB7985ABAD8A"
+			rewards: [
+				{
+					id: "3440DF1644223318"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "04C44E6EB9175395"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"2ED634389AB5DD3A"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:spyglass"
+			}
+			id: "0CAE7AFF6A60A7B5"
+			rewards: [
+				{
+					id: "383ECEFA8BFFA4EE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "43B730A4AF089206"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"64A791BB164D220B"
+				"0A4E5E66ABB52C7B"
+				"5188F484C0D6733B"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:wooden_pickaxe"
+			}
+			id: "7B9609B97195A2DF"
+			rewards: [
+				{
+					id: "64EC40DE9638AA06"
+					item: {
+						count: 6
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [
+				{
+					id: "457F69F268A691DA"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 1.6d
+		}
+	]
+}

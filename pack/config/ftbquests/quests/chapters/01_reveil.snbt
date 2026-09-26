@@ -1,0 +1,585 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "01_reveil"
+	group: "7FF1C41CBDFBAF8D"
+	icon: {
+		count: 1
+		id: "minecraft:campfire"
+	}
+	id: "14D719236BA01615"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7B9609B97195A2DF"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:crafting_table"
+			}
+			id: "6066CFDBAD8DB888"
+			tasks: [
+				{
+					id: "00AE1F321A261480"
+					item: {
+						count: 1
+						id: "minecraft:crafting_table"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6066CFDBAD8DB888"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:stone_pickaxe"
+			}
+			id: "1BE720445BD604BB"
+			rewards: [
+				{
+					id: "38AEA34F5C9491C9"
+					item: {
+						count: 4
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "260AAA56D2315BEA"
+					item: {
+						count: 1
+						id: "minecraft:stone_pickaxe"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1BE720445BD604BB"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:campfire"
+			}
+			id: "40436DB93B6D0E1C"
+			rewards: [
+				{
+					id: "2216758666858823"
+					item: {
+						count: 8
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "154768B4FCA0178A"
+					item: {
+						count: 1
+						id: "minecraft:campfire"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"40436DB93B6D0E1C"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:torch"
+			}
+			id: "041253C33805A68B"
+			tasks: [
+				{
+					count: 32L
+					id: "233D0406F4AD58E5"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"1BE720445BD604BB"
+			]
+			icon: {
+				count: 1
+				id: "toughasnails:dirty_water_bottle"
+			}
+			id: "6237698312AB5892"
+			tasks: [
+				{
+					id: "1ACFAC91048AF529"
+					item: {
+						count: 1
+						id: "toughasnails:dirty_water_bottle"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6237698312AB5892"
+				"40436DB93B6D0E1C"
+			]
+			icon: {
+				count: 1
+				id: "toughasnails:purified_water_bottle"
+			}
+			id: "5580413F7DB0714D"
+			rewards: [
+				{
+					id: "1B0FBDE53EBD340B"
+					item: {
+						count: 4
+						id: "toughasnails:purified_water_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7EF2C27EAD16BF6C"
+					item: {
+						count: 1
+						id: "toughasnails:purified_water_bottle"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"5580413F7DB0714D"
+			]
+			icon: {
+				count: 1
+				id: "toughasnails:empty_leather_canteen"
+			}
+			id: "7D290E51D0DD7E82"
+			rewards: [
+				{
+					id: "066212038D0770F9"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "110EDAACD009413E"
+					item: {
+						count: 1
+						id: "toughasnails:empty_leather_canteen"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"7D290E51D0DD7E82"
+			]
+			icon: {
+				count: 1
+				id: "toughasnails:thermometer"
+			}
+			id: "668164FE3B33CA95"
+			tasks: [
+				{
+					id: "34A3EB6AD15B6814"
+					item: {
+						count: 1
+						id: "toughasnails:thermometer"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"668164FE3B33CA95"
+			]
+			icon: {
+				count: 1
+				id: "toughasnails:wool_chestplate"
+			}
+			id: "517FAB6FD2A1E8E9"
+			rewards: [
+				{
+					id: "0DF83401E745FE27"
+					item: {
+						count: 8
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4065C28707E5A86D"
+					item: {
+						count: 1
+						id: "toughasnails:wool_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"668164FE3B33CA95"
+			]
+			icon: {
+				count: 1
+				id: "sereneseasons:calendar"
+			}
+			id: "32253ADE93193057"
+			rewards: [
+				{
+					id: "7B852A9CFCAED6C5"
+					item: {
+						count: 8
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "28E59D5845C63FC2"
+					item: {
+						count: 1
+						id: "sereneseasons:calendar"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"041253C33805A68B"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			id: "28BFBE8C00989E8F"
+			rewards: [
+				{
+					id: "7C1FE4B15629F813"
+					item: {
+						count: 4
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "67CEC175F2079EDE"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"28BFBE8C00989E8F"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:iron_chestplate"
+			}
+			id: "72132A53B98BBC93"
+			tasks: [
+				{
+					id: "1760E9ACF71B6754"
+					item: {
+						count: 1
+						id: "minecraft:iron_chestplate"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -2.4000000000000004d
+		}
+		{
+			dependencies: [
+				"28BFBE8C00989E8F"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:shield"
+			}
+			id: "102C784F7B98599B"
+			tasks: [
+				{
+					id: "5911BEE0C144D739"
+					item: {
+						count: 1
+						id: "minecraft:shield"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"1BE720445BD604BB"
+			]
+			icon: {
+				count: 1
+				id: "farmersdelight:cutting_board"
+			}
+			id: "38CF9409C81CF551"
+			tasks: [
+				{
+					id: "1BB15B783894281A"
+					item: {
+						count: 1
+						id: "farmersdelight:cutting_board"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"38CF9409C81CF551"
+				"28BFBE8C00989E8F"
+			]
+			icon: {
+				count: 1
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "73813E2057E34AD6"
+			rewards: [
+				{
+					id: "6BAC8D5E6D4F9EA6"
+					item: {
+						count: 4
+						id: "farmersdelight:onion"
+					}
+					type: "item"
+				}
+				{
+					id: "32256711C1376399"
+					item: {
+						count: 4
+						id: "farmersdelight:tomato"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "641FC7DC7CF8D0BB"
+					item: {
+						count: 1
+						id: "farmersdelight:cooking_pot"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"73813E2057E34AD6"
+				"32253ADE93193057"
+			]
+			icon: {
+				count: 1
+				id: "farmersdelight:vegetable_soup"
+			}
+			id: "70841150813DCA42"
+			rewards: [
+				{
+					id: "0B6292668A9E14DC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3CE6BD04C080D2B4"
+					item: {
+						count: 1
+						id: "farmersdelight:vegetable_soup"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7D290E51D0DD7E82"
+				"28BFBE8C00989E8F"
+			]
+			icon: {
+				count: 1
+				id: "toughasnails:water_purifier"
+			}
+			id: "3796038A910B1585"
+			tasks: [
+				{
+					id: "33705270C93FCBE0"
+					item: {
+						count: 1
+						id: "toughasnails:water_purifier"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.4000000000000004d
+		}
+		{
+			dependencies: [
+				"3796038A910B1585"
+			]
+			icon: {
+				count: 1
+				id: "toughasnails:rain_collector"
+			}
+			id: "542C3C789999EA45"
+			optional: true
+			tasks: [
+				{
+					id: "05069D3934DC6B5D"
+					item: {
+						count: 1
+						id: "toughasnails:rain_collector"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"28BFBE8C00989E8F"
+			]
+			icon: {
+				count: 1
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "7A6C3EADFB6DA0B2"
+			rewards: [
+				{
+					id: "58F07C699066FE80"
+					item: {
+						count: 2
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "763AFE86A4CD74E9"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"28BFBE8C00989E8F"
+				"70841150813DCA42"
+			]
+			icon: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+			id: "56D9323AE00BC418"
+			rewards: [
+				{
+					id: "79129BE634EBF036"
+					item: {
+						count: 16
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					id: "38F07AF218A5DE0E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [
+				{
+					count: 16L
+					id: "76358DF2E7EA9A79"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+	]
+}

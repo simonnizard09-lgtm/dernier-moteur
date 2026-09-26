@@ -1,0 +1,383 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "12_survie"
+	group: "0C3CEFC8C88B73EB"
+	icon: {
+		count: 1
+		id: "toughasnails:thermometer"
+	}
+	id: "6391609A3A492308"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7D290E51D0DD7E82"
+			]
+			icon: {
+				count: 1
+				id: "toughasnails:empty_iron_canteen"
+			}
+			id: "3B3146902DEA40FD"
+			optional: true
+			tasks: [
+				{
+					id: "5F784A20539E55E5"
+					item: {
+						count: 1
+						id: "toughasnails:empty_iron_canteen"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.4d
+		}
+		{
+			dependencies: [
+				"3B3146902DEA40FD"
+			]
+			icon: {
+				count: 1
+				id: "toughasnails:empty_gold_canteen"
+			}
+			id: "5413B090430DE7F0"
+			optional: true
+			tasks: [
+				{
+					id: "669DEAF69A4E22B7"
+					item: {
+						count: 1
+						id: "toughasnails:empty_gold_canteen"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.4000000000000004d
+		}
+		{
+			dependencies: [
+				"5413B090430DE7F0"
+			]
+			icon: {
+				count: 1
+				id: "toughasnails:empty_diamond_canteen"
+			}
+			id: "15483C95FA3B0182"
+			optional: true
+			rewards: [
+				{
+					id: "5013D3F28CDD0B96"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "574A8FF51753BF7F"
+					item: {
+						count: 1
+						id: "toughasnails:empty_diamond_canteen"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7D290E51D0DD7E82"
+			]
+			icon: {
+				count: 1
+				id: "toughasnails:apple_juice"
+			}
+			id: "5B9E5CCE707A1DD4"
+			optional: true
+			tasks: [
+				{
+					count: 4L
+					id: "78BBA3C3240AF813"
+					item: {
+						count: 1
+						id: "toughasnails:apple_juice"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.800000000000001d
+		}
+		{
+			dependencies: [
+				"668164FE3B33CA95"
+			]
+			icon: {
+				count: 1
+				id: "toughasnails:thermoregulator"
+			}
+			id: "0393DF872B94318C"
+			optional: true
+			tasks: [
+				{
+					id: "69C114024BEC23F2"
+					item: {
+						count: 1
+						id: "toughasnails:thermoregulator"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.2d
+		}
+		{
+			dependencies: [
+				"32253ADE93193057"
+			]
+			icon: {
+				count: 1
+				id: "sereneseasons:season_sensor"
+			}
+			id: "064DC2D8C847BC99"
+			optional: true
+			tasks: [
+				{
+					id: "1EE19B83F1484B35"
+					item: {
+						count: 1
+						id: "sereneseasons:season_sensor"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"73813E2057E34AD6"
+			]
+			icon: {
+				count: 1
+				id: "farmersdelight:rich_soil"
+			}
+			id: "6CF3D63CAF0A0865"
+			optional: true
+			tasks: [
+				{
+					count: 8L
+					id: "7F5412A00EA1E6D8"
+					item: {
+						count: 1
+						id: "farmersdelight:rich_soil"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"70841150813DCA42"
+			]
+			icon: {
+				count: 1
+				id: "farmersdelight:shepherds_pie"
+			}
+			id: "56016D3C893169BD"
+			optional: true
+			rewards: [
+				{
+					id: "318B5FB66EB5797B"
+					item: {
+						count: 8
+						id: "farmersdelight:onion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "06B3CA9538F97F4C"
+					item: {
+						count: 1
+						id: "farmersdelight:beef_stew"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4794D473E753AA1D"
+					item: {
+						count: 1
+						id: "farmersdelight:hamburger"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"73813E2057E34AD6"
+			]
+			icon: {
+				count: 1
+				id: "farmersdelight:stove"
+			}
+			id: "18495200B844B5B3"
+			optional: true
+			tasks: [
+				{
+					id: "658E6C92EE0CB216"
+					item: {
+						count: 1
+						id: "farmersdelight:stove"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"72132A53B98BBC93"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+			id: "13D8B07B76156D5D"
+			optional: true
+			tasks: [
+				{
+					id: "2AE264A211E99838"
+					item: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.800000000000001d
+		}
+		{
+			dependencies: [
+				"13D8B07B76156D5D"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:enchanted_golden_apple"
+			}
+			id: "243BFAA74FEF0E5B"
+			optional: true
+			rewards: [
+				{
+					id: "4707502866B33D0A"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "64CB42B13E6C6D97"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"7A6C3EADFB6DA0B2"
+			]
+			icon: {
+				count: 1
+				id: "sophisticatedbackpacks:iron_backpack"
+			}
+			id: "11DA07D0DEBD0C52"
+			optional: true
+			rewards: [
+				{
+					id: "648FA37B9BF628F1"
+					item: {
+						count: 2
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6BFA486B12E335C7"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:iron_backpack"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.4d
+		}
+		{
+			dependencies: [
+				"11DA07D0DEBD0C52"
+			]
+			icon: {
+				count: 1
+				id: "sophisticatedbackpacks:magnet_upgrade"
+			}
+			id: "6B6BF2C768C38B7D"
+			optional: true
+			tasks: [
+				{
+					id: "02A8372EB8AE776F"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:magnet_upgrade"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"11DA07D0DEBD0C52"
+			]
+			icon: {
+				count: 1
+				id: "sophisticatedbackpacks:diamond_backpack"
+			}
+			id: "0ED33C6F32267A5C"
+			optional: true
+			tasks: [
+				{
+					id: "1C4E79F0E3C4930B"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:diamond_backpack"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.4000000000000004d
+		}
+	]
+}

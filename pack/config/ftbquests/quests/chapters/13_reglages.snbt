@@ -1,0 +1,159 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "13_reglages"
+	group: "0C3CEFC8C88B73EB"
+	icon: {
+		count: 1
+		id: "minecraft:spyglass"
+	}
+	id: "43C4A2DE11008DD0"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"0CAE7AFF6A60A7B5"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			id: "7396855FED952EF2"
+			tasks: [
+				{
+					id: "7FFA0D232398F4D9"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7396855FED952EF2"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:glass"
+			}
+			id: "653243621F3914DB"
+			tasks: [
+				{
+					id: "707AA845DFED4F07"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -2.4000000000000004d
+		}
+		{
+			dependencies: [
+				"653243621F3914DB"
+			]
+			icon: {
+				count: 1
+				id: "create:cogwheel"
+			}
+			id: "60FA5E5154A0A691"
+			tasks: [
+				{
+					id: "6986C191AC5B6897"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"7396855FED952EF2"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:clock"
+			}
+			id: "5289D5FB0A867A1F"
+			tasks: [
+				{
+					id: "578D46E18661F172"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"653243621F3914DB"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:ender_eye"
+			}
+			id: "74E74243C77ADEC5"
+			tasks: [
+				{
+					id: "2274B2C6BEE99560"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7396855FED952EF2"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:oak_button"
+			}
+			id: "360D9E1D84481645"
+			tasks: [
+				{
+					id: "7B8A59E3C1F276BC"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"360D9E1D84481645"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:glass_pane"
+			}
+			id: "695E70A2C5FA26A3"
+			tasks: [
+				{
+					id: "4D5B41C4E03AB832"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"7396855FED952EF2"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:tnt"
+			}
+			id: "01CAC87D98E04D67"
+			tasks: [
+				{
+					id: "699234DB13E313C4"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 2.4000000000000004d
+		}
+	]
+}

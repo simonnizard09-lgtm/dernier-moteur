@@ -1,0 +1,461 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "10_exploration"
+	group: "0C3CEFC8C88B73EB"
+	icon: {
+		count: 1
+		id: "naturescompass:naturescompass"
+	}
+	id: "79E9958FF65B275A"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7B9609B97195A2DF"
+			]
+			icon: {
+				count: 1
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "5E11E1ECED25F765"
+			rewards: [
+				{
+					id: "09A3D8D0A384A20C"
+					item: {
+						count: 1
+						id: "naturescompass:naturescompass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "10963A7A8C60E9C5"
+					item: {
+						count: 1
+						id: "explorerscompass:explorerscompass"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.4000000000000004d
+		}
+		{
+			dependencies: [
+				"5E11E1ECED25F765"
+			]
+			icon: {
+				count: 1
+				id: "waystones:waystone"
+			}
+			id: "7A03F25D3FB1E692"
+			rewards: [
+				{
+					id: "3D283126213B3AC8"
+					item: {
+						count: 2
+						id: "waystones:warp_scroll"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0263AB5432153D35"
+					item: {
+						count: 1
+						id: "waystones:waystone"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5E11E1ECED25F765"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:mossy_cobblestone"
+			}
+			id: "770BCB452E8AC4FC"
+			rewards: [
+				{
+					id: "560F51B35F486B53"
+					item: {
+						count: 8
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "12ADA91CF03E720C"
+					structure: "betterdungeons:zombie_dungeon"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: -2.4000000000000004d
+		}
+		{
+			dependencies: [
+				"5E11E1ECED25F765"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:rail"
+			}
+			id: "258D2158016B5029"
+			optional: true
+			tasks: [
+				{
+					id: "76E5CF65ED72BB48"
+					structure: "bettermineshafts:mineshaft_oak"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"5E11E1ECED25F765"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:barrel"
+			}
+			id: "11C26A30DCF8747F"
+			optional: true
+			rewards: [
+				{
+					id: "45098C988BA99CD6"
+					item: {
+						count: 8
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3857A617510BF4EE"
+					structure: "nova_structures:tavern_oak"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"770BCB452E8AC4FC"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:sandstone"
+			}
+			id: "6733F6256D7A8086"
+			optional: true
+			tasks: [
+				{
+					id: "2FF3AE1CB23B78CE"
+					structure: "betterdeserttemples:desert_temple"
+					type: "structure"
+				}
+			]
+			x: 4.0d
+			y: -3.2d
+		}
+		{
+			dependencies: [
+				"770BCB452E8AC4FC"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:blast_furnace"
+			}
+			id: "20184255F20751C2"
+			optional: true
+			rewards: [
+				{
+					id: "14B690F71185796A"
+					item: {
+						count: 8
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "42A26CB5363CB084"
+					structure: "dungeons_arise:foundry"
+					type: "structure"
+				}
+			]
+			x: 4.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"20184255F20751C2"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:piston"
+			}
+			id: "604D90FED0F597A4"
+			optional: true
+			tasks: [
+				{
+					id: "7F18A6CC4CF0D7C0"
+					structure: "dungeons_arise:mechanical_nest"
+					type: "structure"
+				}
+			]
+			x: 6.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"59B8B1AC1C33FEC9"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:nether_bricks"
+			}
+			id: "00DA5C122F00D480"
+			optional: true
+			tasks: [
+				{
+					id: "5EFA3897DC2BECCE"
+					structure: "betterfortresses:fortress"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"770BCB452E8AC4FC"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:crossbow"
+			}
+			id: "72E12341C6888938"
+			optional: true
+			rewards: [
+				{
+					id: "054C579DA2DDFB72"
+					item: {
+						count: 8
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "573C0229B91BE70C"
+					structure: "dungeons_arise:illager_fort"
+					type: "structure"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"68311DE8C15EEEDF"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:maze_map"
+			}
+			id: "63DC234BC73BE3ED"
+			optional: true
+			tasks: [
+				{
+					id: "5670A0D51486F4B4"
+					structure: "twilightforest:labyrinth"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"63DC234BC73BE3ED"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:fiery_blood"
+			}
+			id: "67150B15030EDF41"
+			optional: true
+			tasks: [
+				{
+					id: "6F1329D518E0D90D"
+					structure: "twilightforest:hydra_lair"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: 2.4000000000000004d
+		}
+		{
+			dependencies: [
+				"67150B15030EDF41"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:carminite"
+			}
+			id: "3DCF7575433ACE78"
+			optional: true
+			tasks: [
+				{
+					id: "5449D877841E73E2"
+					structure: "twilightforest:dark_tower"
+					type: "structure"
+				}
+			]
+			x: 4.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"3DCF7575433ACE78"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:castle_brick"
+			}
+			id: "1C76135BAD2A64AF"
+			optional: true
+			rewards: [
+				{
+					id: "2CA95946330902EF"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [
+				{
+					id: "08F06A67E43E052A"
+					structure: "twilightforest:final_castle"
+					type: "structure"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5E11E1ECED25F765"
+			]
+			icon: {
+				count: 1
+				id: "aquamirae:frozen_key"
+			}
+			id: "6523F26DA0101A4E"
+			optional: true
+			tasks: [
+				{
+					id: "2C76AE614F5178B6"
+					structure: "aquamirae:shipwreck"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"770BCB452E8AC4FC"
+			]
+			icon: {
+				count: 1
+				id: "artifacts:flame_pendant"
+			}
+			id: "7763BD8FD36A49B3"
+			optional: true
+			tasks: [
+				{
+					id: "36D32541120018C1"
+					item: {
+						count: 1
+						id: "artifacts:running_shoes"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"6733F6256D7A8086"
+			]
+			icon: {
+				count: 1
+				id: "cataclysm:desert_eye"
+			}
+			id: "2E830366F9F2DB80"
+			optional: true
+			tasks: [
+				{
+					id: "2A610610589D1D60"
+					structure: "cataclysm:cursed_pyramid"
+					type: "structure"
+				}
+			]
+			x: 6.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"236068484EA1E393"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:elytra"
+			}
+			id: "234ECF8FF96834F6"
+			optional: true
+			rewards: [
+				{
+					id: "2CD585A0AF9BEBB2"
+					item: {
+						count: 32
+						id: "minecraft:firework_rocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3D52E554EEF143CC"
+					item: {
+						count: 1
+						id: "minecraft:elytra"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.4000000000000004d
+		}
+	]
+}

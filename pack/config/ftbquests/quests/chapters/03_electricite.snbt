@@ -1,0 +1,816 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "03_electricite"
+	group: "7FF1C41CBDFBAF8D"
+	icon: {
+		count: 1
+		id: "immersiveengineering:hammer"
+	}
+	id: "1DC22AAF8085932F"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5B98DA763447629F"
+			]
+			icon: {
+				count: 1
+				id: "immersiveengineering:hammer"
+			}
+			id: "5D28D0F2686F3ADA"
+			rewards: [
+				{
+					id: "7391D5458232EDE5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{
+					id: "440F912C3D578873"
+					item: {
+						count: 1
+						id: "immersiveengineering:hammer"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.4000000000000004d
+		}
+		{
+			dependencies: [
+				"5D28D0F2686F3ADA"
+			]
+			icon: {
+				count: 1
+				id: "immersiveengineering:cokebrick"
+			}
+			id: "366CAC619A36A08A"
+			tasks: [
+				{
+					count: 27L
+					id: "04DEA8BDD955ABD3"
+					item: {
+						count: 1
+						id: "immersiveengineering:cokebrick"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"366CAC619A36A08A"
+			]
+			icon: {
+				count: 1
+				id: "immersiveengineering:coal_coke"
+			}
+			id: "6C14CD1C9A7636B5"
+			rewards: [
+				{
+					id: "62AE863EBB941255"
+					item: {
+						count: 2
+						id: "minecraft:coal_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "2152877DE78A6DED"
+					item: {
+						count: 1
+						id: "immersiveengineering:coal_coke"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"6C14CD1C9A7636B5"
+			]
+			icon: {
+				count: 1
+				id: "immersiveengineering:treated_wood_horizontal"
+			}
+			id: "3180D42FD2EF8E73"
+			tasks: [
+				{
+					count: 16L
+					id: "6871C3E3584F9C24"
+					item: {
+						count: 1
+						id: "immersiveengineering:treated_wood_horizontal"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"6C14CD1C9A7636B5"
+			]
+			icon: {
+				count: 1
+				id: "immersiveengineering:blastbrick"
+			}
+			id: "3F018D7C88262C63"
+			tasks: [
+				{
+					count: 27L
+					id: "4F1C1525DDEB4E0E"
+					item: {
+						count: 1
+						id: "immersiveengineering:blastbrick"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"3F018D7C88262C63"
+			]
+			icon: {
+				count: 1
+				id: "immersiveengineering:ingot_steel"
+			}
+			id: "21F3FD6E249DEE3D"
+			tasks: [
+				{
+					count: 16L
+					id: "768C187AD9211609"
+					item: {
+						count: 1
+						id: "immersiveengineering:ingot_steel"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"3180D42FD2EF8E73"
+				"5B98DA763447629F"
+			]
+			icon: {
+				count: 1
+				id: "immersiveengineering:workbench"
+			}
+			id: "09D4E4A442A34289"
+			tasks: [
+				{
+					id: "6DE88B3615A50B31"
+					item: {
+						count: 1
+						id: "immersiveengineering:workbench"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"5D28D0F2686F3ADA"
+			]
+			icon: {
+				count: 1
+				id: "immersiveengineering:alloybrick"
+			}
+			id: "64F7D51A1E231B73"
+			tasks: [
+				{
+					count: 10L
+					id: "390E35EA8E784518"
+					item: {
+						count: 1
+						id: "immersiveengineering:alloybrick"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"64F7D51A1E231B73"
+			]
+			icon: {
+				count: 1
+				id: "immersiveengineering:ingot_electrum"
+			}
+			id: "4EC7B1831E7DB304"
+			tasks: [
+				{
+					count: 8L
+					id: "6B9E4478F9CA8672"
+					item: {
+						count: 1
+						id: "immersiveengineering:ingot_electrum"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"21F3FD6E249DEE3D"
+			]
+			icon: {
+				count: 1
+				id: "immersiveengineering:component_iron"
+			}
+			id: "331E18874D532A12"
+			tasks: [
+				{
+					count: 4L
+					id: "07E3FC99C7F7AFE0"
+					item: {
+						count: 1
+						id: "immersiveengineering:component_iron"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -3.2d
+		}
+		{
+			dependencies: [
+				"21F3FD6E249DEE3D"
+			]
+			icon: {
+				count: 1
+				id: "immersiveengineering:component_steel"
+			}
+			id: "5C6C25BD01035570"
+			tasks: [
+				{
+					count: 4L
+					id: "1BF488D88F8E7330"
+					item: {
+						count: 1
+						id: "immersiveengineering:component_steel"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"21F3FD6E249DEE3D"
+			]
+			icon: {
+				count: 1
+				id: "immersiveengineering:wirecoil_copper"
+			}
+			id: "1DEB72ADBB8DFB22"
+			tasks: [
+				{
+					count: 8L
+					id: "22B0B07B2FBCF143"
+					item: {
+						count: 1
+						id: "immersiveengineering:wirecoil_copper"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1DEB72ADBB8DFB22"
+			]
+			icon: {
+				count: 1
+				id: "immersiveengineering:coil_lv"
+			}
+			id: "3F45EC53E566BD98"
+			tasks: [
+				{
+					count: 2L
+					id: "59695F218FA8C334"
+					item: {
+						count: 1
+						id: "immersiveengineering:coil_lv"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3F45EC53E566BD98"
+				"32963EC20A1B8E54"
+			]
+			icon: {
+				count: 1
+				id: "dernier_moteur:galvanic_coil"
+			}
+			id: "152EBFDF9A397FA4"
+			rewards: [
+				{
+					id: "2D1C6EE1AFF37356"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [
+				{
+					count: 4L
+					id: "30F82E47D87EBD3C"
+					item: {
+						count: 1
+						id: "dernier_moteur:galvanic_coil"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"152EBFDF9A397FA4"
+				"331E18874D532A12"
+			]
+			icon: {
+				count: 1
+				id: "immersiveengineering:dynamo"
+			}
+			id: "430441746BF0E08C"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "512455A96727E304"
+					item: {
+						count: 1
+						id: "immersiveengineering:dynamo"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"1DEB72ADBB8DFB22"
+			]
+			icon: {
+				count: 1
+				id: "immersiveengineering:capacitor_lv"
+			}
+			id: "0184147A3F00453C"
+			tasks: [
+				{
+					id: "6D9155CA69C66205"
+					item: {
+						count: 1
+						id: "immersiveengineering:capacitor_lv"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -2.4000000000000004d
+		}
+		{
+			dependencies: [
+				"152EBFDF9A397FA4"
+				"5DB0CC596E51AD65"
+			]
+			icon: {
+				count: 1
+				id: "createaddition:alternator"
+			}
+			id: "6044F861E5B78401"
+			tasks: [
+				{
+					id: "0C4E5B4CDBA93C98"
+					item: {
+						count: 1
+						id: "createaddition:alternator"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6044F861E5B78401"
+			]
+			icon: {
+				count: 1
+				id: "createaddition:electric_motor"
+			}
+			id: "531D301B9E2E0866"
+			tasks: [
+				{
+					id: "3BB1A93C70FA04C6"
+					item: {
+						count: 1
+						id: "createaddition:electric_motor"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -1.6d
+		}
+		{
+			dependencies: [
+				"6044F861E5B78401"
+			]
+			icon: {
+				count: 1
+				id: "createaddition:modular_accumulator"
+			}
+			id: "7FE168DD6AB4803A"
+			optional: true
+			tasks: [
+				{
+					count: 4L
+					id: "3BC810A319A6BF99"
+					item: {
+						count: 1
+						id: "createaddition:modular_accumulator"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"331E18874D532A12"
+			]
+			icon: {
+				count: 1
+				id: "immersiveengineering:light_engineering"
+			}
+			id: "162616100B176828"
+			tasks: [
+				{
+					count: 8L
+					id: "5CC4F4E7F548D188"
+					item: {
+						count: 1
+						id: "immersiveengineering:light_engineering"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"162616100B176828"
+				"09D4E4A442A34289"
+			]
+			icon: {
+				count: 1
+				id: "immersiveengineering:mold_plate"
+			}
+			id: "2F7FCD4702E7C76B"
+			tasks: [
+				{
+					id: "60C9226725079391"
+					item: {
+						count: 1
+						id: "immersiveengineering:mold_plate"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"09D4E4A442A34289"
+				"4EC7B1831E7DB304"
+			]
+			icon: {
+				count: 1
+				id: "immersiveengineering:component_electronic"
+			}
+			id: "7EC6C2DA04D302B3"
+			tasks: [
+				{
+					count: 4L
+					id: "3D49E805FF103B89"
+					item: {
+						count: 1
+						id: "immersiveengineering:component_electronic"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"162616100B176828"
+			]
+			icon: {
+				count: 1
+				id: "immersiveengineering:crusher"
+			}
+			id: "6C4F438714F4ABD9"
+			optional: true
+			tasks: [
+				{
+					id: "20B116E54604EDD9"
+					type: "checkmark"
+				}
+			]
+			x: 14.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"430441746BF0E08C"
+			]
+			icon: {
+				count: 1
+				id: "immersiveengineering:windmill"
+			}
+			id: "072909DA7F13E32A"
+			optional: true
+			tasks: [
+				{
+					id: "1BD3B7073FE09FA4"
+					item: {
+						count: 1
+						id: "immersiveengineering:windmill"
+					}
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"5C6C25BD01035570"
+			]
+			icon: {
+				count: 1
+				id: "immersiveengineering:drill"
+			}
+			id: "6C4168284DBACE61"
+			optional: true
+			rewards: [
+				{
+					id: "689D4D9F227D46FC"
+					item: {
+						count: 1
+						id: "immersiveengineering:drillhead_iron"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4BFDDBB2F0844E95"
+					item: {
+						count: 1
+						id: "immersiveengineering:drill"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"328EA3B5429E11BC"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:ironwood_ingot"
+			}
+			id: "24AA973399F8B8C9"
+			tasks: [
+				{
+					count: 4L
+					id: "07037D4C69413C63"
+					item: {
+						count: 1
+						id: "twilightforest:ironwood_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"328EA3B5429E11BC"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:steeleaf_ingot"
+			}
+			id: "7F5958EEBF2BA599"
+			tasks: [
+				{
+					count: 4L
+					id: "0DF8C9F3E3B1E3CA"
+					item: {
+						count: 1
+						id: "twilightforest:steeleaf_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"328EA3B5429E11BC"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:lich_tower_miniature_structure"
+			}
+			id: "5EFC4B6434DD5723"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "78F0CD9195F97246"
+					structure: "twilightforest:lich_tower"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: 2.4000000000000004d
+		}
+		{
+			dependencies: [
+				"5EFC4B6434DD5723"
+				"21F3FD6E249DEE3D"
+			]
+			icon: {
+				count: 1
+				id: "twilightforest:lich_trophy"
+			}
+			id: "5A703CCF53FBBDFF"
+			rewards: [
+				{
+					id: "60ECF687B4DD6725"
+					type: "xp"
+					xp: 800
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [
+				{
+					entity: "twilightforest:lich"
+					id: "0D56B13041526896"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 10.0d
+			y: 3.2d
+		}
+		{
+			dependencies: [
+				"5A703CCF53FBBDFF"
+			]
+			icon: {
+				count: 1
+				id: "dernier_moteur:core_fragment_spark"
+			}
+			id: "575B7DFCDA7B0EC1"
+			shape: "octagon"
+			tasks: [
+				{
+					id: "02D70919775316B4"
+					item: {
+						count: 1
+						id: "dernier_moteur:core_fragment_spark"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.4000000000000004d
+		}
+		{
+			dependencies: [
+				"5A703CCF53FBBDFF"
+			]
+			icon: {
+				count: 1
+				id: "dernier_moteur:journal_3"
+			}
+			id: "4D2578E3F08633D9"
+			rewards: [
+				{
+					id: "529D786915FE82EE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "38E1DCDFC503C284"
+					item: {
+						count: 1
+						id: "dernier_moteur:journal_3"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"575B7DFCDA7B0EC1"
+				"152EBFDF9A397FA4"
+				"5C6C25BD01035570"
+				"24AA973399F8B8C9"
+				"7F5958EEBF2BA599"
+			]
+			icon: {
+				count: 1
+				id: "dernier_moteur:codex_forge"
+			}
+			id: "7074E98EEA52C6DA"
+			rewards: [
+				{
+					id: "0FCD6B535C10035F"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "0DA54ED8154375E1"
+					item: {
+						count: 16
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.6d
+			tasks: [
+				{
+					id: "4E50841D0E991187"
+					item: {
+						count: 1
+						id: "dernier_moteur:codex_forge"
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 1.6d
+		}
+	]
+}

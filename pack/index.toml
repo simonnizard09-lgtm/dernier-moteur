@@ -5,6 +5,62 @@ file = "config/almostunified/unification/materials.json"
 hash = "2bc755c89d7538d23b62174e3473b716f98cf4cc5d04da8a23d697c4fea7563c"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "653e1930cae9d9b680969facd22bad230206e1e637458f7750f7a3de1e9b2579"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/00_intro.snbt"
+hash = "643d5a752ca62457bc56a1daaf704426e2c39bc7e30f0d1f92f5508df0d307c8"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/01_reveil.snbt"
+hash = "77304d402f1b0d8202c6d02edb41eb9006e2594f07ca6f40fc9deaa85a18090e"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/02_vapeur.snbt"
+hash = "1e40f5781c1db2ab4db4229997432923f01de33bfcf0d17083d0f9d34c6304b1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/03_electricite.snbt"
+hash = "16bf5bdf7de5ff0b9977b592b863725b8c22c01c8b24d7117132ee97883561ab"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/04_industrie.snbt"
+hash = "46acf965deff52f286d6dc3d3f786708604a907466a53f74d7a7d4250f892721"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/05_automatisation.snbt"
+hash = "6196ec846c26ae458d81a6f3e63db7d57499d00f8d4d09f439144521c4137265"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/06_moteur.snbt"
+hash = "f6fd725546365c39fc591b984fd7f00fc7e9f78d284dcbcd84967a9ead88cd8d"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/10_exploration.snbt"
+hash = "1880d1cdee8a7a5e9ab131fd63a927250368c29c0bdbefeb823152701848b704"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/11_boss.snbt"
+hash = "6169f17fea89a611ef826541915f42104aab4a54b7496311500187dabd2becc2"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/12_survie.snbt"
+hash = "ecee3a20b372917143fbf7b8199aa9e2370066385631cb003e7c373309acd73a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/13_reglages.snbt"
+hash = "9df30f2ea2bf628d2c970199497eb119aff113bcc5f66e94814644d523e99240"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "69116d3e63b33da23f2f9d58bf1c54d81a5e88db45dccb421257e01aad801bd0"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "19ef7ca54d25537d013ccc85dfa2429a27012915e86c874bd6762f42d1d9cc92"
+
+[[files]]
 file = "config/improvedmobs/common.toml"
 hash = "f9e828c8a57219598f21d6840475c6cf5766e378316536da475641bf8c43af43"
 

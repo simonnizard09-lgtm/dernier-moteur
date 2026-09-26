@@ -1,0 +1,4 @@
+# Fichiers du dépôt qui ne doivent pas être distribués au client
+README.md
+*.md
+.packwizignore

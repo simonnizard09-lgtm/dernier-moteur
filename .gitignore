@@ -1,0 +1,11 @@
+# Mod build
+mod/build/
+mod/.gradle/
+mod/run/
+mod/runs/
+mod/out/
+mod/*.iml
+mod/.idea/
+# Divers
+*.log
+.DS_Store

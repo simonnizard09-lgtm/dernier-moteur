@@ -52,7 +52,7 @@ télécharger tout seul).
      -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
      ```
 
-5. **Lancer.** Au premier démarrage, une fenêtre packwiz télécharge ~120 mods (quelques minutes).
+5. **Lancer.** Au premier démarrage, une fenêtre packwiz télécharge ~90 mods (quelques minutes).
    Elle propose aussi les **mods optionnels** (voir plus bas). Les lancements suivants ne
    téléchargent que les mises à jour.
 
@@ -96,6 +96,9 @@ Proposés par la fenêtre packwiz au premier lancement :
 - **Distant Horizons** (désactivé par défaut) — vue lointaine en LOD.
 
 ---
+
+## Liste des mods
+Voir [`docs/mods.md`](docs/mods.md) (rôle de chaque mod et mods écartés).
 
 ## Structure du dépôt
 

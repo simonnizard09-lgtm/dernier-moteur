@@ -26,10 +26,31 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
 - **URL du pack** : le README pointe vers `main` (branche par défaut). Tant que la branche de dev
   n'est pas fusionnée, remplacer `main` par le nom de la branche dans la commande de pré-lancement.
 - **NeoForge 21.1.251** (dernière 21.1.x au moment de l'init ; Create 6 demande ≥ 21.1.219).
+- **CurseForge** seulement pour Twilight Forest et FTB Quests/Library/Teams (absents de Modrinth,
+  redistribution autorisée → packwiz-installer les télécharge).
+- **EMI + JEI** : EMI est l'interface ; JEI reste installé comme fournisseur de plugins (EMI les
+  lit) car Create/IE/TF n'ont parfois que des plugins JEI. Ce n'est pas un doublon fonctionnel
+  volontaire : ne pas activer l'interface JEI.
+- **Iris 1.8.14-beta** (couplée à Sodium 0.8.x, cf. message d'incompatibilité dans son jar) +
+  **Iris Flywheel Compat** pour Create 6 (Flywheel est embarqué dans Create 6).
+- **Distant Horizons** : option packwiz `optional=true, default=false`.
+- **Improved Mobs** : `Break BlockEntities=false`, `Stealer Chance=0` (pas de destruction de
+  machines ni de vol : difficulté oui, frustration non).
+- **Cataclysm sur serveur dédié** : ses boss plantent le chargement des tags sur serveur dédié
+  (champ `@OnlyIn(CLIENT)` lu par Improved Mobs). Sans effet en solo (serveur intégré). Pour les
+  tests serveur headless, retirer Cataclysm.
+- **Difficulté vanilla** : non forcée par le pack ; « Difficile » recommandé (README).
+- Liste commentée des mods et des écartés : `docs/mods.md`.
+
+## Outils
+- `tools/check_deps.py pack <cache>` : télécharge les jars et vérifie dépendances/incompatibilités.
+- Test serveur headless : installer NeoForge server (`--install-server`), copier les jars
+  `side = both|server`, `./run.sh nogui`, attendre `Done (`. Les erreurs KubeJS sont dans
+  `logs/kubejs/server.log`.
 
 ## État d'avancement
 - [x] Phase 1 — Structure (packwiz, README, CLAUDE.md)
-- [ ] Phase 2 — Mods + configs
+- [x] Phase 2 — Mods + configs (86 mods, serveur de test OK)
 - [ ] Phase 3 — Progression (`docs/progression.md`)
 - [ ] Phase 4 — KubeJS (items de lore, recettes)
 - [ ] Phase 5 — FTB Quests

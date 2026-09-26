@@ -58,6 +58,9 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
   Moteur lit les pièces par ID (`BuiltInRegistries.ITEM`) → pas de dépendance à KubeJS.
 - **Rhino/KubeJS** : pas de `const` dans un bloc (`if`, boucle) ni pour une variable globale
   réutilisée → « redeclaration of var ». Utiliser `let`.
+- **Release du mod** : une release par `mod_version`, jamais republiée (hash figé dans le pack).
+  Jar reproductible (`preserveFileTimestamps=false`). Le workflow committe
+  `pack/mods/dernier-moteur.pw.toml` sur la branche : faire `git pull` avant de continuer.
 - Liste commentée des mods et des écartés : `docs/mods.md`.
 
 ## Outils
@@ -77,5 +80,5 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
 - [x] Phase 4 — KubeJS (items de lore, recettes, drops de boss, carnet Patchouli) — validé sur serveur de test
 - [x] Phase 5 — FTB Quests (11 chapitres, 236 quêtes, chargées sans perte par FTB 2101.1.36)
 - [x] Phase 6 — Mod custom `dernier_moteur` (compile ; boss, drops, multibloc et allumage testés sur serveur)
-- [ ] Phase 7 — CI (build + release du mod, intégration packwiz)
+- [x] Phase 7 — CI : `.github/workflows/mod.yml` (build, release `mod-v<version>`, pw.toml auto-commité) + `pack.yml` (cohérence)
 - [ ] Phase 8 — Vérification finale

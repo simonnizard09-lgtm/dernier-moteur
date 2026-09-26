@@ -59,3 +59,9 @@ tasks.named('processResources', ProcessResources).configure {
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
 }
+
+// Jar reproductible : même source => même hash (le pack référence le jar par son hash).
+tasks.withType(AbstractArchiveTask).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}

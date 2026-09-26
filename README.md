@@ -110,6 +110,15 @@ Voir [`docs/mods.md`](docs/mods.md) (rôle de chaque mod et mods écartés).
 | `.github/workflows/` | CI : compilation du mod et publication en release. |
 | `CLAUDE.md` | Mémo de projet : conventions, décisions, état d'avancement. |
 
+## Mod custom et CI
+Le mod `dernier_moteur` (dossier `mod/`, voir [`mod/README.md`](mod/README.md)) apporte le boss
+final et le Moteur. La GitHub Action **Mod dernier_moteur** le compile à chaque changement ; au
+premier push d'une nouvelle version (`mod_version` dans `mod/gradle.properties`), elle publie le
+jar dans une release `mod-v<version>` et ajoute/actualise automatiquement
+`pack/mods/dernier-moteur.pw.toml` (URL de la release + sha512). packwiz-installer le télécharge
+donc comme n'importe quel autre mod. L'Action **Vérification du pack** contrôle que l'index
+packwiz et les quêtes générées sont à jour.
+
 ## Développement
 - Outil : `packwiz` (`go install github.com/packwiz/packwiz@latest`).
 - Ajouter un mod : `cd pack && packwiz modrinth add <slug>` (ou `packwiz curseforge add <slug>`).

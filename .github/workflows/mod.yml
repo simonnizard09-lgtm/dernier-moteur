@@ -1,0 +1,138 @@
+name: Mod dernier_moteur
+
+# Compile le mod à chaque changement. Sur un push (ou lancement manuel), si la release
+# mod-v<version> n'existe pas encore : la crée avec le jar, puis met à jour
+# pack/mods/dernier-moteur.pw.toml (URL + sha512) et l'index packwiz, et committe sur la branche.
+# Pour publier une nouvelle version du mod : augmenter mod_version dans mod/gradle.properties.
+
+on:
+  push:
+    paths:
+      - 'mod/**'
+      - '.github/workflows/mod.yml'
+  pull_request:
+    paths:
+      - 'mod/**'
+      - '.github/workflows/mod.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mod-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.meta.outputs.version }}
+      jar: ${{ steps.meta.outputs.jar }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Compiler
+        working-directory: mod
+        run: |
+          chmod +x gradlew
+          ./gradlew build --no-daemon
+
+      - name: Métadonnées
+        id: meta
+        working-directory: mod
+        run: |
+          version=$(grep '^mod_version=' gradle.properties | cut -d= -f2 | tr -d '[:space:]')
+          jar="dernier_moteur-${version}.jar"
+          test -f "build/libs/${jar}"
+          echo "version=${version}" >> "$GITHUB_OUTPUT"
+          echo "jar=${jar}" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dernier_moteur-jar
+          path: mod/build/libs/${{ steps.meta.outputs.jar }}
+
+  release:
+    needs: build
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      VERSION: ${{ needs.build.outputs.version }}
+      JAR: ${{ needs.build.outputs.jar }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Release déjà publiée ?
+        id: exists
+        run: |
+          if gh release view "mod-v${VERSION}" >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "La release mod-v${VERSION} existe déjà : rien à publier (hash inchangé)."
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/download-artifact@v4
+        if: steps.exists.outputs.exists == 'false'
+        with:
+          name: dernier_moteur-jar
+          path: dist
+
+      - name: Créer la release
+        if: steps.exists.outputs.exists == 'false'
+        run: |
+          gh release create "mod-v${VERSION}" "dist/${JAR}" \
+            --target "${GITHUB_SHA}" \
+            --title "Mod dernier_moteur ${VERSION}" \
+            --notes "Jar du mod custom du pack Le Dernier Moteur (NeoForge 1.21.1). Récupéré automatiquement par packwiz."
+
+      - uses: actions/setup-go@v5
+        if: steps.exists.outputs.exists == 'false'
+        with:
+          go-version: 'stable'
+
+      - name: Mettre à jour le pack (packwiz)
+        if: steps.exists.outputs.exists == 'false'
+        run: |
+          go install github.com/packwiz/packwiz@latest
+          url="https://github.com/${GITHUB_REPOSITORY}/releases/download/mod-v${VERSION}/${JAR}"
+          sha=$(sha512sum "dist/${JAR}" | cut -d' ' -f1)
+          cat > pack/mods/dernier-moteur.pw.toml <<TOML
+          name = "Le Dernier Moteur (mod du pack)"
+          filename = "${JAR}"
+          side = "both"
+
+          [download]
+          url = "${url}"
+          hash-format = "sha512"
+          hash = "${sha}"
+          TOML
+          cd pack && "$(go env GOPATH)/bin/packwiz" refresh
+
+      - name: Committer
+        if: steps.exists.outputs.exists == 'false'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pack/
+          if git diff --cached --quiet; then
+            echo "Rien à committer."
+            exit 0
+          fi
+          git commit -m "Pack : mod dernier_moteur ${VERSION} (release mod-v${VERSION})"
+          for i in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            sleep $((i * 5))
+          done
+          exit 1

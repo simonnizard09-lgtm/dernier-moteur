@@ -1,0 +1,42 @@
+name: Vérification du pack
+
+# Vérifie que le pack commité est cohérent :
+#  - les quêtes FTB régénérées depuis tools/quests/ sont identiques aux fichiers commités ;
+#  - l'index packwiz est à jour (packwiz refresh ne change rien).
+
+on:
+  push:
+    paths:
+      - 'pack/**'
+      - 'tools/**'
+      - '.github/workflows/pack.yml'
+  pull_request:
+    paths:
+      - 'pack/**'
+      - 'tools/**'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+
+      - name: Quêtes FTB à jour
+        run: |
+          python3 tools/quests/build.py
+          git diff --exit-code -- pack/config/ftbquests
+
+      - name: Index packwiz à jour
+        run: |
+          go install github.com/packwiz/packwiz@latest
+          cd pack && "$(go env GOPATH)/bin/packwiz" refresh
+          git diff --exit-code -- .

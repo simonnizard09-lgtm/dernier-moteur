@@ -40,6 +40,9 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
   (champ `@OnlyIn(CLIENT)` lu par Improved Mobs). Sans effet en solo (serveur intégré). Pour les
   tests serveur headless, retirer Cataclysm.
 - **Difficulté vanilla** : non forcée par le pack ; « Difficile » recommandé (README).
+- **Portes d'ère = boss → fragments → codex catalyseurs** (`keepIngredient`) : voir
+  `docs/progression.md`. Items KubeJS et mod partagent le namespace `dernier_moteur`
+  (le mod ne déclare que Clé du Gardien, Cœur du Gardien, blocs du Moteur, boss).
 - Liste commentée des mods et des écartés : `docs/mods.md`.
 
 ## Outils
@@ -51,7 +54,7 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
 ## État d'avancement
 - [x] Phase 1 — Structure (packwiz, README, CLAUDE.md)
 - [x] Phase 2 — Mods + configs (86 mods, serveur de test OK)
-- [ ] Phase 3 — Progression (`docs/progression.md`)
+- [x] Phase 3 — Progression (`docs/progression.md`)
 - [ ] Phase 4 — KubeJS (items de lore, recettes)
 - [ ] Phase 5 — FTB Quests
 - [ ] Phase 6 — Mod custom `dernier_moteur`

@@ -226,7 +226,7 @@ hash = "7ae805aa9a24899473669aef48c75c6c2f7960dd647e89f978f3b1943ed799d4"
 
 [[files]]
 file = "kubejs/client_scripts/journals.js"
-hash = "591e52bf57ed3c21616872fd5310327d821c457d79d85a91e0538e63a2af8e4a"
+hash = "b9248f4ebb3fd3b1ec3554786d31b8dca7258f967568f9672fe577dd5bcf23f1"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"

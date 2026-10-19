@@ -129,3 +129,8 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
   KubeJS, 27 recettes ajoutées / 15 retirées sans échec, 236 quêtes, 7 boss → fragments, cœur et
   journaux. Erreurs restantes du log = bruit amont (Create Connected « dye_depot », potions de
   When Dungeons Arise, advancements optionnels, slot exemple de Curios), sans effet en jeu.
+- [x] Améliorations (oct. 2026, pack 0.2.0) : scan anti-contournement (aucun), décraft TF bloqué,
+  unification des métaux + minerais en double retirés, chapitre « Ateliers Create » (262 quêtes),
+  journaux dans 30 coffres de structures, CI `boot.yml` (démarrage + contrôles, vert), mod 1.1.0
+  (Gardien lumineux), `.mrpack` publié automatiquement, splashs + icône. Reste : équilibrage après
+  quelques heures de jeu (retours joueur).

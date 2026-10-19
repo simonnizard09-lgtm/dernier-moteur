@@ -225,6 +225,10 @@ file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/journaux/jo
 hash = "7ae805aa9a24899473669aef48c75c6c2f7960dd647e89f978f3b1943ed799d4"
 
 [[files]]
+file = "kubejs/client_scripts/journals.js"
+hash = "78567106711447f0cbdd956c5eb80de7bed58c9297ff58a06de7b0ced83772ec"
+
+[[files]]
 file = "kubejs/client_scripts/tooltips.js"
 hash = "a5e3f8d6e3b541fff90913a019ec0e2c5e562f79a719029f5fa23f2773f410af"
 
@@ -339,10 +343,6 @@ hash = "dda9a00556289341779c8a10e942e51cda414dea11fed32c2f319303530afa47"
 [[files]]
 file = "kubejs/server_scripts/first_join.js"
 hash = "c5cf9bc1f040f963429dc65eb73c946e37077d96fc783f592d83b3780877b133"
-
-[[files]]
-file = "kubejs/server_scripts/journals.js"
-hash = "33ebad5cdca2592ed7d545a6521c70bb8802545bf811d933482ee6bad1cf8ddc"
 
 [[files]]
 file = "kubejs/server_scripts/recipes_progression.js"

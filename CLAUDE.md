@@ -38,8 +38,10 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
   jour qui casse le hash du pack), `generatorPlan="SURFACE_THEN_CHUNKS"`.
 - **Chunky retiré** : DH, s'il détecte la classe `org.popcraft.chunky.api.ChunkyAPI`, force sans
   condition `generatorPlan=DISABLED` (verrou API « Distant Horizons / Chunky ») → horizon vide.
-- **Journaux** : clic droit → `server_scripts/journals.js` ouvre l'entrée
-  `patchouli:journaux/journal_N` du Carnet via `PatchouliAPI.openBookEntry(ServerPlayer, …)`.
+- **Journaux** : clic droit → `client_scripts/journals.js` ouvre l'entrée
+  `patchouli:journaux/journal_N` côté client, après avoir vérifié qu'elle existe (sinon ouvre le
+  Carnet et journalise les entrées connues). **Ne jamais utiliser `openBookEntry(ServerPlayer, …)`** :
+  si l'entrée manque côté client, Patchouli déconnecte le joueur (« Failed to open book … entry is null »).
 - **Improved Mobs** : `Break BlockEntities=false`, `Stealer Chance=0` (pas de destruction de
   machines ni de vol : difficulté oui, frustration non).
 - **Cataclysm sur serveur dédié** : ses boss plantent le chargement des tags sur serveur dédié

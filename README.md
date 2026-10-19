@@ -149,7 +149,8 @@ Pour tester vite en créatif : `/give @s dernier_moteur:codex_spark`, puis `dern
 
 ### Correctifs à retester (retour du premier test client)
 1. **Journaux** : clic droit avec un Journal d'ingénieur (n°1 dès le départ) → le Carnet s'ouvre à
-   la page de ce journal.
+   la page de ce journal (au pire, sur sa page d'accueil ; jamais de déconnexion). Si c'est la page
+   d'accueil, envoyer `logs/kubejs/client.log` (il liste les entrées que Patchouli a chargées).
 2. **Distant Horizons, horizon** : sur un **monde neuf**, l'horizon se remplit seul en quelques
    minutes ; dans *Mods → Distant Horizons → Config*, le générateur n'est plus « Disabled / API LOCK ».
 3. **Distant Horizons, mises à jour** : plus de message « New update available » au lancement.

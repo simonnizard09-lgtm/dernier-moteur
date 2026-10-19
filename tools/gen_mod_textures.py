@@ -130,4 +130,25 @@ for x in range(0, 128, 8):  # rivets de laiton
         if rng.random() < 0.35:
             g.putpixel((x + 3, y + 3), hexc("#c9a45c"))
 save(g, "entity", "core_guardian")
+
+# --- Calque lumineux du Gardien (rendu plein éclairage, RenderType.eyes) : yeux + cœur de poitrine.
+# UV du modèle de golem de fer (texture 128×128) : face avant de la tête = u 8..15, v 8..17 ;
+# face avant du torse = u 11..28, v 51..62.
+glow = Image.new("RGBA", (128, 128), (0, 0, 0, 0))
+for (x, y) in [(9, 12), (10, 12), (13, 12), (14, 12)]:
+    glow.putpixel((x, y), hexc("#ffd27a"))
+for (x, y) in [(9, 13), (10, 13), (13, 13), (14, 13)]:
+    glow.putpixel((x, y), hexc("#f07a2a", 170))
+cx, cy = 19, 56
+for dx in range(-3, 4):
+    for dy in range(-3, 4):
+        d = abs(dx) + abs(dy)
+        if d <= 3:
+            col = "#fff2c0" if d <= 1 else ("#ffb05a" if d == 2 else "#f07a2a")
+            glow.putpixel((cx + dx, cy + dy), hexc(col, 255 if d < 3 else 160))
+for i in range(1, 6):  # veines qui partent du cœur
+    for (x, y) in [(cx - 3 - i, cy + (i % 2)), (cx + 3 + i, cy - (i % 2)), (cx + (i % 2), cy + 3 + i)]:
+        if 11 <= x <= 28 and 51 <= y <= 62:
+            glow.putpixel((x, y), hexc("#f07a2a", 140))
+save(glow, "entity", "core_guardian_glow")
 print("Textures du mod générées dans", OUT)

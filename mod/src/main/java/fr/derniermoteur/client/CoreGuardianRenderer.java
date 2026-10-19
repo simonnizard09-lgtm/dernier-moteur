@@ -7,7 +7,7 @@ import net.minecraft.client.renderer.entity.IronGolemRenderer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.animal.IronGolem;
 
-/** Modèle du golem de fer, texture d'alliage noirci, échelle ×2. */
+/** Modèle du golem de fer, texture d'alliage noirci, échelle ×2, yeux et cœur lumineux. */
 public class CoreGuardianRenderer extends IronGolemRenderer {
     private static final ResourceLocation TEXTURE =
             ResourceLocation.fromNamespaceAndPath(DernierMoteur.MODID, "textures/entity/core_guardian.png");
@@ -15,6 +15,7 @@ public class CoreGuardianRenderer extends IronGolemRenderer {
     public CoreGuardianRenderer(EntityRendererProvider.Context ctx) {
         super(ctx);
         this.shadowRadius = 1.4f;
+        this.addLayer(new CoreGuardianGlowLayer(this));
     }
 
     @Override

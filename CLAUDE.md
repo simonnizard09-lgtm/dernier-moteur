@@ -81,4 +81,7 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
 - [x] Phase 5 — FTB Quests (11 chapitres, 236 quêtes, chargées sans perte par FTB 2101.1.36)
 - [x] Phase 6 — Mod custom `dernier_moteur` (compile ; boss, drops, multibloc et allumage testés sur serveur)
 - [x] Phase 7 — CI : `.github/workflows/mod.yml` (build, release `mod-v<version>`, pw.toml auto-commité) + `pack.yml` (cohérence)
-- [ ] Phase 8 — Vérification finale
+- [x] Phase 8 — Vérification finale : release `mod-v1.0.0` publiée et référencée par le pack (hash
+  vérifié), 0 dépendance manquante (98 modIds), serveur de test avec l'état exact du dépôt :
+  0 erreur KubeJS, recettes présentes, 236 quêtes, tous les IDs de quêtes existent (mod inclus),
+  boss + Moteur OK. Reste à tester côté client : voir « Points à tester » du README.

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "nova_structures:chests/end_lighthouse/vault_lighthouse"
+    }
+  ],
+  "table": "dernier_moteur:inject/journal_6"
+}

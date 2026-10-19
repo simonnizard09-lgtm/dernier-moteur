@@ -3,7 +3,7 @@
   "conditions": [
     {
       "condition": "neoforge:loot_table_id",
-      "loot_table_id": "minecraft:chests/simple_dungeon"
+      "loot_table_id": "betterdungeons:skeleton_dungeon/chests/common"
     }
   ],
   "table": "dernier_moteur:inject/journal_2"

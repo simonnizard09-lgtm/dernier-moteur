@@ -31,6 +31,10 @@
 		"Là où tout s'est arrêté."
 	]
 	"chapter.56CF7A16ACB5E455.title": "Le Silence"
+	"chapter.58FB3FF0B95219EE.chapter_subtitle": [
+		"Les ingénieurs ne s'arrêtaient jamais à une seule machine."
+	]
+	"chapter.58FB3FF0B95219EE.title": "Ateliers Create"
 	"chapter.6391609A3A492308.chapter_subtitle": [
 		"Tenir, saison après saison."
 	]
@@ -51,6 +55,12 @@
 		"Mieux vaut l'éviter. Pour les téméraires seulement."
 	]
 	"quest.01AF977A340D6E46.title": "Le Warden"
+	"quest.01C0ECCDECA21B47.quest_desc": [
+		"&7&oUne autre manière d'apprivoiser l'atome.&r"
+		""
+		"Create Nuclear : réacteur multibloc. Protège-toi des radiations."
+	]
+	"quest.01C0ECCDECA21B47.title": "Le réacteur de Create"
 	"quest.01CAC87D98E04D67.quest_desc": [
 		"&eCrash Assistant&r ouvre une fenêtre avec les logs à copier. Le fichier utile est &elogs/latest.log&r (et &ecrash-reports/&r)."
 	]
@@ -82,11 +92,23 @@
 	]
 	"quest.041253C33805A68B.title": "Repousser l'ombre"
 	"quest.0456C4F55B85EEAB.title": "Câbles universels"
+	"quest.049EF675A0494A6F.quest_desc": [
+		"Create: Numismatics : vends tes surplus aux villageois avec des distributeurs."
+	]
+	"quest.049EF675A0494A6F.title": "Numismatique"
+	"quest.0549B884F944A5AF.quest_desc": [
+		"Create Aeronautics : hélices, ballons et engins volants."
+	]
+	"quest.0549B884F944A5AF.title": "Prendre l'air"
 	"quest.05937C91CC9BDC09.quest_desc": [
 		"Ici, les boss &eoptionnels&r. Aucun ne bloque l'histoire, tous récompensent bien."
 		"Les &6gardiens&r (portes d'ère) sont dans les chapitres d'histoire."
 	]
 	"quest.05937C91CC9BDC09.title": "Chasseur de boss"
+	"quest.05D2E8481CE265F7.quest_desc": [
+		"Copie livres enchantés, cartes et panneaux."
+	]
+	"quest.05D2E8481CE265F7.title": "L'imprimante"
 	"quest.064DC2D8C847BC99.title": "Capteur de saison"
 	"quest.06FB86F12CF3A497.quest_desc": [
 		"Dans la grotte glacée du Crépuscule."
@@ -113,6 +135,10 @@
 	]
 	"quest.0A4E5E66ABB52C7B.title": "Journal n°1"
 	"quest.0A7B2F7E6357312B.title": "La roue à eau"
+	"quest.0BCF9106739A649D.quest_desc": [
+		"Slice & Dice automatise la planche à découper de Farmer's Delight."
+	]
+	"quest.0BCF9106739A649D.title": "La trancheuse"
 	"quest.0CAE7AFF6A60A7B5.quest_desc": [
 		"Le chapitre annexe &6Shaders & réglages&r explique comment activer les shaders, régler la mémoire et les touches."
 	]
@@ -123,6 +149,10 @@
 	"quest.0CBD469833DC594A.title": "La Netherite Monstrosity"
 	"quest.0D42D072FB3940DA.title": "Carter d'andésite"
 	"quest.0ED33C6F32267A5C.title": "Sac en diamant"
+	"quest.0ED4C4E82AA1C227.quest_desc": [
+		"Un matériau qui flotte : la clé des dirigeables."
+	]
+	"quest.0ED4C4E82AA1C227.title": "La lévitite"
 	"quest.0EF635360E3FA49B.quest_desc": [
 		"Carotteuse pour trouver des gisements, puis l'excavatrice pour les exploiter."
 	]
@@ -171,6 +201,10 @@
 	]
 	"quest.1744DEF7171E0BA8.title": "Le Ferrous Wroughtnaut"
 	"quest.176CB25DE8234363.title": "Une clé à molette"
+	"quest.18360E6DCEF70660.quest_desc": [
+		"Steam 'n' Rails : nouveaux rails, sémaphores et attelages pour tes trains."
+	]
+	"quest.18360E6DCEF70660.title": "Rails et signaux"
 	"quest.18413DF6FDB2CACF.title": "Cadre avancé"
 	"quest.18495200B844B5B3.title": "Le fourneau"
 	"quest.18EB2FA130FF3B1F.quest_desc": [
@@ -222,6 +256,10 @@
 	]
 	"quest.1C20113A616E422B.title": "La première leçon"
 	"quest.1C76135BAD2A64AF.title": "Le château final"
+	"quest.1C7ED3ABBB0B0739.quest_desc": [
+		"Chevalet de pompage sur un gisement de pétrole, puis raffinage."
+	]
+	"quest.1C7ED3ABBB0B0739.title": "Le pétrole"
 	"quest.1D0F8B8BF3D931F9.quest_desc": [
 		"Deux lingots d'osmium + un &ecomposant électronique d'IE&r."
 	]
@@ -240,6 +278,10 @@
 		"Réserve pleine, pièces en place : clic droit sur le contrôleur, &eaccroupi&r."
 	]
 	"quest.1E316E23D4D50C43.title": "Rallumer le Moteur"
+	"quest.1F4A3F2BCF9ED668.quest_desc": [
+		"Un métal très résistant, tiré de la wolframite."
+	]
+	"quest.1F4A3F2BCF9ED668.title": "Le tungstène"
 	"quest.1F593CC10664018B.quest_desc": [
 		"Presse les lingots en &eplaques&r. Beaucoup de recettes du pack en demandent."
 	]
@@ -283,6 +325,12 @@
 		"&e6 Fragments du Noyau&r, le &eCœur du Gardien&r et &e4 Processeurs du Moteur&r."
 	]
 	"quest.25FC4FEB600580B9.title": "Les pièces du Noyau"
+	"quest.2717A035B3C8E093.quest_desc": [
+		"&7&o« Chaque atelier avait ses spécialités. Retrouve-les. »&r"
+		""
+		"Ce chapitre présente les grands addons de Create du pack. Rien n'y est obligatoire, mais beaucoup facilitent la suite."
+	]
+	"quest.2717A035B3C8E093.title": "L'atelier étendu"
 	"quest.288B94DB50A9346D.quest_desc": [
 		"Notre sentinelle la plus loyale. Elle ne reconnaît plus personne."
 		"Elle garde le &6Fragment du Noyau — Néant&r et le Journal n°6."
@@ -298,6 +346,10 @@
 	"quest.2E459C5D6AD6FABE.title": "Le Gardien du Noyau"
 	"quest.2E47A342C869451C.title": "Journal n°7"
 	"quest.2E830366F9F2DB80.title": "La pyramide maudite"
+	"quest.2E8C761A5632756E.quest_desc": [
+		"Le haut fourneau multibloc de TFMG coule l'acier en continu."
+	]
+	"quest.2E8C761A5632756E.title": "Haut fourneau de TFMG"
 	"quest.2EA818E9139A36C3.quest_desc": [
 		"Une bête des neiges endormie. Ne la réveille pas sans être prêt."
 	]
@@ -381,6 +433,10 @@
 	"quest.3B8F2F3B3F367075.title": "Le chargeur"
 	"quest.3BC49DDE018592AF.title": "Cube d'énergie"
 	"quest.3BF636DBC0E70138.title": "L'œil de l'abysse"
+	"quest.3D10073E5D1212C8.quest_desc": [
+		"Arrose et fertilise les cultures, même en saison sèche."
+	]
+	"quest.3D10073E5D1212C8.title": "Arroseurs"
 	"quest.3DCF7575433ACE78.title": "La tour noire"
 	"quest.3E570A3DA2A9A272.title": "Le mineur digital"
 	"quest.3ED6C2B19F303570.title": "Fragment du Néant"
@@ -398,6 +454,10 @@
 		"Branche ta machine à vapeur de Create sur une dynamo : rotation → énergie (FE)."
 	]
 	"quest.430441746BF0E08C.title": "La dynamo cinétique"
+	"quest.43B4BF4494FE4B80.quest_desc": [
+		"Copycats+ : des blocs qui prennent l'apparence d'un autre, pour des usines propres."
+	]
+	"quest.43B4BF4494FE4B80.title": "Blocs imitateurs"
 	"quest.448CBF1F0766EC50.quest_desc": [
 		"Pose le contrôleur au centre d'une face, entoure le cube de boîtiers, puis fais un clic droit à main vide sur le contrôleur : il indique s'il est formé et ce qui lui manque."
 	]
@@ -411,6 +471,10 @@
 		"Minerais tirés du vide, sans creuser. Demande un processeur du Moteur."
 	]
 	"quest.45BFA72AF1470148.title": "La foreuse laser"
+	"quest.46D1EB3BB9CB484F.quest_desc": [
+		"Enchantements automatisés avec de l'expérience liquide."
+	]
+	"quest.46D1EB3BB9CB484F.title": "L'enchanteur à blaze"
 	"quest.46F078E29556874E.quest_desc": [
 		"Multibloc géant : fond, allie et recycle. Les électrodes de graphite s'usent."
 	]
@@ -433,6 +497,10 @@
 		"&7&o« C'est ici que nous fabriquions les gardiens. »&r"
 	]
 	"quest.4B4FA7969CBFC5AF.title": "L'usine ancienne"
+	"quest.4B871FC871FD0CDE.quest_desc": [
+		"Create: Garnished : noix, sauces et plats à préparer à la chaîne."
+	]
+	"quest.4B871FC871FD0CDE.title": "Garnitures"
 	"quest.4C53E2D41B9FD7A1.title": "La citadelle en ruine"
 	"quest.4CDB98EF846854C5.quest_desc": [
 		"Motifs + fournisseur de motifs + assembleur moléculaire + CPU d'artisanat."
@@ -512,6 +580,10 @@
 		"Invoque-le loin de tout. Son étoile sert à la Clé du Gardien."
 	]
 	"quest.57EBEA1B3599E4A0.title": "Le Wither"
+	"quest.58758134A627168F.quest_desc": [
+		"Des moteurs à essence ou diesel, assemblés cylindre par cylindre."
+	]
+	"quest.58758134A627168F.title": "Moteurs à explosion"
 	"quest.58B1D307947CA117.quest_desc": [
 		"Codex de la Forge dans la grille. Pour les grands multiblocs d'IE."
 	]
@@ -590,6 +662,10 @@
 		"&7&oLes arbres, au moins, n'ont pas changé.&r"
 	]
 	"quest.6066CFDBAD8DB888.title": "Du bois et une table"
+	"quest.6095510DAD8AE422.quest_desc": [
+		"Obus perforants, mitraille, charges propulsives… à fabriquer à la chaîne."
+	]
+	"quest.6095510DAD8AE422.title": "Munitions"
 	"quest.60FA5E5154A0A691.quest_desc": [
 		"&eIris Flywheel Compat&r fait fonctionner les machines animées de Create sous shaders."
 		"Si une machine s'affiche mal : essaie un autre shaderpack, ou la commande &e/flywheel backend&r."
@@ -633,6 +709,10 @@
 	"quest.66A24B1EC783C240.title": "Laver, fumer, fondre"
 	"quest.67150B15030EDF41.title": "Le repaire de l'Hydre"
 	"quest.6733F6256D7A8086.title": "Temple du désert"
+	"quest.6758E6620583315F.quest_desc": [
+		"Fonctionne à l'air comprimé du réservoir dorsal."
+	]
+	"quest.6758E6620583315F.title": "Le jetpack de Create"
 	"quest.67A7E3B09D22E80A.quest_desc": [
 		"L'énergie qui rallumera le Moteur. Le contrôleur demande un processeur du Moteur."
 	]
@@ -653,6 +733,10 @@
 		"Le bandeau en haut de l'écran décrit le bloc visé : énergie, progression, contenu."
 	]
 	"quest.695E70A2C5FA26A3.title": "Jade"
+	"quest.6A76D6B9E6EFFBC5.quest_desc": [
+		"Une rotation puissante et compacte, à condition d'avoir du carburant."
+	]
+	"quest.6A76D6B9E6EFFBC5.title": "Le moteur diesel"
 	"quest.6ABC47CD9865F7D3.title": "Broyeur"
 	"quest.6B6BF2C768C38B7D.title": "Module aimant"
 	"quest.6C0D3A6DD854C2FB.quest_desc": [
@@ -681,6 +765,10 @@
 		"Sous la pyramide maudite."
 	]
 	"quest.6F1FC09672F809A8.title": "L'Ancient Remnant"
+	"quest.6FA7BFFE98B2AA8C.quest_desc": [
+		"Sous-produit du pétrole, utile pour l'électronique."
+	]
+	"quest.6FA7BFFE98B2AA8C.title": "Plastique"
 	"quest.7074E98EEA52C6DA.quest_desc": [
 		"&7&o« La Forge fut la troisième leçon : fondre, séparer, recomposer. »&r"
 		""
@@ -749,16 +837,36 @@
 		"Pose-le contre un tronc : il en tire du latex."
 	]
 	"quest.7A783D49911BDEA2.title": "Extracteur de fluide"
+	"quest.7AEFE43A90A4944F.quest_desc": [
+		"Trouve un gisement profond et fore-le sans fin."
+	]
+	"quest.7AEFE43A90A4944F.title": "Gisements infinis"
 	"quest.7B9609B97195A2DF.quest_desc": [
 		"&7&oCommence par survivre. La technique viendra.&r"
 		""
 		"Le chapitre &6Ère 0 — Réveil&r t'attend."
 	]
 	"quest.7B9609B97195A2DF.title": "Premiers pas"
+	"quest.7CA4D40B873B0E86.quest_desc": [
+		"Create Big Cannons : coule les fûts, monte-les sur un affût et vise."
+	]
+	"quest.7CA4D40B873B0E86.title": "Le grand canon"
+	"quest.7D25C9413B847407.quest_desc": [
+		"Create: Metallurgy : fondre les minerais et couler lingots, plaques et tiges."
+	]
+	"quest.7D25C9413B847407.title": "La fonderie"
 	"quest.7D290E51D0DD7E82.quest_desc": [
 		"La gourde contient plusieurs gorgées. Remplis-la puis purifie-la comme une bouteille."
 	]
 	"quest.7D290E51D0DD7E82.title": "Une gourde"
+	"quest.7DE7FFF77F629188.quest_desc": [
+		"The Factory Must Grow : une autre voie vers l'acier, à grande échelle."
+	]
+	"quest.7DE7FFF77F629188.title": "Four à coke de TFMG"
+	"quest.7E61A5E3EC7BAB03.quest_desc": [
+		"Pétrole brut → carburants. Trouve un gisement et une pompe."
+	]
+	"quest.7E61A5E3EC7BAB03.title": "La distillation"
 	"quest.7E9769A6BB24EDFC.title": "Plaques de laiton"
 	"quest.7EC6C2DA04D302B3.quest_desc": [
 		"Le cœur des circuits. Mekanism en exigera pour ses circuits de contrôle."
@@ -769,6 +877,10 @@
 		"Le laiton exige une chaleur vive."
 	]
 	"quest.7EE829369281E60B.title": "Un brûleur à blaze"
+	"quest.7F27A2BC827C9483.quest_desc": [
+		"Garde une zone chargée tant qu'il tourne : tes machines continuent pendant ton absence."
+	]
+	"quest.7F27A2BC827C9483.title": "Chargeur de zone"
 	"quest.7F5958EEBF2BA599.title": "Feuille d'acier"
 	"quest.7FE168DD6AB4803A.title": "Accumulateur modulaire"
 }

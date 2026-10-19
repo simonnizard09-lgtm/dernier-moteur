@@ -3,8 +3,8 @@
   "conditions": [
     {
       "condition": "neoforge:loot_table_id",
-      "loot_table_id": "minecraft:chests/buried_treasure"
+      "loot_table_id": "minecraft:chests/stronghold_library"
     }
   ],
-  "table": "dernier_moteur:inject/journal_7"
+  "table": "dernier_moteur:inject/journal_5"
 }

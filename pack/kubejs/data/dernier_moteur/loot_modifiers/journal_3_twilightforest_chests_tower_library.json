@@ -3,8 +3,8 @@
   "conditions": [
     {
       "condition": "neoforge:loot_table_id",
-      "loot_table_id": "minecraft:chests/ancient_city"
+      "loot_table_id": "twilightforest:chests/tower_library"
     }
   ],
-  "table": "dernier_moteur:inject/journal_5"
+  "table": "dernier_moteur:inject/journal_3"
 }

@@ -3,8 +3,8 @@
   "conditions": [
     {
       "condition": "neoforge:loot_table_id",
-      "loot_table_id": "minecraft:chests/nether_bridge"
+      "loot_table_id": "minecraft:chests/abandoned_mineshaft"
     }
   ],
-  "table": "dernier_moteur:inject/journal_4"
+  "table": "dernier_moteur:inject/journal_2"
 }

@@ -57,7 +57,8 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
   jamais dans les resource packs : du contenu dans `kubejs/assets/patchouli/…` est ignoré (livre
   réduit à sa page d'accueil). Généré par `tools/gen_patchouli.py`.
 - **Drops de boss** : `EntityEvents.death` + `spawnAtLocation` (invulnérable, sans expiration),
-  testé sur les 6 gardiens. Journaux en coffres via Global Loot Modifiers NeoForge (`neoforge:add_table`).
+  testé sur les 6 gardiens. Journaux en coffres via Global Loot Modifiers NeoForge (`neoforge:add_table`), 25 %, dans 30 tables
+  vanilla + YUNG's, WDA, TF, Nova Structures, Aquamirae, Cataclysm : généré par `tools/gen_loot.py`.
 - **Noms d'items KubeJS** en français via `displayName` (pas de fichier lang pour eux).
 - **Quêtes générées** par `tools/quests/build.py` (DSL dans `tools/quests/content.py`) : ne pas
   éditer les SNBT à la main, régénérer. Textes dans `quests/lang/en_us.snbt` (FR sous en_us).
@@ -94,6 +95,7 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
 - `tools/gen_textures.py` : textures 16×16 des items KubeJS (Pillow).
 - `tools/quests/build.py --dump <dump.json>` : génère et valide les quêtes FTB.
 - `tools/gen_mod_textures.py` : textures du mod.
+- `tools/gen_loot.py` : injections des journaux dans les coffres de structures.
 - `tools/gen_patchouli.py` : contenu du Carnet + advancements des journaux.
 - `tools/check_deps.py pack <cache>` : télécharge les jars et vérifie dépendances/incompatibilités.
 - Test serveur headless : installer NeoForge server (`--install-server`), copier les jars
@@ -105,7 +107,7 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
 - [x] Phase 2 — Mods + configs (86 mods à l'origine ; 152 + le mod custom après ajout des addons Create et de FTB Ultimine)
 - [x] Phase 3 — Progression (`docs/progression.md`)
 - [x] Phase 4 — KubeJS (items de lore, recettes, drops de boss, carnet Patchouli) — validé sur serveur de test
-- [x] Phase 5 — FTB Quests (11 chapitres, 236 quêtes, chargées sans perte par FTB 2101.1.36)
+- [x] Phase 5 — FTB Quests (12 chapitres, 262 quêtes dont l'annexe « Ateliers Create », chargées sans perte)
 - [x] Phase 6 — Mod custom `dernier_moteur` (compile ; boss, drops, multibloc et allumage testés sur serveur)
 - [x] Phase 7 — CI : `.github/workflows/mod.yml` (build, release `mod-v<version>`, pw.toml auto-commité) + `pack.yml` (cohérence)
 - [x] Phase 8 — Vérification finale : release `mod-v1.0.0` publiée et référencée par le pack (hash

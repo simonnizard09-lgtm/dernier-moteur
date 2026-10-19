@@ -3,8 +3,8 @@
   "conditions": [
     {
       "condition": "neoforge:loot_table_id",
-      "loot_table_id": "minecraft:chests/underwater_ruin_big"
+      "loot_table_id": "minecraft:chests/end_city_treasure"
     }
   ],
-  "table": "dernier_moteur:inject/journal_7"
+  "table": "dernier_moteur:inject/journal_6"
 }

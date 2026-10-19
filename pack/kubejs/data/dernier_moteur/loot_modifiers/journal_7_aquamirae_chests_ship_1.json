@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "aquamirae:chests/ship_1"
+    }
+  ],
+  "table": "dernier_moteur:inject/journal_7"
+}

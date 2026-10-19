@@ -3,7 +3,7 @@
   "conditions": [
     {
       "condition": "neoforge:loot_table_id",
-      "loot_table_id": "twilightforest:chests/tower_library"
+      "loot_table_id": "twilightforest:chests/tower_enchanting"
     }
   ],
   "table": "dernier_moteur:inject/journal_3"

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "dungeons_arise:chests/mining_system/mining_system_treasure"
+    }
+  ],
+  "table": "dernier_moteur:inject/journal_2"
+}

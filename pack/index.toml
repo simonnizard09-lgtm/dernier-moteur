@@ -54,7 +54,11 @@ hash = "ecee3a20b372917143fbf7b8199aa9e2370066385631cb003e7c373309acd73a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/13_reglages.snbt"
-hash = "9df30f2ea2bf628d2c970199497eb119aff113bcc5f66e94814644d523e99240"
+hash = "8cfdea0df14cacba4b3c426222d75e15ad23a3a2c535c1e3ac1cfdf11df64839"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/14_ateliers.snbt"
+hash = "b7ee60835e6d8badde2316abf341d266c0b6498492dd84668d7f06a69040336b"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -62,7 +66,7 @@ hash = "69116d3e63b33da23f2f9d58bf1c54d81a5e88db45dccb421257e01aad801bd0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "9efd0ff4417a899b11d3be8b0e8e0ed90da4841cd354a94aab029a2808ff59e6"
+hash = "922cb16979d39212ee6c3f141dddeb9e728730ec8707ea30bd023e4d851f8687"
 
 [[files]]
 file = "config/improvedmobs/common.toml"
@@ -201,72 +205,148 @@ file = "kubejs/data/dernier_moteur/advancement/journal/journal_8.json"
 hash = "7ffd914c5b15cf5bee7972d1169b823557cf0d4346a249c6bd5947a1f9d585ef"
 
 [[files]]
-file = "kubejs/data/dernier_moteur/loot_modifiers/journal_2_abandoned_mineshaft.json"
-hash = "89cd9c6228966eed547a3ec1b1ffc3ee431cb4af95f905ee1d7b38fd138a7776"
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_2_betterdungeons_skeleton_dungeon_chests_common.json"
+hash = "3fad98fbe543be082afb62f1a18fa4c71bc39b964beef3548580e949f5f14e22"
 
 [[files]]
-file = "kubejs/data/dernier_moteur/loot_modifiers/journal_2_simple_dungeon.json"
-hash = "664382a74942a5dee83e6c2e88ce9e3d114a6970757621c04e62e05e673d69c3"
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_2_betterdungeons_zombie_dungeon_chests_common.json"
+hash = "3ed0d290a5c6d32773f72b96ed075d4366dc2713b0e49b45e29f55f0d65eec5e"
 
 [[files]]
-file = "kubejs/data/dernier_moteur/loot_modifiers/journal_3_tower_library.json"
-hash = "bded6f90aed64cfa4c55ff940c2c712d6ae491ac8a71ada33a0b9c997dc5a1fd"
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_2_dungeons_arise_chests_mining_complex_mining_complex_treasure.json"
+hash = "c4c3dbb8377cba9e183099575ad6ce74fa59e94a326930843fac219810df1e71"
 
 [[files]]
-file = "kubejs/data/dernier_moteur/loot_modifiers/journal_3_tower_room.json"
-hash = "a2d2b5f3376f0ea2b979039447ffc421976e1788723bf8649cd1d9cc232dfc04"
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_2_dungeons_arise_chests_mining_system_mining_system_treasure.json"
+hash = "d3ef398ad5b1a97cac64eae0ebdc351f5c39f36abf1e4680d8ed35cfdf61c1f4"
 
 [[files]]
-file = "kubejs/data/dernier_moteur/loot_modifiers/journal_4_bastion_treasure.json"
-hash = "4520df0ddc638cf37702306682602488755f1780d383fcb5c73559cd4183219d"
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_2_minecraft_chests_abandoned_mineshaft.json"
+hash = "65396895c8e1c53412efe0c70d5039b0a7f4b3b1f3c4bfd9750bea7b2d9d371e"
 
 [[files]]
-file = "kubejs/data/dernier_moteur/loot_modifiers/journal_4_nether_bridge.json"
-hash = "aba2b07e0d012e7b8e595b35bbc5cd40b6bbc6873ae79d1b0d48d7032bce1830"
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_2_minecraft_chests_simple_dungeon.json"
+hash = "7a3341f7145da0ebc14b81ea3f1b9f9d9586df2ae2e71a32d156b46e4c43e8ca"
 
 [[files]]
-file = "kubejs/data/dernier_moteur/loot_modifiers/journal_5_ancient_city.json"
-hash = "f0a9cb336123ef5b522410723c996ea428f82539e13c5c640fb250d4035f0081"
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_3_twilightforest_chests_tower_enchanting.json"
+hash = "28ac7e7cd84fc2d4ed76fb024d28f31156f5cea9ad4b9d48891e05c51c920352"
 
 [[files]]
-file = "kubejs/data/dernier_moteur/loot_modifiers/journal_5_stronghold_library.json"
-hash = "ebcbc6456c118347bc7455f331617a9b6383b75a9992f7194743e4f7ae9e36fd"
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_3_twilightforest_chests_tower_library.json"
+hash = "e67c81a222ca848f9884fd563b1d6da2ce3e7172a3eeada923331463d2ea3368"
 
 [[files]]
-file = "kubejs/data/dernier_moteur/loot_modifiers/journal_6_end_city_treasure.json"
-hash = "ee83132999af1c43429bc6570193ad82de649dd42b79f74ea855161a56b05d54"
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_3_twilightforest_chests_tower_room.json"
+hash = "100152ae668b7aae44a8b7f79417eaedb1ebf41e96b8e5b6dcddd587399405ec"
 
 [[files]]
-file = "kubejs/data/dernier_moteur/loot_modifiers/journal_7_buried_treasure.json"
-hash = "fc505f44187717a7263e5df6dbda4b24fd6e8e5e75dbc94cf339ce8afd458d73"
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_4_betterfortresses_chests_hall.json"
+hash = "0dd05121e6c9add8b382b08a6650931271a36ebfe06cf947ba636d52ddd0a52c"
 
 [[files]]
-file = "kubejs/data/dernier_moteur/loot_modifiers/journal_7_underwater_ruin_big.json"
-hash = "43e5a6eadcfcb8c894e071ba63d37b181a7a3964312ee8d7d53a9f00afde9ffc"
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_4_betterfortresses_chests_keep.json"
+hash = "2da6b99bcf4a18f0cea0c4a8484abbab83efee8059c51279d14ea26b73813a7e"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_4_dungeons_arise_chests_scorched_mines_scorched_mines_treasure.json"
+hash = "b1d0bd40d7c26668226fb3e285fcf54add61256da657caa9f022bd4ac8914cbf"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_4_minecraft_chests_bastion_treasure.json"
+hash = "8aca775c4ab0ed2f637b159644e75e9405aaca5e91abbd85792f2496cf8853b0"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_4_minecraft_chests_nether_bridge.json"
+hash = "ddd8688445b9daeedc0cb4706b1b086ba3729c3488333b3861c4a24f5694f671"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_4_nova_structures_chests_nether_keep_vault_keep.json"
+hash = "ee7a471a92b40b047233bc3a617fa5b9bee5e44f5e2a0c1bf63b343c9673f921"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_5_betterstrongholds_chests_grand_library.json"
+hash = "2c591f753a0acd3953d052f18fb730087657830f5044e1f89412ea6b9cc5f0d5"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_5_betterstrongholds_chests_library_md.json"
+hash = "371ec6e8a2d1e50313c8b993072fd6f916519c2273aae24b9b38b8f649095db4"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_5_dungeons_arise_chests_foundry_foundry_treasure.json"
+hash = "8819dbb558b667aa2dce16a5b2f95380481495a8d8c3474af743a93c9fa2333a"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_5_dungeons_arise_chests_mechanical_nest_mechanical_nest_treasure.json"
+hash = "66bb0b1b6c3b9c0fc27f28a33697a2c4c244800bddbce7407ab1ec9e3eb7b98d"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_5_minecraft_chests_ancient_city.json"
+hash = "3b8383c6aa91bac941b25edad74b871b02c45d3365758e718964ff7b4742d654"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_5_minecraft_chests_stronghold_library.json"
+hash = "b67a4f631dd9118c8192854930a021708a7218c4f49621d4a8cfe491c765ac14"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_6_minecraft_chests_end_city_treasure.json"
+hash = "b8fa6ca1ed4ce56b84d7b0bd6ea525b914fee303f431fbf12d777ca4835bf158"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_6_nova_structures_chests_end_castle_greater_loot.json"
+hash = "4bf1f348496561d5032966e00536a679fe5ba3f6aba192575c350a8e016c1e16"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_6_nova_structures_chests_end_lighthouse_vault_lighthouse.json"
+hash = "72a890abfd75f07af85ce8494784c536adfc09f89642df742ba6d1ecc8453e31"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_7_aquamirae_chests_ship_1.json"
+hash = "c013a825ee5729dc0a4511d767c1daf7d4b4fe69381d67985f783a7969dbba84"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_7_aquamirae_chests_ship_2.json"
+hash = "bf623b85afe62e6b64b5fbd168ddee6307c796d7ab1b9705de08e3faa38e9e28"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_7_betteroceanmonuments_chests_upper_side_chamber.json"
+hash = "8c27d70df28f9b2adb431ccd289474c796ffb325815d93d56ceb7c6e572c2fcb"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_7_cataclysm_chests_acropolis_treasure.json"
+hash = "ff1306f879d1e4523cef6d4e000f7a92360e2a03f48c8e2bca3edd518d87088a"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_7_minecraft_chests_buried_treasure.json"
+hash = "31317ca2a5b3e890e13280eca662cbb15547dedf8dda5aabd9d64ab44c0b1b66"
+
+[[files]]
+file = "kubejs/data/dernier_moteur/loot_modifiers/journal_7_minecraft_chests_underwater_ruin_big.json"
+hash = "464bc8cf2929200ae2698323cc06a429147a2e25c6e9993e66fb5332f1438197"
 
 [[files]]
 file = "kubejs/data/dernier_moteur/loot_table/inject/journal_2.json"
-hash = "a5e00bfbc903e03a45007c8f28dfed2310c8f4fc24ac55b24ad95bbe664b05b0"
+hash = "68c1bf4effe0fb1e50169f2ee3dddfed44d61cf31d7c9100cf09e2f1750301e1"
 
 [[files]]
 file = "kubejs/data/dernier_moteur/loot_table/inject/journal_3.json"
-hash = "7bf2f5e8038a83ea48711a9cbb855e1cd9ce2b01c8a63edbce0e6dadd2b173f6"
+hash = "5a45d442d4fed6706ef6bc03c1fe29835383f789df49b64be6d967f920c2d44c"
 
 [[files]]
 file = "kubejs/data/dernier_moteur/loot_table/inject/journal_4.json"
-hash = "85e33930efcfe26e94a23160260b705af61fd4828597cc1795a3171657d218f0"
+hash = "4bf1be21a48b3f0448d0cd3b8531e2d3fad64d227d374f22812d3833e8cfb906"
 
 [[files]]
 file = "kubejs/data/dernier_moteur/loot_table/inject/journal_5.json"
-hash = "daccf7908693b9d2e4167ec9918c1caf96fd0979fd4ce1ccf156a176ff58fa7b"
+hash = "befeb618dacce71291e7438a4a9a8a873ad895b386fc90963f2b69d96237dcfd"
 
 [[files]]
 file = "kubejs/data/dernier_moteur/loot_table/inject/journal_6.json"
-hash = "dd202b5aa8e8eb14623cf245e3037a23292fc97b0e32cd28330cd85a80dcf2c2"
+hash = "4e6251dd5be5b5315c903643cf4daa7c634019f15a29ea2ae41a284bb1c31e00"
 
 [[files]]
 file = "kubejs/data/dernier_moteur/loot_table/inject/journal_7.json"
-hash = "11a0294082bda72199e51e52a977a3c0b10eee7be4901ca9b2eb2d9f2dfa2c8b"
+hash = "54823363c9d581ea6316cc91a9eb1e0fb31d115c5d9fadf5a65e576357ca4ee5"
 
 [[files]]
 file = "kubejs/data/dernier_moteur/neoforge/biome_modifier/remove_duplicate_ores.json"
@@ -274,7 +354,7 @@ hash = "e0887d5917528685c88444b59afd9f2acd747e0f6a4aebd617f18e0bdc793cb3"
 
 [[files]]
 file = "kubejs/data/neoforge/loot_modifiers/global_loot_modifiers.json"
-hash = "25f74be79e95bd2900a345548193a0c606607108429b92470a2a2842b64dc686"
+hash = "45c6383b1628b5e625ff4e830c3602d6b1f06027c91d055e42363078e9371123"
 
 [[files]]
 file = "kubejs/server_scripts/boss_drops.js"

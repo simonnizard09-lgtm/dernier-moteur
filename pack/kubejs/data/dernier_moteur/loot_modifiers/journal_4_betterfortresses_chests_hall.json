@@ -3,8 +3,8 @@
   "conditions": [
     {
       "condition": "neoforge:loot_table_id",
-      "loot_table_id": "twilightforest:chests/tower_room"
+      "loot_table_id": "betterfortresses:chests/hall"
     }
   ],
-  "table": "dernier_moteur:inject/journal_3"
+  "table": "dernier_moteur:inject/journal_4"
 }

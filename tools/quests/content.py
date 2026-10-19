@@ -821,4 +821,90 @@ reglages = Chapter("13_reglages", "Shaders & réglages", "minecraft:spyglass", "
             "&elogs/latest.log&r (et &ecrash-reports/&r)."]),
 ])
 
-CHAPTERS = [intro, era0, era1, era2, era3, era4, epilogue, explo, bosses, survie, reglages]
+
+# =============================================================================
+# Annexe — Ateliers Create (addons)
+# =============================================================================
+def opt(key, title, icon, tasks, deps, text, rewards=(), shape=None):
+    return Q(key, title, icon, tasks, deps=deps, desc=text if isinstance(text, list) else [text],
+             rewards=list(rewards), optional=True, shape=shape)
+
+
+ateliers = Chapter("14_ateliers", "Ateliers Create", "create:brass_casing", "annexes",
+                   subtitle="Les ingénieurs ne s'arrêtaient jamais à une seule machine.", quests=[
+    opt("atelier", "L'atelier étendu", "create:brass_casing", [check()], ["02_vapeur:laiton"],
+        lore("« Chaque atelier avait ses spécialités. Retrouve-les. »") + ["",
+        "Ce chapitre présente les grands addons de Create du pack. Rien n'y est obligatoire, "
+        "mais beaucoup facilitent la suite."], [xp(50)], "gear"),
+    # --- construction
+    opt("copycats", "Blocs imitateurs", "copycats:copycat_block", [I("copycats:copycat_block", 4)], ["atelier"],
+        "Copycats+ : des blocs qui prennent l'apparence d'un autre, pour des usines propres."),
+    opt("chargeur", "Chargeur de zone", "create_power_loader:andesite_chunk_loader",
+        [I("create_power_loader:andesite_chunk_loader")], ["atelier"],
+        "Garde une zone chargée tant qu'il tourne : tes machines continuent pendant ton absence.",
+        [xp(100)]),
+    # --- cuisine / agriculture
+    opt("trancheuse", "La trancheuse", "sliceanddice:slicer", [I("sliceanddice:slicer")], ["atelier"],
+        "Slice & Dice automatise la planche à découper de Farmer's Delight."),
+    opt("arroseur", "Arroseurs", "sliceanddice:sprinkler", [I("sliceanddice:sprinkler", 2)], ["trancheuse"],
+        "Arrose et fertilise les cultures, même en saison sèche."),
+    opt("noix", "Garnitures", "garnished:cashew", [I("garnished:cashew", 8)], ["atelier"],
+        "Create: Garnished : noix, sauces et plats à préparer à la chaîne."),
+    # --- énergie et pétrole
+    opt("diesel", "Le moteur diesel", "createdieselgenerators:diesel_engine",
+        [I("createdieselgenerators:diesel_engine")], ["02_vapeur:vapeur"],
+        "Une rotation puissante et compacte, à condition d'avoir du carburant."),
+    opt("distillation", "La distillation", "createdieselgenerators:distillation_controller",
+        [I("createdieselgenerators:distillation_controller")], ["diesel"],
+        "Pétrole brut → carburants. Trouve un gisement et une pompe."),
+    opt("tfmg_coke", "Four à coke de TFMG", "tfmg:coke_oven", [I("tfmg:coke_oven")], ["02_vapeur:vapeur"],
+        "The Factory Must Grow : une autre voie vers l'acier, à grande échelle."),
+    opt("tfmg_acier", "Haut fourneau de TFMG", "tfmg:blast_furnace_output", [I("tfmg:blast_furnace_output")],
+        ["tfmg_coke"], "Le haut fourneau multibloc de TFMG coule l'acier en continu."),
+    opt("tfmg_petrole", "Le pétrole", "tfmg:crude_oil_bucket", [I("tfmg:pumpjack_base"), I("tfmg:crude_oil_bucket")],
+        ["tfmg_acier"], "Chevalet de pompage sur un gisement de pétrole, puis raffinage."),
+    opt("tfmg_moteur", "Moteurs à explosion", "tfmg:regular_engine", [I("tfmg:regular_engine")], ["tfmg_petrole"],
+        "Des moteurs à essence ou diesel, assemblés cylindre par cylindre.", [xp(200)]),
+    opt("plastique", "Plastique", "tfmg:plastic_sheet", [I("tfmg:plastic_sheet", 8)], ["tfmg_petrole"],
+        "Sous-produit du pétrole, utile pour l'électronique."),
+    # --- métallurgie
+    opt("fonderie", "La fonderie", "createmetallurgy:foundry_basin",
+        [I("createmetallurgy:foundry_basin"), I("createmetallurgy:casting_table")], ["02_vapeur:blaze"],
+        "Create: Metallurgy : fondre les minerais et couler lingots, plaques et tiges."),
+    opt("tungstene", "Le tungstène", "createmetallurgy:tungsten_ingot", [I("createmetallurgy:tungsten_ingot", 4)],
+        ["fonderie"], "Un métal très résistant, tiré de la wolframite."),
+    opt("excavation", "Gisements infinis", "createoreexcavation:drilling_machine",
+        [I("createoreexcavation:vein_finder"), I("createoreexcavation:drilling_machine")], ["03_electricite:acier"],
+        "Trouve un gisement profond et fore-le sans fin.", [xp(200)]),
+    # --- enchantement
+    opt("enchanteur", "L'enchanteur à blaze", "create_enchantment_industry:blaze_enchanter",
+        [I("create_enchantment_industry:blaze_enchanter")], ["02_vapeur:blaze"],
+        "Enchantements automatisés avec de l'expérience liquide."),
+    opt("imprimante", "L'imprimante", "create_enchantment_industry:printer",
+        [I("create_enchantment_industry:printer")], ["enchanteur"],
+        "Copie livres enchantés, cartes et panneaux."),
+    # --- transport
+    opt("jetpack", "Le jetpack de Create", "create_jetpack:jetpack", [I("create_jetpack:jetpack")],
+        ["02_vapeur:precision"], "Fonctionne à l'air comprimé du réservoir dorsal.", [xp(150)]),
+    opt("rails", "Rails et signaux", "railways:semaphore", [I("railways:semaphore"), I("railways:track_coupler")],
+        ["atelier"], "Steam 'n' Rails : nouveaux rails, sémaphores et attelages pour tes trains."),
+    opt("aero", "Prendre l'air", "aeronautics:andesite_propeller", [I("aeronautics:andesite_propeller")],
+        ["02_vapeur:precision"], "Create Aeronautics : hélices, ballons et engins volants."),
+    opt("levitite", "La lévitite", "aeronautics:levitite", [I("aeronautics:levitite", 4)], ["aero"],
+        "Un matériau qui flotte : la clé des dirigeables.", [xp(200)]),
+    # --- défense
+    opt("canon", "Le grand canon", "createbigcannons:cannon_mount",
+        [I("createbigcannons:cannon_mount"), I("createbigcannons:cast_iron_cannon_barrel")], ["03_electricite:acier"],
+        "Create Big Cannons : coule les fûts, monte-les sur un affût et vise.", [xp(200)]),
+    opt("obus", "Munitions", "createbigcannons:ap_shot", [I("createbigcannons:ap_shot", 4)], ["canon"],
+        "Obus perforants, mitraille, charges propulsives… à fabriquer à la chaîne."),
+    # --- économie et nucléaire
+    opt("monnaie", "Numismatique", "numismatics:spur", [I("numismatics:vendor")], ["atelier"],
+        "Create: Numismatics : vends tes surplus aux villageois avec des distributeurs."),
+    opt("nucleaire", "Le réacteur de Create", "createnuclear:reactor_controller",
+        [I("createnuclear:reactor_controller"), I("createnuclear:uranium_rod", 4)], ["04_industrie:dissolution"],
+        lore("Une autre manière d'apprivoiser l'atome.") + ["",
+        "Create Nuclear : réacteur multibloc. Protège-toi des radiations."], [xp(500)], "hexagon"),
+])
+
+CHAPTERS = [intro, era0, era1, era2, era3, era4, epilogue, explo, bosses, survie, ateliers, reglages]

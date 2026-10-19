@@ -3,8 +3,8 @@
   "conditions": [
     {
       "condition": "neoforge:loot_table_id",
-      "loot_table_id": "minecraft:chests/end_city_treasure"
+      "loot_table_id": "aquamirae:chests/ship_2"
     }
   ],
-  "table": "dernier_moteur:inject/journal_6"
+  "table": "dernier_moteur:inject/journal_7"
 }

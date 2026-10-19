@@ -1,0 +1,723 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "14_ateliers"
+	group: "0C3CEFC8C88B73EB"
+	icon: {
+		count: 1
+		id: "create:brass_casing"
+	}
+	id: "58FB3FF0B95219EE"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"12635A2083732F0C"
+			]
+			icon: {
+				count: 1
+				id: "create:brass_casing"
+			}
+			id: "2717A035B3C8E093"
+			optional: true
+			rewards: [
+				{
+					id: "483895AC955A15E1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "4548EFBAD71146BE"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -7.2d
+		}
+		{
+			dependencies: [
+				"2717A035B3C8E093"
+			]
+			icon: {
+				count: 1
+				id: "copycats:copycat_block"
+			}
+			id: "43B4BF4494FE4B80"
+			optional: true
+			tasks: [
+				{
+					count: 4L
+					id: "58D5B118901A4C0D"
+					item: {
+						count: 1
+						id: "copycats:copycat_block"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -8.8d
+		}
+		{
+			dependencies: [
+				"2717A035B3C8E093"
+			]
+			icon: {
+				count: 1
+				id: "create_power_loader:andesite_chunk_loader"
+			}
+			id: "7F27A2BC827C9483"
+			optional: true
+			rewards: [
+				{
+					id: "0190066719973825"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "78B7095546AF6D69"
+					item: {
+						count: 1
+						id: "create_power_loader:andesite_chunk_loader"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -7.2d
+		}
+		{
+			dependencies: [
+				"2717A035B3C8E093"
+			]
+			icon: {
+				count: 1
+				id: "sliceanddice:slicer"
+			}
+			id: "0BCF9106739A649D"
+			optional: true
+			tasks: [
+				{
+					id: "53412D351E880916"
+					item: {
+						count: 1
+						id: "sliceanddice:slicer"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -5.6000000000000005d
+		}
+		{
+			dependencies: [
+				"0BCF9106739A649D"
+			]
+			icon: {
+				count: 1
+				id: "sliceanddice:sprinkler"
+			}
+			id: "3D10073E5D1212C8"
+			optional: true
+			tasks: [
+				{
+					count: 2L
+					id: "740EF7491DF72FD6"
+					item: {
+						count: 1
+						id: "sliceanddice:sprinkler"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"2717A035B3C8E093"
+			]
+			icon: {
+				count: 1
+				id: "garnished:cashew"
+			}
+			id: "4B871FC871FD0CDE"
+			optional: true
+			tasks: [
+				{
+					count: 8L
+					id: "29C468AC022BAD42"
+					item: {
+						count: 1
+						id: "garnished:cashew"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"745F55AF2495989C"
+			]
+			icon: {
+				count: 1
+				id: "createdieselgenerators:diesel_engine"
+			}
+			id: "6A76D6B9E6EFFBC5"
+			optional: true
+			tasks: [
+				{
+					id: "62286BE89EFACE2C"
+					item: {
+						count: 1
+						id: "createdieselgenerators:diesel_engine"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -5.6000000000000005d
+		}
+		{
+			dependencies: [
+				"6A76D6B9E6EFFBC5"
+			]
+			icon: {
+				count: 1
+				id: "createdieselgenerators:distillation_controller"
+			}
+			id: "7E61A5E3EC7BAB03"
+			optional: true
+			tasks: [
+				{
+					id: "5C95D00DB09FBB74"
+					item: {
+						count: 1
+						id: "createdieselgenerators:distillation_controller"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.4000000000000004d
+		}
+		{
+			dependencies: [
+				"745F55AF2495989C"
+			]
+			icon: {
+				count: 1
+				id: "tfmg:coke_oven"
+			}
+			id: "7DE7FFF77F629188"
+			optional: true
+			tasks: [
+				{
+					id: "68735D9D0993B61C"
+					item: {
+						count: 1
+						id: "tfmg:coke_oven"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7DE7FFF77F629188"
+			]
+			icon: {
+				count: 1
+				id: "tfmg:blast_furnace_output"
+			}
+			id: "2E8C761A5632756E"
+			optional: true
+			tasks: [
+				{
+					id: "4FD14A03D3E99B05"
+					item: {
+						count: 1
+						id: "tfmg:blast_furnace_output"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"2E8C761A5632756E"
+			]
+			icon: {
+				count: 1
+				id: "tfmg:crude_oil_bucket"
+			}
+			id: "1C7ED3ABBB0B0739"
+			optional: true
+			tasks: [
+				{
+					id: "4AA95C67B3E8D3E7"
+					item: {
+						count: 1
+						id: "tfmg:pumpjack_base"
+					}
+					type: "item"
+				}
+				{
+					id: "7936A3974EE34974"
+					item: {
+						count: 1
+						id: "tfmg:crude_oil_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"1C7ED3ABBB0B0739"
+			]
+			icon: {
+				count: 1
+				id: "tfmg:regular_engine"
+			}
+			id: "58758134A627168F"
+			optional: true
+			rewards: [
+				{
+					id: "462BC3B69818A9FB"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "1E0367CEDBAF8929"
+					item: {
+						count: 1
+						id: "tfmg:regular_engine"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"1C7ED3ABBB0B0739"
+			]
+			icon: {
+				count: 1
+				id: "tfmg:plastic_sheet"
+			}
+			id: "6FA7BFFE98B2AA8C"
+			optional: true
+			tasks: [
+				{
+					count: 8L
+					id: "4C66047F9940CD4D"
+					item: {
+						count: 1
+						id: "tfmg:plastic_sheet"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"7EE829369281E60B"
+			]
+			icon: {
+				count: 1
+				id: "createmetallurgy:foundry_basin"
+			}
+			id: "7D25C9413B847407"
+			optional: true
+			tasks: [
+				{
+					id: "1C29B628B1FF8FDA"
+					item: {
+						count: 1
+						id: "createmetallurgy:foundry_basin"
+					}
+					type: "item"
+				}
+				{
+					id: "5F08AB140282CE0D"
+					item: {
+						count: 1
+						id: "createmetallurgy:casting_table"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.4000000000000004d
+		}
+		{
+			dependencies: [
+				"7D25C9413B847407"
+			]
+			icon: {
+				count: 1
+				id: "createmetallurgy:tungsten_ingot"
+			}
+			id: "1F4A3F2BCF9ED668"
+			optional: true
+			tasks: [
+				{
+					count: 4L
+					id: "27CD0F472E4A2197"
+					item: {
+						count: 1
+						id: "createmetallurgy:tungsten_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"21F3FD6E249DEE3D"
+			]
+			icon: {
+				count: 1
+				id: "createoreexcavation:drilling_machine"
+			}
+			id: "7AEFE43A90A4944F"
+			optional: true
+			rewards: [
+				{
+					id: "0B3459BCFFAAD674"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "5E8DA7F87F442439"
+					item: {
+						count: 1
+						id: "createoreexcavation:vein_finder"
+					}
+					type: "item"
+				}
+				{
+					id: "2881395F263B81A9"
+					item: {
+						count: 1
+						id: "createoreexcavation:drilling_machine"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.8d
+		}
+		{
+			dependencies: [
+				"7EE829369281E60B"
+			]
+			icon: {
+				count: 1
+				id: "create_enchantment_industry:blaze_enchanter"
+			}
+			id: "46D1EB3BB9CB484F"
+			optional: true
+			tasks: [
+				{
+					id: "5DDAFDA6ED43FB87"
+					item: {
+						count: 1
+						id: "create_enchantment_industry:blaze_enchanter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.8d
+		}
+		{
+			dependencies: [
+				"46D1EB3BB9CB484F"
+			]
+			icon: {
+				count: 1
+				id: "create_enchantment_industry:printer"
+			}
+			id: "05D2E8481CE265F7"
+			optional: true
+			tasks: [
+				{
+					id: "1EC6F6022054D687"
+					item: {
+						count: 1
+						id: "create_enchantment_industry:printer"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.4000000000000004d
+		}
+		{
+			dependencies: [
+				"14A2096E39FD8A64"
+			]
+			icon: {
+				count: 1
+				id: "create_jetpack:jetpack"
+			}
+			id: "6758E6620583315F"
+			optional: true
+			rewards: [
+				{
+					id: "0D0A268930316925"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "5D59EC47ECED9DDF"
+					item: {
+						count: 1
+						id: "create_jetpack:jetpack"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.4000000000000004d
+		}
+		{
+			dependencies: [
+				"2717A035B3C8E093"
+			]
+			icon: {
+				count: 1
+				id: "railways:semaphore"
+			}
+			id: "18360E6DCEF70660"
+			optional: true
+			tasks: [
+				{
+					id: "2B354E40189BDBF4"
+					item: {
+						count: 1
+						id: "railways:semaphore"
+					}
+					type: "item"
+				}
+				{
+					id: "65AAE5CD5DE0181D"
+					item: {
+						count: 1
+						id: "railways:track_coupler"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"14A2096E39FD8A64"
+			]
+			icon: {
+				count: 1
+				id: "aeronautics:andesite_propeller"
+			}
+			id: "0549B884F944A5AF"
+			optional: true
+			tasks: [
+				{
+					id: "44BDC03153C5B848"
+					item: {
+						count: 1
+						id: "aeronautics:andesite_propeller"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0549B884F944A5AF"
+			]
+			icon: {
+				count: 1
+				id: "aeronautics:levitite"
+			}
+			id: "0ED4C4E82AA1C227"
+			optional: true
+			rewards: [
+				{
+					id: "42BA932B1738D141"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3EBC0243CAB3A340"
+					item: {
+						count: 1
+						id: "aeronautics:levitite"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 5.6000000000000005d
+		}
+		{
+			dependencies: [
+				"21F3FD6E249DEE3D"
+			]
+			icon: {
+				count: 1
+				id: "createbigcannons:cannon_mount"
+			}
+			id: "7CA4D40B873B0E86"
+			optional: true
+			rewards: [
+				{
+					id: "3B69BA771EECF433"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "06B0BC2B6D7C6FB8"
+					item: {
+						count: 1
+						id: "createbigcannons:cannon_mount"
+					}
+					type: "item"
+				}
+				{
+					id: "4A2B68EDCFC98251"
+					item: {
+						count: 1
+						id: "createbigcannons:cast_iron_cannon_barrel"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.6000000000000005d
+		}
+		{
+			dependencies: [
+				"7CA4D40B873B0E86"
+			]
+			icon: {
+				count: 1
+				id: "createbigcannons:ap_shot"
+			}
+			id: "6095510DAD8AE422"
+			optional: true
+			tasks: [
+				{
+					count: 4L
+					id: "57733BD212DE5E60"
+					item: {
+						count: 1
+						id: "createbigcannons:ap_shot"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 7.2d
+		}
+		{
+			dependencies: [
+				"2717A035B3C8E093"
+			]
+			icon: {
+				count: 1
+				id: "numismatics:spur"
+			}
+			id: "049EF675A0494A6F"
+			optional: true
+			tasks: [
+				{
+					id: "3F623D0FC073013C"
+					item: {
+						count: 1
+						id: "numismatics:vendor"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.8d
+		}
+		{
+			dependencies: [
+				"72691BDEA00C8411"
+			]
+			icon: {
+				count: 1
+				id: "createnuclear:reactor_controller"
+			}
+			id: "01C0ECCDECA21B47"
+			optional: true
+			rewards: [
+				{
+					id: "7361AC3DC01E5710"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2B6CCDA4DA7E2445"
+					item: {
+						count: 1
+						id: "createnuclear:reactor_controller"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "63028F5DFA00BDC9"
+					item: {
+						count: 1
+						id: "createnuclear:uranium_rod"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.2d
+		}
+	]
+}

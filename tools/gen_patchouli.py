@@ -3,7 +3,7 @@
 et les advancements qui déverrouillent les journaux.
 
 Sorties :
-  pack/kubejs/assets/patchouli/patchouli_books/carnet/en_us/{categories,entries}/...
+  pack/patchouli_books/carnet/en_us/{categories,entries}/...
   pack/kubejs/data/dernier_moteur/advancement/journal/journal_N.json
 Le texte est en français mais placé sous en_us : c'est la langue de repli de Patchouli,
 donc tout le monde voit le carnet quelle que soit la langue du jeu.
@@ -11,7 +11,9 @@ donc tout le monde voit le carnet quelle que soit la langue du jeu.
 import json, os, shutil
 
 ROOT = "pack/kubejs"
-BOOK = os.path.join(ROOT, "assets/patchouli/patchouli_books/carnet/en_us")
+# Livre EXTERNE : Patchouli lit son contenu sur le disque (<jeu>/patchouli_books/<livre>/<langue>/),
+# jamais dans les resource packs → il doit être livré à côté de book.json, pas dans kubejs/assets.
+BOOK = "pack/patchouli_books/carnet/en_us"
 ADV = os.path.join(ROOT, "data/dernier_moteur/advancement/journal")
 
 

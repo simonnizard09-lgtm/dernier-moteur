@@ -26,11 +26,19 @@ ItemEvents.rightClicked(event => {
       book.reloadContents(event.player.level, false)
       contents = book.getContents()
     }
+    // Deuxième essai : rechargement direct (comme Maj+clic sur l'accueil d'un livre Patchouli)
+    if (book && (!contents || !contents.entries.containsKey(entryId))) {
+      book.reloadContents(event.player.level, true)
+      contents = book.getContents()
+    }
     if (contents && !contents.isErrored() && contents.entries.containsKey(entryId)) {
       $PatchouliAPI.get().openBookEntry(CARNET_ID, entryId, 0)
     } else {
       let known = []
+      let cats = []
       if (contents) contents.entries.keySet().forEach(k => known.push(String(k)))
+      if (contents) contents.categories.keySet().forEach(k => cats.push(String(k)))
+      console.warn('Carnet : isExternal=' + book.isExternal + ', catégories=' + cats.join(', '))
       console.warn('Journal ' + entryId + ' introuvable dans le Carnet même après rechargement (book=' + !!book
         + ', errored=' + (contents ? contents.isErrored() : 'n/a') + ', entrées=' + known.join(', ') + ')')
       $PatchouliAPI.get().openBookGUI(CARNET_ID)

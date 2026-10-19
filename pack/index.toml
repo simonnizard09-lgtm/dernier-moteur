@@ -161,72 +161,8 @@ file = "kubejs/assets/dernier_moteur/textures/item/steam_mechanism.png"
 hash = "1158348020ff9ad07404559db1815fb16ecafe8a3c08f8543c7433f7a1702a0f"
 
 [[files]]
-file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/categories/eres.json"
-hash = "fcf73f9606dfb736504c0b299f6afed88c6894797c4146d1e08126103d31292f"
-
-[[files]]
-file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/categories/journaux.json"
-hash = "0d6d1e4269496da17e92110008a0dd6726f9893571d1a0748f9fae7841ca7e0b"
-
-[[files]]
-file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/eres/era_0.json"
-hash = "1439b9a5034fff4c58205ffb906441fc2d8984540e9e96a2e04cd5a51796ac37"
-
-[[files]]
-file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/eres/era_1.json"
-hash = "aacc47573011f3907e913855cde575990b9b552abeee8b6bfa1e33e83ed0c0f9"
-
-[[files]]
-file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/eres/era_2.json"
-hash = "b0d838a9eaa0871d7ea4c03415cfe0c63d1e85b24194b51adf0f9f17ca2b6445"
-
-[[files]]
-file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/eres/era_3.json"
-hash = "10836158a5e5fccfb08793fa70133f1be5ea456dcde2d2e1caf7c9f3b2ad4b88"
-
-[[files]]
-file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/eres/era_4.json"
-hash = "9e22234d962c4fc58782ebf84bce376b46a2c90720e4a2a77381ef3aff50e9e2"
-
-[[files]]
-file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/eres/era_5.json"
-hash = "58cb3c3390d62bb9b556aef75843a39053e9e062844b74d0bfbbdc31cbc5ed63"
-
-[[files]]
-file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/journaux/journal_1.json"
-hash = "35889e75c273145d840fe8da57c8eed9880ce102917a78f80c486003749018e8"
-
-[[files]]
-file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/journaux/journal_2.json"
-hash = "93593c860a677543a442935910d640998edc4f01408a777fa623f787cb65755d"
-
-[[files]]
-file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/journaux/journal_3.json"
-hash = "1ea5a12194d2b8e7d732fc6c891424559e54ac736c4ef83e26ca35678c962e7a"
-
-[[files]]
-file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/journaux/journal_4.json"
-hash = "3cff8bcbbde39a060585d9ed77d665c12535c617c1723449cc23686e16686a7f"
-
-[[files]]
-file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/journaux/journal_5.json"
-hash = "74e70ca3926948820879e296e33b27aca140cb99c2dd94269aa4ec03c12158bb"
-
-[[files]]
-file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/journaux/journal_6.json"
-hash = "1c69a6fd1d16b92487b90624f8c609265fd697220b6d8aca106da7b7fda26834"
-
-[[files]]
-file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/journaux/journal_7.json"
-hash = "95845b2ad6ab01b9dd88658cf880677b3cd7a9b8a45a692c3c130b3b8e867cbb"
-
-[[files]]
-file = "kubejs/assets/patchouli/patchouli_books/carnet/en_us/entries/journaux/journal_8.json"
-hash = "7ae805aa9a24899473669aef48c75c6c2f7960dd647e89f978f3b1943ed799d4"
-
-[[files]]
 file = "kubejs/client_scripts/journals.js"
-hash = "b9248f4ebb3fd3b1ec3554786d31b8dca7258f967568f9672fe577dd5bcf23f1"
+hash = "dc3a9a13b6045b0a88b6986f2e7e34368cbf546f86c2cb5fe1cc9eafa71229e8"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
@@ -784,7 +720,71 @@ metafile = true
 
 [[files]]
 file = "patchouli_books/carnet/book.json"
-hash = "8952a223cb38d55b1f1c2bc02520d4432ee88bd0c5650c3f1efd129fcb7fc42c"
+hash = "c04986157bb5228a83ee4f61848011814a07a4441164a3d883e83ba603118429"
+
+[[files]]
+file = "patchouli_books/carnet/en_us/categories/eres.json"
+hash = "fcf73f9606dfb736504c0b299f6afed88c6894797c4146d1e08126103d31292f"
+
+[[files]]
+file = "patchouli_books/carnet/en_us/categories/journaux.json"
+hash = "0d6d1e4269496da17e92110008a0dd6726f9893571d1a0748f9fae7841ca7e0b"
+
+[[files]]
+file = "patchouli_books/carnet/en_us/entries/eres/era_0.json"
+hash = "1439b9a5034fff4c58205ffb906441fc2d8984540e9e96a2e04cd5a51796ac37"
+
+[[files]]
+file = "patchouli_books/carnet/en_us/entries/eres/era_1.json"
+hash = "aacc47573011f3907e913855cde575990b9b552abeee8b6bfa1e33e83ed0c0f9"
+
+[[files]]
+file = "patchouli_books/carnet/en_us/entries/eres/era_2.json"
+hash = "b0d838a9eaa0871d7ea4c03415cfe0c63d1e85b24194b51adf0f9f17ca2b6445"
+
+[[files]]
+file = "patchouli_books/carnet/en_us/entries/eres/era_3.json"
+hash = "10836158a5e5fccfb08793fa70133f1be5ea456dcde2d2e1caf7c9f3b2ad4b88"
+
+[[files]]
+file = "patchouli_books/carnet/en_us/entries/eres/era_4.json"
+hash = "9e22234d962c4fc58782ebf84bce376b46a2c90720e4a2a77381ef3aff50e9e2"
+
+[[files]]
+file = "patchouli_books/carnet/en_us/entries/eres/era_5.json"
+hash = "58cb3c3390d62bb9b556aef75843a39053e9e062844b74d0bfbbdc31cbc5ed63"
+
+[[files]]
+file = "patchouli_books/carnet/en_us/entries/journaux/journal_1.json"
+hash = "35889e75c273145d840fe8da57c8eed9880ce102917a78f80c486003749018e8"
+
+[[files]]
+file = "patchouli_books/carnet/en_us/entries/journaux/journal_2.json"
+hash = "93593c860a677543a442935910d640998edc4f01408a777fa623f787cb65755d"
+
+[[files]]
+file = "patchouli_books/carnet/en_us/entries/journaux/journal_3.json"
+hash = "1ea5a12194d2b8e7d732fc6c891424559e54ac736c4ef83e26ca35678c962e7a"
+
+[[files]]
+file = "patchouli_books/carnet/en_us/entries/journaux/journal_4.json"
+hash = "3cff8bcbbde39a060585d9ed77d665c12535c617c1723449cc23686e16686a7f"
+
+[[files]]
+file = "patchouli_books/carnet/en_us/entries/journaux/journal_5.json"
+hash = "74e70ca3926948820879e296e33b27aca140cb99c2dd94269aa4ec03c12158bb"
+
+[[files]]
+file = "patchouli_books/carnet/en_us/entries/journaux/journal_6.json"
+hash = "1c69a6fd1d16b92487b90624f8c609265fd697220b6d8aca106da7b7fda26834"
+
+[[files]]
+file = "patchouli_books/carnet/en_us/entries/journaux/journal_7.json"
+hash = "95845b2ad6ab01b9dd88658cf880677b3cd7a9b8a45a692c3c130b3b8e867cbb"
+
+[[files]]
+file = "patchouli_books/carnet/en_us/entries/journaux/journal_8.json"
+hash = "7ae805aa9a24899473669aef48c75c6c2f7960dd647e89f978f3b1943ed799d4"
 
 [[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"

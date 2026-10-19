@@ -51,9 +51,11 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
 - **Portes d'ère = boss → fragments → codex catalyseurs** (`keepIngredient`) : voir
   `docs/progression.md`. Items KubeJS et mod partagent le namespace `dernier_moteur`
   (le mod ne déclare que Clé du Gardien, Cœur du Gardien, blocs du Moteur, boss).
-- **Carnet Patchouli** = livre *externe* `patchouli:carnet` : `pack/patchouli_books/carnet/book.json`,
-  contenu dans `pack/kubejs/assets/patchouli/patchouli_books/carnet/en_us/` (texte FR sous en_us =
-  langue de repli). Généré par `tools/gen_patchouli.py` (source unique des textes de journaux).
+- **Carnet Patchouli** = livre *externe* `patchouli:carnet` : `pack/patchouli_books/carnet/book.json`
+  **et** son contenu dans `pack/patchouli_books/carnet/en_us/{categories,entries}/` (texte FR sous
+  en_us = langue de repli). Un livre externe est lu **sur le disque** (`BookContentExternalLoader`),
+  jamais dans les resource packs : du contenu dans `kubejs/assets/patchouli/…` est ignoré (livre
+  réduit à sa page d'accueil). Généré par `tools/gen_patchouli.py`.
 - **Drops de boss** : `EntityEvents.death` + `spawnAtLocation` (invulnérable, sans expiration),
   testé sur les 6 gardiens. Journaux en coffres via Global Loot Modifiers NeoForge (`neoforge:add_table`).
 - **Noms d'items KubeJS** en français via `displayName` (pas de fichier lang pour eux).

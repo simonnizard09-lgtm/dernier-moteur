@@ -58,7 +58,7 @@ hash = "69116d3e63b33da23f2f9d58bf1c54d81a5e88db45dccb421257e01aad801bd0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "19ef7ca54d25537d013ccc85dfa2429a27012915e86c874bd6762f42d1d9cc92"
+hash = "0bdd755e3bc17ee2b2d1c5edede2c4dcd3abbb0b06b1b8c012c2e097a438846c"
 
 [[files]]
 file = "config/improvedmobs/common.toml"
@@ -442,6 +442,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
+metafile = true
+
+[[files]]
+file = "mods/dernier-moteur.pw.toml"
+hash = "7a42c084e8137a05f15ce44010f2e90060b280cc559d7275718d4a872656c610"
 metafile = true
 
 [[files]]

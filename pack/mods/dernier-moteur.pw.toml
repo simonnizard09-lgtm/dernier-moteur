@@ -1,0 +1,8 @@
+name = "Le Dernier Moteur (mod du pack)"
+filename = "dernier_moteur-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/simonnizard09-lgtm/dernier-moteur/releases/download/mod-v1.0.0/dernier_moteur-1.0.0.jar"
+hash-format = "sha512"
+hash = "bda4ba1132ac80e6440172de9ab0772683283d4c8af4ccd9e8b354edf1b6bf69f466aac38be05c07c7b554d4cac079854832f837b1bab4aed58b57dd20e5b98a"

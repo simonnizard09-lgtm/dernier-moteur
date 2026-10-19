@@ -44,8 +44,8 @@ télécharger tout seul).
 4. **Mémoire (important)**
    *Modifier l'instance* → *Paramètres* → *Java* → coche *Mémoire* :
    - **Mémoire minimale : 6144 Mo** — **mémoire maximale : 10240 Mo** (recommandé).
-   - Avec 32 Go de RAM tu peux monter à **12288 Mo** si tu actives Distant Horizons ou de gros
-     shaders. Ne dépasse pas 12 Go : au-delà, le ramasse-miettes devient plus lent.
+   - Distant Horizons est actif par défaut : avec 32 Go de RAM tu peux monter à **12288 Mo**,
+     surtout avec de gros shaders. Ne dépasse pas 12 Go : au-delà, le ramasse-miettes ralentit.
    - Arguments JVM conseillés (même page, *Arguments JVM*) :
 
      ```
@@ -84,16 +84,29 @@ Conseils :
 - Si une machine Create s'affiche mal avec les shaders, essaie un autre shaderpack, ou change de
   backend de rendu Flywheel avec la commande `/flywheel backend` (l'autocomplétion liste les
   choix disponibles).
-- **Distant Horizons** est proposé en **mod optionnel désactivé par défaut** (il est compatible
-  Sodium/Iris, mais il est gourmand et peu utile en intérieur d'usine). Pour l'activer :
-  supprime le fichier `packwiz.json` du dossier `minecraft` de l'instance et relance ; la fenêtre
-  des options réapparaît. Avec DH, utilise Complementary ou BSL (ils gèrent les LOD de DH).
+- **Distant Horizons** (DH) est **activé par défaut** ; il est compatible Sodium/Iris. Avec DH,
+  utilise Complementary ou BSL (ils gèrent les LOD de DH).
+
+### Distant Horizons
+- **Génération automatique** : DH génère lui-même le terrain lointain autour du joueur, en tâche
+  de fond ; sur un monde neuf l'horizon se remplit pendant les premières minutes. Aucune
+  pré-génération n'est nécessaire. (Chunky a été retiré du pack : sa seule présence force DH à
+  désactiver son générateur — verrou « API LOCK, controlled by Distant Horizons / Chunky ».)
+- **Mises à jour** : le vérificateur de mises à jour de DH est désactivé par la config du pack
+  (`config/DistantHorizons.toml`) ; une mise à jour manuelle casserait la correspondance avec le
+  pack. Les versions de DH sont mises à jour avec le pack.
+- **Réglages** : *Options* → bouton **Distant Horizons** à côté du curseur de champ de vision (il
+  n'y en a pas dans les *Options vidéo*, remplacées par Sodium), ou *Mods* → *Distant Horizons* →
+  *Config*. Si le jeu rame, baisse la distance de rendu LOD de DH.
+- **Désactiver DH** : quitte le jeu, renomme `packwiz.json` dans le dossier `minecraft` de
+  l'instance (ex. `packwiz.json.old`), relance : la fenêtre des mods optionnels réapparaît,
+  décoche **Distant Horizons**.
 
 ---
 
 ## Mods optionnels
 Proposés par la fenêtre packwiz au premier lancement :
-- **Distant Horizons** (désactivé par défaut) — vue lointaine en LOD.
+- **Distant Horizons** (activé par défaut) — vue lointaine en LOD. Voir la section Distant Horizons ci-dessus pour le désactiver.
 
 ---
 
@@ -129,10 +142,18 @@ allumage). Ce qui **ne peut être vérifié qu'en jeu (client)**, par ordre de p
 10. **Le Moteur** : construire le cube 5×5×5 (97 boîtiers + contrôleur au centre d'une face),
     clic droit = état ; y brancher de l'énergie (câble Mekanism/IE) ; allumage accroupi.
 11. **Performances** avec 10 Go : FPS en base Create chargée, avec et sans shaders.
-12. **Distant Horizons** (optionnel) : activation via la fenêtre packwiz, cohabitation avec Iris.
+12. **Distant Horizons** : voir « Correctifs à retester » plus bas.
 
 Pour tester vite en créatif : `/give @s dernier_moteur:codex_spark`, puis `dernier_moteur:codex_forge`,
 `dernier_moteur:codex_automaton` ; les fragments sont `dernier_moteur:core_fragment_<gear|spark|ember|storm|void|abyss>`.
+
+### Correctifs à retester (retour du premier test client)
+1. **Journaux** : clic droit avec un Journal d'ingénieur (n°1 dès le départ) → le Carnet s'ouvre à
+   la page de ce journal.
+2. **Distant Horizons, horizon** : sur un **monde neuf**, l'horizon se remplit seul en quelques
+   minutes ; dans *Mods → Distant Horizons → Config*, le générateur n'est plus « Disabled / API LOCK ».
+3. **Distant Horizons, mises à jour** : plus de message « New update available » au lancement.
+4. **Distant Horizons, config** : bouton DH dans *Options* (à côté du FOV).
 
 ## Liste des mods
 Voir [`docs/mods.md`](docs/mods.md) (rôle de chaque mod et mods écartés).

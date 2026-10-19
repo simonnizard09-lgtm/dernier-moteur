@@ -4,8 +4,8 @@ side = "both"
 
 [option]
 optional = true
-default = false
-description = "Vue lointaine (LOD). Gourmand en RAM/GPU : prévoir 12 Go et un shader compatible (Complementary, BSL)."
+default = true
+description = "Vue lointaine (LOD), activée par défaut. Gourmande en RAM/GPU : prévoir 10 à 12 Go. Décocher pour la désactiver."
 
 [download]
 url = "https://cdn.modrinth.com/data/uCdwusMi/versions/Ez3cx7Yd/DistantHorizons-3.3.2-1.21.1-fabric-neoforge.jar"

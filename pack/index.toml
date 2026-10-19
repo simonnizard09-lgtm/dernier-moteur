@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "0e9888473fecabb15dd19c0933f3c8fe0f2a59229963bc1884d56e9bf21cdadd"
+
+[[files]]
 file = "config/almostunified/unification/materials.json"
 hash = "2bc755c89d7538d23b62174e3473b716f98cf4cc5d04da8a23d697c4fea7563c"
 
@@ -58,7 +62,7 @@ hash = "69116d3e63b33da23f2f9d58bf1c54d81a5e88db45dccb421257e01aad801bd0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "0bdd755e3bc17ee2b2d1c5edede2c4dcd3abbb0b06b1b8c012c2e097a438846c"
+hash = "9efd0ff4417a899b11d3be8b0e8e0ed90da4841cd354a94aab029a2808ff59e6"
 
 [[files]]
 file = "config/improvedmobs/common.toml"
@@ -337,6 +341,10 @@ file = "kubejs/server_scripts/first_join.js"
 hash = "c5cf9bc1f040f963429dc65eb73c946e37077d96fc783f592d83b3780877b133"
 
 [[files]]
+file = "kubejs/server_scripts/journals.js"
+hash = "33ebad5cdca2592ed7d545a6521c70bb8802545bf811d933482ee6bad1cf8ddc"
+
+[[files]]
 file = "kubejs/server_scripts/recipes_progression.js"
 hash = "36f8249331bfeb7cb7ab8a8baf1529db18aa9d427bb5898e6a0eba7f863fd0cb"
 
@@ -387,11 +395,6 @@ metafile = true
 [[files]]
 file = "mods/better-advanced-tooltips.pw.toml"
 hash = "03084ff4f74cedc1b8ac6c85a98842f75956fb4fa811d285d8ca7caa8d54da5d"
-metafile = true
-
-[[files]]
-file = "mods/chunky.pw.toml"
-hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
 metafile = true
 
 [[files]]
@@ -451,7 +454,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "7b06a58ac4906264c7dd0cbe90e6042783f26ceb2404a6e0a2e714842ac826d9"
+hash = "d0df8af21729de7a52218e01bbd83e2028f7e7c14b9cb27d6a2c6926ab0d9f6a"
 metafile = true
 
 [[files]]

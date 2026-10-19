@@ -470,7 +470,7 @@
 	"quest.5273D72D973E82BB.title": "L'Hydre"
 	"quest.5289D5FB0A867A1F.quest_desc": [
 		"Sodium est déjà réglé. Baisse la &edistance de rendu&r (10-12) et la &edistance de simulation&r (6-8) dans les grosses bases."
-		"&e/chunky&r peut prégénérer le monde ; &e/spark profiler&r trouve ce qui ralentit."
+		"Si Distant Horizons fait trop ramer : baisse sa distance de rendu dans sa config (voir la quête Distant Horizons). &e/spark profiler&r trouve ce qui ralentit."
 	]
 	"quest.5289D5FB0A867A1F.title": "Performances"
 	"quest.531D301B9E2E0866.quest_desc": [
@@ -702,7 +702,7 @@
 	"quest.72E12341C6888938.title": "Forteresse illageoise"
 	"quest.73813E2057E34AD6.title": "La marmite"
 	"quest.7396855FED952EF2.quest_desc": [
-		"Dans Prism Launcher : &e6 à 10 Go&r (12 Go maximum avec Distant Horizons). Plus n'est pas mieux : le ramasse-miettes ralentit."
+		"Dans Prism Launcher : &e10 Go&r conseillés (Distant Horizons est actif), 12 Go maximum. Plus n'est pas mieux : le ramasse-miettes ralentit."
 		"Le README du dépôt donne les arguments JVM conseillés."
 	]
 	"quest.7396855FED952EF2.title": "La mémoire"
@@ -718,9 +718,15 @@
 	]
 	"quest.745F55AF2495989C.title": "La machine à vapeur"
 	"quest.74E74243C77ADEC5.quest_desc": [
-		"Proposé au premier lancement, désactivé par défaut. Pour l'activer plus tard : supprime &epackwiz.json&r dans le dossier minecraft de l'instance et relance (voir README)."
+		"&eDistant Horizons&r (DH) est &eactivé par défaut&r : au-delà de ta distance de rendu, il affiche le paysage lointain en version simplifiée (LOD)."
+		"Il &egénère lui-même&r le terrain lointain autour de toi, en tâche de fond : sur un monde neuf, l'horizon se remplit progressivement pendant les premières minutes (la progression s'affiche en bas à gauche)."
+		""
+		"&6Régler DH&r : &eOptions&r → bouton &eDistant Horizons&r à côté du curseur de champ de vision (il n'y en a pas dans les &eOptions vidéo&r, remplacées par Sodium), ou &eMods → Distant Horizons → Config&r. Le réglage le plus utile : la &edistance de rendu LOD&r."
+		""
+		"&6Le désactiver&r : quitte le jeu, renomme &epackwiz.json&r dans le dossier &eminecraft&r de l'instance (par exemple en &epackwiz.json.old&r), relance : la fenêtre des mods optionnels réapparaît, décoche &eDistant Horizons&r."
+		"Avec DH, préfère &6Complementary&r ou &6BSL&r (ils savent dessiner les LOD)."
 	]
-	"quest.74E74243C77ADEC5.title": "Distant Horizons (optionnel)"
+	"quest.74E74243C77ADEC5.title": "Distant Horizons"
 	"quest.753A8DBB1DDE2456.quest_desc": [
 		"Latex → caoutchouc sec (unité de traitement du latex) → plastique (four)."
 	]

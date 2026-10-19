@@ -33,7 +33,13 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
   volontaire : ne pas activer l'interface JEI.
 - **Iris 1.8.14-beta** (couplée à Sodium 0.8.x, cf. message d'incompatibilité dans son jar) +
   **Iris Flywheel Compat** pour Create 6 (Flywheel est embarqué dans Create 6).
-- **Distant Horizons** : option packwiz `optional=true, default=false`.
+- **Distant Horizons** : option packwiz `optional=true, default=true` (voulu par l'utilisateur).
+  `config/DistantHorizons.toml` fourni : `enableAutoUpdater=false` (sinon DH propose une mise à
+  jour qui casse le hash du pack), `generatorPlan="SURFACE_THEN_CHUNKS"`.
+- **Chunky retiré** : DH, s'il détecte la classe `org.popcraft.chunky.api.ChunkyAPI`, force sans
+  condition `generatorPlan=DISABLED` (verrou API « Distant Horizons / Chunky ») → horizon vide.
+- **Journaux** : clic droit → `server_scripts/journals.js` ouvre l'entrée
+  `patchouli:journaux/journal_N` du Carnet via `PatchouliAPI.openBookEntry(ServerPlayer, …)`.
 - **Improved Mobs** : `Break BlockEntities=false`, `Stealer Chance=0` (pas de destruction de
   machines ni de vol : difficulté oui, frustration non).
 - **Cataclysm sur serveur dédié** : ses boss plantent le chargement des tags sur serveur dédié

@@ -1,4 +1,4 @@
-# Liste des mods (86 + le mod custom `dernier_moteur`)
+# Liste des mods (85 + le mod custom `dernier_moteur`)
 
 Tous en **1.21.1 NeoForge**, vérifiés par `tools/check_deps.py` (dépendances requises,
 incompatibilités déclarées) et par un démarrage réel de serveur NeoForge 21.1.251.
@@ -65,9 +65,9 @@ Source : Modrinth, sauf mention **[CF]** (CurseForge, redistribution autorisée)
 | Xaero's Minimap + World Map | Carte. |
 | Simple Backups | Sauvegardes auto (toutes les 60 min, 8 conservées). |
 | Mouse Tweaks, Controlling (+ Searchables), Clumps | Confort. |
-| Chunky, spark | Prégénération, profilage. |
+| spark | Profilage. |
 | Crash Assistant | Fenêtre d'aide en cas de crash (logs faciles à copier). |
-| Distant Horizons | **Optionnel, désactivé par défaut.** |
+| Distant Horizons | **Optionnel, activé par défaut** ; génère lui-même le terrain lointain. |
 
 ## Shaderpacks
 Complementary Reimagined (principal), BSL (alternative), MakeUp Ultra Fast (léger).
@@ -81,4 +81,5 @@ Complementary Reimagined (principal), BSL (alternative), MakeUp Ultra Fast (lég
 | Cold Sweat | Doublon de Tough As Nails. |
 | Deeper and Darker, Alex's Mobs, Alex's Caves | Pas de version 1.21.1 NeoForge. |
 | Lithium | Pris en charge par NeoForge mais bénéfice faible ici ; écarté par prudence (mixins nombreux). |
+| Chunky | Retiré : sa présence fait verrouiller par DH son générateur de terrain lointain (horizon vide). DH génère lui-même. |
 | Colorwheel | Même fonction que Iris Flywheel Compat (un seul des deux). |

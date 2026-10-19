@@ -785,7 +785,7 @@ survie = Chapter("12_survie", "Survie", "toughasnails:thermometer", "annexes",
 reglages = Chapter("13_reglages", "Shaders & réglages", "minecraft:spyglass", "annexes",
                    subtitle="Rendre le jeu beau… et fluide.", quests=[
     Q("memoire", "La mémoire", "minecraft:redstone", [check()], deps=["00_intro:reglages"],
-      desc=["Dans Prism Launcher : &e6 à 10 Go&r (12 Go maximum avec Distant Horizons). Plus n'est "
+      desc=["Dans Prism Launcher : &e10 Go&r conseillés (Distant Horizons est actif), 12 Go maximum. Plus n'est "
             "pas mieux : le ramasse-miettes ralentit.", "Le README du dépôt donne les arguments JVM conseillés."]),
     Q("shaders", "Activer un shader", "minecraft:glass", [check()], deps=["memoire"],
       desc=["&eOptions → Options vidéo → Shader Packs…&r (ou touche &eO&r).",
@@ -797,10 +797,20 @@ reglages = Chapter("13_reglages", "Shaders & réglages", "minecraft:spyglass", "
     Q("performances", "Performances", "minecraft:clock", [check()], deps=["memoire"],
       desc=["Sodium est déjà réglé. Baisse la &edistance de rendu&r (10-12) et la &edistance de "
             "simulation&r (6-8) dans les grosses bases.",
-            "&e/chunky&r peut prégénérer le monde ; &e/spark profiler&r trouve ce qui ralentit."]),
-    Q("dh", "Distant Horizons (optionnel)", "minecraft:ender_eye", [check()], deps=["shaders"],
-      desc=["Proposé au premier lancement, désactivé par défaut. Pour l'activer plus tard : supprime "
-            "&epackwiz.json&r dans le dossier minecraft de l'instance et relance (voir README)."]),
+            "Si Distant Horizons fait trop ramer : baisse sa distance de rendu dans sa config "
+            "(voir la quête Distant Horizons). &e/spark profiler&r trouve ce qui ralentit."]),
+    Q("dh", "Distant Horizons", "minecraft:ender_eye", [check()], deps=["shaders"],
+      desc=["&eDistant Horizons&r (DH) est &eactivé par défaut&r : au-delà de ta distance de rendu, il "
+            "affiche le paysage lointain en version simplifiée (LOD).",
+            "Il &egénère lui-même&r le terrain lointain autour de toi, en tâche de fond : sur un monde neuf, "
+            "l'horizon se remplit progressivement pendant les premières minutes (la progression s'affiche en bas à gauche).",
+            "", "&6Régler DH&r : &eOptions&r → bouton &eDistant Horizons&r à côté du curseur de champ de vision "
+            "(il n'y en a pas dans les &eOptions vidéo&r, remplacées par Sodium), ou &eMods → Distant Horizons → Config&r. "
+            "Le réglage le plus utile : la &edistance de rendu LOD&r.",
+            "", "&6Le désactiver&r : quitte le jeu, renomme &epackwiz.json&r dans le dossier &eminecraft&r de "
+            "l'instance (par exemple en &epackwiz.json.old&r), relance : la fenêtre des mods optionnels "
+            "réapparaît, décoche &eDistant Horizons&r.",
+            "Avec DH, préfère &6Complementary&r ou &6BSL&r (ils savent dessiner les LOD)."]),
     Q("touches", "Les touches", "minecraft:oak_button", [check()], deps=["memoire"],
       desc=["&eControlling&r permet de chercher une touche et de voir les conflits "
             "(Options → Commandes)."]),

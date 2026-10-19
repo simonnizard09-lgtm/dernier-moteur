@@ -148,7 +148,7 @@ Pour tester vite en créatif : `/give @s dernier_moteur:codex_spark`, puis `dern
 `dernier_moteur:codex_automaton` ; les fragments sont `dernier_moteur:core_fragment_<gear|spark|ember|storm|void|abyss>`.
 
 ### Correctifs à retester (retour du premier test client)
-1. **Journaux** : clic droit avec un Journal d'ingénieur (n°1 dès le départ) → le Carnet s'ouvre à
+1. ✅ (validé) **Journaux** : clic droit avec un Journal d'ingénieur (n°1 dès le départ) → le Carnet s'ouvre à
    la page de ce journal (au pire, sur sa page d'accueil ; jamais de déconnexion). Si c'est la page
    d'accueil, envoyer `logs/kubejs/client.log` (il liste les entrées que Patchouli a chargées).
 2. **Distant Horizons, horizon** : sur un **monde neuf**, l'horizon se remplit seul en quelques

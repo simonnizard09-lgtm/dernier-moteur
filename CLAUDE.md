@@ -87,7 +87,7 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
 
 ## État d'avancement
 - [x] Phase 1 — Structure (packwiz, README, CLAUDE.md)
-- [x] Phase 2 — Mods + configs (86 mods, serveur de test OK)
+- [x] Phase 2 — Mods + configs (86 mods à l'origine ; 85 + le mod custom depuis le retrait de Chunky)
 - [x] Phase 3 — Progression (`docs/progression.md`)
 - [x] Phase 4 — KubeJS (items de lore, recettes, drops de boss, carnet Patchouli) — validé sur serveur de test
 - [x] Phase 5 — FTB Quests (11 chapitres, 236 quêtes, chargées sans perte par FTB 2101.1.36)
@@ -97,3 +97,9 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
   vérifié), 0 dépendance manquante (98 modIds), serveur de test avec l'état exact du dépôt :
   0 erreur KubeJS, recettes présentes, 236 quêtes, tous les IDs de quêtes existent (mod inclus),
   boss + Moteur OK. Reste à tester côté client : voir « Points à tester » du README.
+- [x] Retours du premier test client (oct. 2026) : DH actif par défaut + générateur fonctionnel,
+  updater DH coupé, journaux ouvrables au clic droit (validé en jeu), Carnet complet (validé en jeu),
+  fermeture du monde OK. État général revérifié sur serveur : 0 dépendance manquante, 0 erreur
+  KubeJS, 27 recettes ajoutées / 15 retirées sans échec, 236 quêtes, 7 boss → fragments, cœur et
+  journaux. Erreurs restantes du log = bruit amont (Create Connected « dye_depot », potions de
+  When Dungeons Arise, advancements optionnels, slot exemple de Curios), sans effet en jeu.

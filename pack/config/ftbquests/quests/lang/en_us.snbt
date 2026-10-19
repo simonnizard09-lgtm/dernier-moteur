@@ -98,7 +98,7 @@
 	]
 	"quest.07C353F475708D03.title": "Quartz de certus"
 	"quest.082E1916483466E2.quest_desc": [
-		"Respiration aquatique, vitesse de nage, et du recul pour esquiver son rayon."
+		"On l'appelle avec un &eSacrifice abyssal&r posé sur l'&eautel des abysses&r (recette dans EMI). Respiration aquatique, vitesse de nage, et du recul pour esquiver son rayon."
 		"Il garde le &6Fragment du Noyau — Abysse&r et le Journal n°7."
 	]
 	"quest.082E1916483466E2.title": "Le Léviathan"
@@ -128,7 +128,7 @@
 	]
 	"quest.0EF635360E3FA49B.title": "L'excavatrice"
 	"quest.0FF8D62B42815936.quest_desc": [
-		"Résistance au feu indispensable. Il entre en rage quand son bouclier se brise."
+		"Il s'éveille quand on dépose des &eCendres ardentes&r sur l'&eautel de feu&r de la forge (recette dans EMI). Résistance au feu indispensable ; il entre en rage quand son bouclier se brise."
 		"Il garde le &6Fragment du Noyau — Braise&r et le Journal n°4."
 	]
 	"quest.0FF8D62B42815936.title": "Ignis"
@@ -364,7 +364,7 @@
 	]
 	"quest.3796038A910B1585.title": "Purifier l'eau en masse"
 	"quest.37A6139041B9D56D.quest_desc": [
-		"Un contremaître mécanique armé de missiles et de lasers. Coupe-le de ses bobines."
+		"Un contremaître mécanique armé de missiles et de lasers, endormi au cœur de l'usine. Il faut le &eréveiller&r (une &eétoile du Nether&r : voir le Wither, chapitre Boss). Coupe-le de ses bobines."
 		"Il garde le &6Fragment du Noyau — Tempête&r et le Journal n°5."
 	]
 	"quest.37A6139041B9D56D.title": "Le Harbinger"

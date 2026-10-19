@@ -444,7 +444,8 @@ era3 = Chapter("04_industrie", "Ère III — Industrie lourde", "mekanism:steel_
     Q("forge_ames", "La forge des âmes", "minecraft:soul_lantern", [struct("cataclysm:soul_black_smith")],
       deps=["oeil_flamme"], desc=lore("« Notre forge-relais a été reprise. »"), shape="diamond"),
     Q("ignis", "Ignis", "cataclysm:ignitium_ingot", [kill("cataclysm:ignis")], deps=["forge_ames"],
-      desc=["Résistance au feu indispensable. Il entre en rage quand son bouclier se brise.",
+      desc=["Il s'éveille quand on dépose des &eCendres ardentes&r sur l'&eautel de feu&r de la forge "
+            "(recette dans EMI). Résistance au feu indispensable ; il entre en rage quand son bouclier se brise.",
             "Il garde le &6Fragment du Noyau — Braise&r et le Journal n°4."],
       rewards=[xp(1200), I("minecraft:golden_apple", 4)], shape="diamond", size=1.3),
     Q("fragment_braise", "Fragment de la Braise", "dernier_moteur:core_fragment_ember",
@@ -459,7 +460,9 @@ era3 = Chapter("04_industrie", "Ère III — Industrie lourde", "mekanism:steel_
       desc=lore("« C'est ici que nous fabriquions les gardiens. »"), shape="diamond"),
     Q("harbinger", "Le Harbinger", "cataclysm:witherite_ingot", [kill("cataclysm:the_harbinger")],
       deps=["usine", "dissolution"],
-      desc=["Un contremaître mécanique armé de missiles et de lasers. Coupe-le de ses bobines.",
+      desc=["Un contremaître mécanique armé de missiles et de lasers, endormi au cœur de l'usine. "
+            "Il faut le &eréveiller&r (une &eétoile du Nether&r : voir le Wither, chapitre Boss). "
+            "Coupe-le de ses bobines.",
             "Il garde le &6Fragment du Noyau — Tempête&r et le Journal n°5."],
       rewards=[xp(1200)], shape="diamond", size=1.3),
     Q("fragment_tempete", "Fragment de la Tempête", "dernier_moteur:core_fragment_storm",
@@ -569,7 +572,8 @@ era4 = Chapter("05_automatisation", "Ère IV — Automatisation", "ae2:controlle
       deps=["oeil_abysse"], shape="diamond"),
     Q("leviathan", "Le Léviathan", "cataclysm:abyssal_egg", [kill("cataclysm:the_leviathan")],
       deps=["cite", "autocraft"],
-      desc=["Respiration aquatique, vitesse de nage, et du recul pour esquiver son rayon.",
+      desc=["On l'appelle avec un &eSacrifice abyssal&r posé sur l'&eautel des abysses&r (recette dans EMI). "
+            "Respiration aquatique, vitesse de nage, et du recul pour esquiver son rayon.",
             "Il garde le &6Fragment du Noyau — Abysse&r et le Journal n°7."],
       rewards=[xp(1500)], shape="diamond", size=1.3),
     Q("fragment_abysse", "Fragment de l'Abysse", "dernier_moteur:core_fragment_abyss",

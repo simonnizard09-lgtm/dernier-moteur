@@ -97,6 +97,43 @@ Proposés par la fenêtre packwiz au premier lancement :
 
 ---
 
+## Conseils de départ
+- Crée le monde en difficulté **Difficile** (le pack ne la force pas).
+- Au premier lancement du monde, tu reçois le **Carnet de l'Ingénieur** et le **Journal n°1** ;
+  le livre de quêtes (FTB Quests) s'ouvre avec la touche **L** par défaut.
+
+## Points à tester en jeu en priorité
+Ce qui a été vérifié automatiquement (serveur NeoForge de test) : chargement de tous les mods
+côté serveur, scripts KubeJS sans erreur, toutes les recettes du pack présentes, drops des 6 gardiens,
+236 quêtes chargées par FTB Quests sans perte d'ID, mod `dernier_moteur` (boss, drops, multibloc,
+allumage). Ce qui **ne peut être vérifié qu'en jeu (client)**, par ordre de priorité :
+
+1. **Démarrage client** : l'instance se lance (mods client : Sodium, Iris, Iris Flywheel Compat,
+   Entity Culling, ImmediatelyFast…) et atteint le menu. En cas de crash, envoie
+   `logs/latest.log` (et le fichier de `crash-reports/` s'il existe).
+2. **Création d'un monde** : Terralith + YUNG's + When Dungeons Arise + Twilight Forest se
+   génèrent sans erreur ; tu reçois le Carnet et le Journal n°1.
+3. **Livre de quêtes** : les chapitres ont leurs titres et descriptions en français
+   (sinon : problème de fichier de langue FTB), les icônes s'affichent.
+4. **Carnet de l'Ingénieur** (Patchouli) : s'ouvre, catégories « Journaux » et « Guide des ères »
+   visibles ; le Journal n°2 se déverrouille quand on l'a dans l'inventaire.
+5. **Items de lore** : textures et infobulles des fragments, codex, journaux (EMI).
+6. **Recettes-portes dans EMI** : marteau IE, boîtier en acier Mekanism, graveur AE2 affichent le
+   Codex ; en fabriquer une à la table de craft doit **laisser le Codex dans la grille**.
+7. **Shaders** : activer Complementary puis BSL puis MakeUp ; vérifier qu'une machine Create en
+   mouvement (roue à eau, presse) s'affiche correctement.
+8. **Assemblage séquencé** du Mécanisme à vapeur (Create) et **infusion** de l'Alliage du Noyau
+   (Mekanism), recettes écrites en JSON brut.
+9. **Boss** : le Gardien du Noyau (œuf d'apparition en créatif) s'affiche (golem noirci ×2), a une
+   barre de boss, change de phase (boules de feu, vex, ondes de choc).
+10. **Le Moteur** : construire le cube 5×5×5 (97 boîtiers + contrôleur au centre d'une face),
+    clic droit = état ; y brancher de l'énergie (câble Mekanism/IE) ; allumage accroupi.
+11. **Performances** avec 10 Go : FPS en base Create chargée, avec et sans shaders.
+12. **Distant Horizons** (optionnel) : activation via la fenêtre packwiz, cohabitation avec Iris.
+
+Pour tester vite en créatif : `/give @s dernier_moteur:codex_spark`, puis `dernier_moteur:codex_forge`,
+`dernier_moteur:codex_automaton` ; les fragments sont `dernier_moteur:core_fragment_<gear|spark|ember|storm|void|abyss>`.
+
 ## Liste des mods
 Voir [`docs/mods.md`](docs/mods.md) (rôle de chaque mod et mods écartés).
 

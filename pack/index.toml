@@ -6,7 +6,7 @@ hash = "0e9888473fecabb15dd19c0933f3c8fe0f2a59229963bc1884d56e9bf21cdadd"
 
 [[files]]
 file = "config/almostunified/unification/materials.json"
-hash = "2bc755c89d7538d23b62174e3473b716f98cf4cc5d04da8a23d697c4fea7563c"
+hash = "45333eac5f3440fd5507c7eac45259f4a4fdde3c07603c7d800985984683b728"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -269,6 +269,10 @@ file = "kubejs/data/dernier_moteur/loot_table/inject/journal_7.json"
 hash = "11a0294082bda72199e51e52a977a3c0b10eee7be4901ca9b2eb2d9f2dfa2c8b"
 
 [[files]]
+file = "kubejs/data/dernier_moteur/neoforge/biome_modifier/remove_duplicate_ores.json"
+hash = "e0887d5917528685c88444b59afd9f2acd747e0f6a4aebd617f18e0bdc793cb3"
+
+[[files]]
 file = "kubejs/data/neoforge/loot_modifiers/global_loot_modifiers.json"
 hash = "25f74be79e95bd2900a345548193a0c606607108429b92470a2a2842b64dc686"
 
@@ -283,6 +287,10 @@ hash = "c5cf9bc1f040f963429dc65eb73c946e37077d96fc783f592d83b3780877b133"
 [[files]]
 file = "kubejs/server_scripts/recipes_progression.js"
 hash = "36f8249331bfeb7cb7ab8a8baf1529db18aa9d427bb5898e6a0eba7f863fd0cb"
+
+[[files]]
+file = "kubejs/server_scripts/tags.js"
+hash = "f57ac029a063e1d4b91ee8ba3b1240f72b601558fef5b1508737d79b84dac264"
 
 [[files]]
 file = "kubejs/startup_scripts/dernier_moteur_items.js"

@@ -1,0 +1,19 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "mekanism:ore_lead_normal",
+    "mekanism:ore_lead_normal_retrogen",
+    "mekanism:ore_uranium_small",
+    "mekanism:ore_uranium_buried",
+    "mekanism:ore_uranium_small_retrogen",
+    "mekanism:ore_uranium_buried_retrogen",
+    "tfmg:lead_ore",
+    "tfmg:nickel_ore",
+    "createnuclear:lead_ore",
+    "createnuclear:uranium_ore",
+    "create_ironworks:tin_ore",
+    "create_ironworks:deepslate_tin_ore"
+  ],
+  "steps": "underground_ores"
+}

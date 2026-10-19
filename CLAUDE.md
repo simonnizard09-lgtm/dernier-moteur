@@ -80,6 +80,14 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
   TFMG = **Community Edition** (l'original ≤ 1.2.2 est incompatible avec Bits 'n' Bobs) ;
   Create New Age retiré (dépendance `esl` introuvable) ; KubeJS Create retiré (inutile).
 - **FTB Ultimine** (CurseForge, redistribution autorisée).
+- **Métaux** : priorités Almost Unified = minecraft, kubejs, create, IE, mekanism, createaddition,
+  tfmg, createbigcannons, create_ironworks, createmetallurgy, createnuclear… Un seul minerai généré
+  par métal : biome modifier `kubejs/data/dernier_moteur/neoforge/biome_modifier/remove_duplicate_ores.json`
+  retire plomb/uranium (Mekanism, Create Nuclear, TFMG), nickel (TFMG), étain (Ironworks). Restent :
+  plomb/nickel/uranium/argent/aluminium = IE, étain/osmium/fluorite = Mekanism, zinc = Create.
+- **Décraft TF bloqué** pour fragments, codex et composants (`server_scripts/tags.js`), sinon
+  décrafter un codex rendrait un fragment.
+- **Scan anti-contournement** (oct. 2026) : aucune recette d'addon ne produit une machine verrouillée.
 - Liste commentée des mods et des écartés : `docs/mods.md`.
 
 ## Outils

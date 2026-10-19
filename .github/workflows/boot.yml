@@ -1,0 +1,69 @@
+name: Test de démarrage
+
+# Démarre un serveur NeoForge avec le pack et vérifie : dépendances, absence de crash,
+# scripts KubeJS sans erreur, recettes-portes, quêtes, drops des gardiens (tools/ci/ci_check.js).
+
+on:
+  push:
+    paths:
+      - 'pack/**'
+      - 'tools/**'
+      - '.github/workflows/boot.yml'
+  pull_request:
+    paths:
+      - 'pack/**'
+      - 'tools/**'
+  workflow_dispatch:
+
+concurrency:
+  group: boot-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  boot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Version de NeoForge
+        id: neo
+        run: echo "version=$(python3 -c "import tomllib;print(tomllib.load(open('pack/pack.toml','rb'))['versions']['neoforge'])")" >> "$GITHUB_OUTPUT"
+
+      - name: Cache des jars
+        uses: actions/cache@v4
+        with:
+          path: .ci/jars
+          key: jars-${{ hashFiles('pack/mods/**') }}
+          restore-keys: jars-
+
+      - name: Cache du serveur NeoForge
+        uses: actions/cache@v4
+        with:
+          path: |
+            .ci/server/libraries
+            .ci/server/run.sh
+            .ci/server/user_jvm_args.txt
+          key: neoforge-server-${{ steps.neo.outputs.version }}
+
+      - name: Test de démarrage
+        run: tools/ci/boot_test.sh
+
+      - name: Logs en cas d'échec
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: logs-serveur
+          path: |
+            .ci/server/run.log
+            .ci/server/logs/
+            .ci/server/crash-reports/

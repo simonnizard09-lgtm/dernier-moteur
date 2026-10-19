@@ -98,7 +98,9 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
 - `tools/gen_loot.py` : injections des journaux dans les coffres de structures.
 - `tools/gen_patchouli.py` : contenu du Carnet + advancements des journaux.
 - `tools/check_deps.py pack <cache>` : télécharge les jars et vérifie dépendances/incompatibilités.
-- Test serveur headless : installer NeoForge server (`--install-server`), copier les jars
+- `tools/ci/boot_test.sh` : test de démarrage complet (dépendances, serveur, KubeJS, `tools/ci/ci_check.js`),
+  exécuté par `.github/workflows/boot.yml` à chaque changement du pack. Lancer en local avant de pousser.
+- Test serveur headless manuel : installer NeoForge server (`--install-server`), copier les jars
   `side = both|server`, `./run.sh nogui`, attendre `Done (`. Les erreurs KubeJS sont dans
   `logs/kubejs/server.log`.
 
@@ -109,7 +111,8 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
 - [x] Phase 4 — KubeJS (items de lore, recettes, drops de boss, carnet Patchouli) — validé sur serveur de test
 - [x] Phase 5 — FTB Quests (12 chapitres, 262 quêtes dont l'annexe « Ateliers Create », chargées sans perte)
 - [x] Phase 6 — Mod custom `dernier_moteur` (compile ; boss, drops, multibloc et allumage testés sur serveur)
-- [x] Phase 7 — CI : `.github/workflows/mod.yml` (build, release `mod-v<version>`, pw.toml auto-commité) + `pack.yml` (cohérence)
+- [x] Phase 7 — CI : `mod.yml` (build, release `mod-v<version>`, pw.toml auto-commité), `pack.yml` (cohérence),
+  `boot.yml` (démarrage serveur + contrôles)
 - [x] Phase 8 — Vérification finale : release `mod-v1.0.0` publiée et référencée par le pack (hash
   vérifié), 0 dépendance manquante (98 modIds), serveur de test avec l'état exact du dépôt :
   0 erreur KubeJS, recettes présentes, 236 quêtes, tous les IDs de quêtes existent (mod inclus),

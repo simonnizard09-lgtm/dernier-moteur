@@ -1,4 +1,4 @@
-# Liste des mods (85 + le mod custom `dernier_moteur`)
+# Liste des mods (152 + le mod custom `dernier_moteur`)
 
 Tous en **1.21.1 NeoForge**, vérifiés par `tools/check_deps.py` (dépendances requises,
 incompatibilités déclarées) et par un démarrage réel de serveur NeoForge 21.1.251.
@@ -16,6 +16,23 @@ Source : Modrinth, sauf mention **[CF]** (CurseForge, redistribution autorisée)
 | Industrial Foregoing (+ Titanium) | Ère 4 : automatisation des ressources vivantes (arbres, mobs, laser drill). |
 | Applied Energistics 2 (+ GuideME) | Ère 4 : stockage et autocrafting en réseau. |
 | Applied Mekanistics | Gaz/chimie Mekanism dans AE2. |
+
+## Addons Create (ajoutés à la demande : « tous les mods Create »)
+59 addons majeurs et maintenus, compatibles Create 6 / NeoForge 1.21.1, chargés ensemble sur le
+serveur de test : Create: Copycats+, Create Aeronautics, Create Big Cannons, Create Slice & Dice, Create: Diesel Generators, Create: Enchantment Industry, Create: Bells & Whistles, Create: Design n' Decor, Create Jetpack, Create Ore Excavation, Create Goggles, Create: Framed, Create Contraption Terminals, Create: Power Loader, Steam 'n' Rails Neoforge, Create Encased, Create Railways Navigator, Create: Bits 'n' Bobs, Create: Pattern Schematics, Create: TFMG Community Edition, Create: Trading floor, Create: Structures Arise, Create: Numismatics, Create: Power Grid, Create: Hypertubes, Create Nuclear, Create: Blocks & Bogies, Sophisticated Backpacks Create Integration, Create: Escalated, Create: Extended Wrenches, Create Sifting, Create: Components and Additions, Create: Ender Transmission, Create Mechanical Spawner, Create Mechanical Extruder, Create: Storage [Neo/Forge], Create: Shuffle Filter, Create More: Parallel Pipes, Create: Garnished, Create Confectionery, Create: Sound of Steam, Create: Mobile Packages, Create Train Parts, Create: Enchantable Machinery, EMI: Create Schematics, Create: Integrated Farming, Create Cafe, Create Ratatouille, Create: Harmonics, Create Train Utilities (Create Train Doors), Create Horse Power, Create: Metallurgy, Create: Ironworks, Create: Deep Dark, Create: Tracks+, Create: Pantographs & Wires, Create: Winery, Create: Transmission!, Create: Electro Energetics.
+Dépendances tirées automatiquement : Sable (physique d'Aeronautics), Ritchie's Projectile Library,
+DragonLib, Azimuth API, Struts, Mechanicals Lib, Tom's Simple Storage (pour Contraption Terminals).
+
+Volontairement **non ajoutés** (sur ~400 addons Create recensés sur Modrinth) :
+| Catégorie | Exemples | Raison |
+|---|---|---|
+| Incompatible / introuvable | Create: New Age | Exige la bibliothèque `esl`, introuvable sur Modrinth et CurseForge. |
+| Remplacé | Create: The Factory Must Grow | Incompatible avec Bits 'n' Bobs (≤ 1.2.2) → **TFMG Community Edition** à la place. |
+| Sans usage | KubeJS Create | Le pack écrit ses recettes en JSON brut ; l'addon ne faisait qu'ajouter des avertissements. |
+| Compat pour des mods absents | Ars Creo, Cobblemon, CC:C Bridge, Rechiseled: Create, Storage Drawers compat, Vampirism… | Le mod cible n'est pas dans le pack. |
+| Casse la difficulté | Renewable Netherite/Diamonds/Brass, Simple Ore Doubling, Easy Stone Generators, Overpowered, Creator Sword… | Contraire au style « expert ». |
+| Doublon de structures | Integrated Dungeons and Structures, Integrated Stronghold | Font doublon avec YUNG's (forteresses). |
+| Alpha / abandonné / gadget | longue traîne (< 1 000 téléchargements, versions alpha, « deprecated ») | Risque de plantage sans apport. |
 
 ## Exploration et boss
 | Mod | Rôle |
@@ -52,6 +69,7 @@ Source : Modrinth, sauf mention **[CF]** (CurseForge, redistribution autorisée)
 | JEI (+ MezzConfig) | Utilisé **comme bibliothèque** : EMI affiche les plugins JEI des mods qui n'ont que celui-ci. Voir décision dans CLAUDE.md. |
 | KubeJS (+ Rhino, Better Advanced Tooltips) | Items de lore, recettes, tags, butins. |
 | Polymorph | Choix en cas de conflit de recettes. |
+| FTB Ultimine **[CF]** | Minage en veine (touche ` par défaut). |
 | Almost Unified | Unification des minerais/lingots entre Create, IE, Mekanism… |
 
 ## Performances / QoL / rendu
@@ -75,7 +93,6 @@ Complementary Reimagined (principal), BSL (alternative), MakeUp Ultra Fast (lég
 ## Écartés (et pourquoi)
 | Mod | Raison |
 |---|---|
-| Create Diesel Generators, Create New Age | Doublons de l'électricité (Crafts & Additions + IE + Mekanism). |
 | Tom's Storage, Functional Storage | Doublons du stockage AE2. |
 | Mekanism Tools / Additions | Hors sujet, doublons d'équipement. |
 | Cold Sweat | Doublon de Tough As Nails. |

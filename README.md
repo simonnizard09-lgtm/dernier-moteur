@@ -52,7 +52,7 @@ télécharger tout seul).
      -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
      ```
 
-5. **Lancer.** Au premier démarrage, une fenêtre packwiz télécharge ~90 mods (quelques minutes).
+5. **Lancer.** Au premier démarrage, une fenêtre packwiz télécharge ~150 mods (quelques minutes).
    Elle propose aussi les **mods optionnels** (voir plus bas). Les lancements suivants ne
    téléchargent que les mises à jour.
 

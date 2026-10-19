@@ -26,7 +26,7 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
 - **URL du pack** : le README pointe vers `main` (branche par défaut). Tant que la branche de dev
   n'est pas fusionnée, remplacer `main` par le nom de la branche dans la commande de pré-lancement.
 - **NeoForge 21.1.251** (dernière 21.1.x au moment de l'init ; Create 6 demande ≥ 21.1.219).
-- **CurseForge** seulement pour Twilight Forest et FTB Quests/Library/Teams (absents de Modrinth,
+- **CurseForge** seulement pour Twilight Forest et FTB Quests/Library/Teams/Ultimine (absents de Modrinth,
   redistribution autorisée → packwiz-installer les télécharge).
 - **EMI + JEI** : EMI est l'interface ; JEI reste installé comme fournisseur de plugins (EMI les
   lit) car Create/IE/TF n'ont parfois que des plugins JEI. Ce n'est pas un doublon fonctionnel
@@ -73,6 +73,13 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
 - **Release du mod** : une release par `mod_version`, jamais republiée (hash figé dans le pack).
   Jar reproductible (`preserveFileTimestamps=false`). Le workflow committe
   `pack/mods/dernier-moteur.pw.toml` sur la branche : faire `git pull` avant de continuer.
+- **Addons Create** (demande utilisateur « tous les mods Create ») : 59 addons majeurs ajoutés, la
+  règle « pas de doublons » est levée pour eux (Diesel Generators, Power Grid, Electro Energetics,
+  TFMG… coexistent avec IE/Mekanism). Les portes d'ère restent sur les machines-clés (codex), donc
+  l'énergie précoce ne court-circuite pas la progression. Exclus et raisons : `docs/mods.md`.
+  TFMG = **Community Edition** (l'original ≤ 1.2.2 est incompatible avec Bits 'n' Bobs) ;
+  Create New Age retiré (dépendance `esl` introuvable) ; KubeJS Create retiré (inutile).
+- **FTB Ultimine** (CurseForge, redistribution autorisée).
 - Liste commentée des mods et des écartés : `docs/mods.md`.
 
 ## Outils
@@ -87,7 +94,7 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
 
 ## État d'avancement
 - [x] Phase 1 — Structure (packwiz, README, CLAUDE.md)
-- [x] Phase 2 — Mods + configs (86 mods à l'origine ; 85 + le mod custom depuis le retrait de Chunky)
+- [x] Phase 2 — Mods + configs (86 mods à l'origine ; 152 + le mod custom après ajout des addons Create et de FTB Ultimine)
 - [x] Phase 3 — Progression (`docs/progression.md`)
 - [x] Phase 4 — KubeJS (items de lore, recettes, drops de boss, carnet Patchouli) — validé sur serveur de test
 - [x] Phase 5 — FTB Quests (11 chapitres, 236 quêtes, chargées sans perte par FTB 2101.1.36)

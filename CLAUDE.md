@@ -89,6 +89,12 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
 - **Décraft TF bloqué** pour fragments, codex et composants (`server_scripts/tags.js`), sinon
   décrafter un codex rendrait un fragment.
 - **Scan anti-contournement** (oct. 2026) : aucune recette d'addon ne produit une machine verrouillée.
+- **.mrpack** : `.github/workflows/mrpack.yml` exporte le pack à chaque push sur main (release
+  rolling `pack-latest` + release figée `pack-v<version>` quand `pack/pack.toml` change de version).
+  Les mods CurseForge sont embarqués dans l'archive (overrides), les autres référencés par URL.
+- **Gardien** (mod 1.1.0) : calque `RenderType.eyes` (yeux + cœur de poitrine lumineux).
+- **Identité** : `assets/icon.png` (icône d'instance Prism), splashs du lore
+  (`kubejs/assets/minecraft/texts/splashes.txt`). Custom Window Title écarté : jar Fabric étiqueté NeoForge.
 - Liste commentée des mods et des écartés : `docs/mods.md`.
 
 ## Outils

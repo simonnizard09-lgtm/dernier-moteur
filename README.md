@@ -14,7 +14,20 @@ lancement.
 
 ---
 
-## Installation (Prism Launcher)
+[![Test de démarrage](https://github.com/simonnizard09-lgtm/dernier-moteur/actions/workflows/boot.yml/badge.svg)](https://github.com/simonnizard09-lgtm/dernier-moteur/actions/workflows/boot.yml)
+[![Vérification du pack](https://github.com/simonnizard09-lgtm/dernier-moteur/actions/workflows/pack.yml/badge.svg)](https://github.com/simonnizard09-lgtm/dernier-moteur/actions/workflows/pack.yml)
+
+## Installation rapide (fichier .mrpack)
+1. Télécharge `Le-Dernier-Moteur-<version>.mrpack` depuis la release
+   [**pack-latest**](https://github.com/simonnizard09-lgtm/dernier-moteur/releases/tag/pack-latest)
+   (toujours la dernière version) ou une release `pack-v<version>` figée.
+2. Prism Launcher → *Ajouter une instance* → *Importer* → choisis le fichier (ou colle son URL).
+3. Règle la mémoire (étape 4 ci-dessous) et lance.
+
+Avec cette méthode, les mises à jour ne sont pas automatiques : réimporte le nouveau `.mrpack`.
+Pour des mises à jour automatiques à chaque lancement, utilise plutôt l'installation packwiz :
+
+## Installation (Prism Launcher + packwiz, mises à jour automatiques)
 
 Prérequis : [Prism Launcher](https://prismlauncher.org/) et **Java 21** (Prism peut le
 télécharger tout seul).
@@ -52,7 +65,10 @@ télécharger tout seul).
      -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
      ```
 
-5. **Lancer.** Au premier démarrage, une fenêtre packwiz télécharge ~150 mods (quelques minutes).
+5. **Icône (facultatif)** : *Modifier l'instance* → clic sur l'icône → *Ajouter une icône* →
+   [`assets/icon.png`](assets/icon.png) de ce dépôt.
+
+6. **Lancer.** Au premier démarrage, une fenêtre packwiz télécharge ~150 mods (quelques minutes).
    Elle propose aussi les **mods optionnels** (voir plus bas). Les lancements suivants ne
    téléchargent que les mises à jour.
 

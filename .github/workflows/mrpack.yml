@@ -1,0 +1,64 @@
+name: Export .mrpack
+
+# À chaque mise à jour du pack sur main : exporte le pack au format Modrinth (.mrpack) et le publie
+#  - dans la release « pack-latest » (toujours la dernière version, remplacée à chaque fois) ;
+#  - dans une release figée « pack-v<version> » si la version de pack/pack.toml est nouvelle.
+# Import : Prism Launcher → Ajouter une instance → Importer → fichier ou URL du .mrpack.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'pack/**'
+      - '.github/workflows/mrpack.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mrpack
+  cancel-in-progress: false
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+
+      - name: Exporter
+        id: export
+        run: |
+          go install github.com/packwiz/packwiz@latest
+          version=$(grep -m1 '^version' pack/pack.toml | cut -d'"' -f2)
+          file="Le-Dernier-Moteur-${version}.mrpack"
+          cd pack && "$(go env GOPATH)/bin/packwiz" modrinth export -o "../${file}"
+          echo "version=${version}" >> "$GITHUB_OUTPUT"
+          echo "file=${file}" >> "$GITHUB_OUTPUT"
+
+      - name: Release pack-latest
+        run: |
+          notes="Dernière version du pack (${{ steps.export.outputs.version }}, commit ${GITHUB_SHA::7}). Import : Prism Launcher → Ajouter une instance → Importer."
+          if gh release view pack-latest >/dev/null 2>&1; then
+            for a in $(gh release view pack-latest --json assets --jq '.assets[].name'); do gh release delete-asset pack-latest "$a" -y; done
+            gh release edit pack-latest --notes "$notes" --target "$GITHUB_SHA"
+          else
+            gh release create pack-latest --prerelease --title "Le Dernier Moteur (dernière version)" --notes "$notes" --target "$GITHUB_SHA"
+          fi
+          git push -f origin "$GITHUB_SHA:refs/tags/pack-latest"
+          gh release upload pack-latest "${{ steps.export.outputs.file }}" --clobber
+
+      - name: Release figée de la version
+        run: |
+          tag="pack-v${{ steps.export.outputs.version }}"
+          if ! gh release view "$tag" >/dev/null 2>&1; then
+            gh release create "$tag" "${{ steps.export.outputs.file }}" --target "$GITHUB_SHA" \
+              --title "Le Dernier Moteur ${{ steps.export.outputs.version }}" \
+              --notes "Version ${{ steps.export.outputs.version }} du pack. Import : Prism Launcher → Ajouter une instance → Importer."
+          fi

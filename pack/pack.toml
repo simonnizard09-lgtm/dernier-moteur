@@ -1,12 +1,12 @@
 name = "Le Dernier Moteur"
 author = "simonnizard09-lgtm"
-version = "0.1.0"
+version = "0.2.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "dc1724385d58ef43b8025ef533bd0b0843240d08c8305306140ad28458e9b22e"
+hash = "471a545caf467efb016f3d9f72efc6036da423f6f76eed388a49f96d0bb6e386"
 
 [versions]
 minecraft = "1.21.1"

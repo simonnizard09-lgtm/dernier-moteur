@@ -165,6 +165,10 @@ file = "kubejs/assets/dernier_moteur/textures/item/steam_mechanism.png"
 hash = "1158348020ff9ad07404559db1815fb16ecafe8a3c08f8543c7433f7a1702a0f"
 
 [[files]]
+file = "kubejs/assets/minecraft/texts/splashes.txt"
+hash = "712b30bb2e4ee7ae3dc4c8da461349e8a4d357b4aff70573b10332730680a2d5"
+
+[[files]]
 file = "kubejs/client_scripts/journals.js"
 hash = "dc3a9a13b6045b0a88b6986f2e7e34368cbf546f86c2cb5fe1cc9eafa71229e8"
 

@@ -1,4 +1,4 @@
-# Liste des mods (152 + le mod custom `dernier_moteur`)
+# Liste des mods (151 + le mod custom `dernier_moteur`)
 
 Tous en **1.21.1 NeoForge**, vérifiés par `tools/check_deps.py` (dépendances requises,
 incompatibilités déclarées) et par un démarrage réel de serveur NeoForge 21.1.251.
@@ -18,8 +18,8 @@ Source : Modrinth, sauf mention **[CF]** (CurseForge, redistribution autorisée)
 | Applied Mekanistics | Gaz/chimie Mekanism dans AE2. |
 
 ## Addons Create (ajoutés à la demande : « tous les mods Create »)
-59 addons majeurs et maintenus, compatibles Create 6 / NeoForge 1.21.1, chargés ensemble sur le
-serveur de test : Create: Copycats+, Create Aeronautics, Create Big Cannons, Create Slice & Dice, Create: Diesel Generators, Create: Enchantment Industry, Create: Bells & Whistles, Create: Design n' Decor, Create Jetpack, Create Ore Excavation, Create Goggles, Create: Framed, Create Contraption Terminals, Create: Power Loader, Steam 'n' Rails Neoforge, Create Encased, Create Railways Navigator, Create: Bits 'n' Bobs, Create: Pattern Schematics, Create: TFMG Community Edition, Create: Trading floor, Create: Structures Arise, Create: Numismatics, Create: Power Grid, Create: Hypertubes, Create Nuclear, Create: Blocks & Bogies, Sophisticated Backpacks Create Integration, Create: Escalated, Create: Extended Wrenches, Create Sifting, Create: Components and Additions, Create: Ender Transmission, Create Mechanical Spawner, Create Mechanical Extruder, Create: Storage [Neo/Forge], Create: Shuffle Filter, Create More: Parallel Pipes, Create: Garnished, Create Confectionery, Create: Sound of Steam, Create: Mobile Packages, Create Train Parts, Create: Enchantable Machinery, EMI: Create Schematics, Create: Integrated Farming, Create Cafe, Create Ratatouille, Create: Harmonics, Create Train Utilities (Create Train Doors), Create Horse Power, Create: Metallurgy, Create: Ironworks, Create: Deep Dark, Create: Tracks+, Create: Pantographs & Wires, Create: Winery, Create: Transmission!, Create: Electro Energetics.
+58 addons majeurs et maintenus, compatibles Create 6 / NeoForge 1.21.1, chargés ensemble sur le
+serveur de test : Create: Copycats+, Create Aeronautics, Create Big Cannons, Create Slice & Dice, Create: Diesel Generators, Create: Enchantment Industry, Create: Bells & Whistles, Create: Design n' Decor, Create Jetpack, Create Ore Excavation, Create Goggles, Create: Framed, Create Contraption Terminals, Create: Power Loader, Steam 'n' Rails Neoforge, Create Encased, Create Railways Navigator, Create: Bits 'n' Bobs, Create: Pattern Schematics, Create: TFMG Community Edition, Create: Trading floor, Create: Structures Arise, Create: Numismatics, Create: Power Grid, Create: Hypertubes, Create Nuclear, Create: Blocks & Bogies, Sophisticated Backpacks Create Integration, Create: Escalated, Create: Extended Wrenches, Create Sifting, Create: Components and Additions, Create: Ender Transmission, Create Mechanical Spawner, Create Mechanical Extruder, Create: Storage [Neo/Forge], Create: Shuffle Filter, Create More: Parallel Pipes, Create: Garnished, Create Confectionery, Create: Sound of Steam, Create: Mobile Packages, Create Train Parts, Create: Enchantable Machinery, EMI: Create Schematics, Create: Integrated Farming, Create Cafe, Create Ratatouille, Create Train Utilities (Create Train Doors), Create Horse Power, Create: Metallurgy, Create: Ironworks, Create: Deep Dark, Create: Tracks+, Create: Pantographs & Wires, Create: Winery, Create: Transmission!, Create: Electro Energetics.
 Dépendances tirées automatiquement : Sable (physique d'Aeronautics), Ritchie's Projectile Library,
 DragonLib, Azimuth API, Struts, Mechanicals Lib, Tom's Simple Storage (pour Contraption Terminals).
 
@@ -28,6 +28,7 @@ Volontairement **non ajoutés** (sur ~400 addons Create recensés sur Modrinth) 
 |---|---|---|
 | Incompatible / introuvable | Create: New Age | Exige la bibliothèque `esl`, introuvable sur Modrinth et CurseForge. |
 | Remplacé | Create: The Factory Must Grow | Incompatible avec Bits 'n' Bobs (≤ 1.2.2) → **TFMG Community Edition** à la place. |
+| Télécharge des exécutables | Create: Harmonics | Au premier lancement, propose d'installer yt-dlp et FFmpeg (lecture de musique YouTube) : programmes externes hors du pack. Retiré. |
 | Sans usage | KubeJS Create | Le pack écrit ses recettes en JSON brut ; l'addon ne faisait qu'ajouter des avertissements. |
 | Compat pour des mods absents | Ars Creo, Cobblemon, CC:C Bridge, Rechiseled: Create, Storage Drawers compat, Vampirism… | Le mod cible n'est pas dans le pack. |
 | Casse la difficulté | Renewable Netherite/Diamonds/Brass, Simple Ore Doubling, Easy Stone Generators, Overpowered, Creator Sword… | Contraire au style « expert ». |

@@ -571,11 +571,6 @@ hash = "5de2bbab0826b5241e16746b0b739ca5169b0a9df38181d58e8519e6ea7f535f"
 metafile = true
 
 [[files]]
-file = "mods/create-harmonics.pw.toml"
-hash = "780ecc3099354cc648ae284972802d68c59f59e381e9bc8f021cf332f7f21433"
-metafile = true
-
-[[files]]
 file = "mods/create-horse-power.pw.toml"
 hash = "a12996b593450756ebe5b374f8d7ce8969d5460d5141a4ed956c44b3387c584d"
 metafile = true

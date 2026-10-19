@@ -74,12 +74,14 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
 - **Release du mod** : une release par `mod_version`, jamais republiée (hash figé dans le pack).
   Jar reproductible (`preserveFileTimestamps=false`). Le workflow committe
   `pack/mods/dernier-moteur.pw.toml` sur la branche : faire `git pull` avant de continuer.
-- **Addons Create** (demande utilisateur « tous les mods Create ») : 59 addons majeurs ajoutés, la
+- **Addons Create** (demande utilisateur « tous les mods Create ») : 58 addons majeurs ajoutés, la
   règle « pas de doublons » est levée pour eux (Diesel Generators, Power Grid, Electro Energetics,
   TFMG… coexistent avec IE/Mekanism). Les portes d'ère restent sur les machines-clés (codex), donc
   l'énergie précoce ne court-circuite pas la progression. Exclus et raisons : `docs/mods.md`.
   TFMG = **Community Edition** (l'original ≤ 1.2.2 est incompatible avec Bits 'n' Bobs) ;
-  Create New Age retiré (dépendance `esl` introuvable) ; KubeJS Create retiré (inutile).
+  Create New Age retiré (dépendance `esl` introuvable) ; KubeJS Create retiré (inutile) ; Create: Harmonics
+  retiré (veut télécharger yt-dlp + FFmpeg au lancement). Avant d'ajouter un mod : vérifier qu'il
+  ne télécharge rien hors packwiz.
 - **FTB Ultimine** (CurseForge, redistribution autorisée).
 - **Métaux** : priorités Almost Unified = minecraft, kubejs, create, IE, mekanism, createaddition,
   tfmg, createbigcannons, create_ironworks, createmetallurgy, createnuclear… Un seul minerai généré
@@ -112,7 +114,7 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
 
 ## État d'avancement
 - [x] Phase 1 — Structure (packwiz, README, CLAUDE.md)
-- [x] Phase 2 — Mods + configs (86 mods à l'origine ; 152 + le mod custom après ajout des addons Create et de FTB Ultimine)
+- [x] Phase 2 — Mods + configs (86 mods à l'origine ; 151 + le mod custom après ajout des addons Create et de FTB Ultimine)
 - [x] Phase 3 — Progression (`docs/progression.md`)
 - [x] Phase 4 — KubeJS (items de lore, recettes, drops de boss, carnet Patchouli) — validé sur serveur de test
 - [x] Phase 5 — FTB Quests (12 chapitres, 262 quêtes dont l'annexe « Ateliers Create », chargées sans perte)

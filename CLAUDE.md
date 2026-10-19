@@ -64,6 +64,8 @@ mobs renforcés), progression portée par FTB Quests et un lore (« Le Dernier M
 - **Mod custom** (`mod/`, ModDevGradle 2.0.147, package `fr.derniermoteur`) : le Gardien étend
   `IronGolem` pour réutiliser modèle/animations (rendu ×2, texture procédurale originale). Le
   Moteur lit les pièces par ID (`BuiltInRegistries.ITEM`) → pas de dépendance à KubeJS.
+- **KubeJS 7** : `event.cancel()` / `success()` / `exit()` **lèvent une exception** et terminent le
+  handler → toujours les appeler en dernier.
 - **Rhino/KubeJS** : pas de `const` dans un bloc (`if`, boucle) ni pour une variable globale
   réutilisée → « redeclaration of var ». Utiliser `let`.
 - **Release du mod** : une release par `mod_version`, jamais republiée (hash figé dans le pack).

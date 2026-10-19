@@ -4,6 +4,9 @@
 // déconnecte le joueur si l'entrée est introuvable côté client. Ici on vérifie que l'entrée
 // existe dans le livre chargé ; sinon on ouvre simplement le Carnet et on journalise la liste
 // des entrées connues (logs/kubejs/client.log) pour le diagnostic.
+// Patchouli peut ne charger le contenu d'un livre externe qu'à sa première ouverture : dans ce
+// cas le premier clic ouvre l'accueil du Carnet, les suivants vont directement à la page.
+// ATTENTION : event.cancel() interrompt le handler (KubeJS 7) → toujours l'appeler en dernier.
 
 let $PatchouliAPI = Java.loadClass('vazkii.patchouli.api.PatchouliAPI')
 let $BookRegistry = Java.loadClass('vazkii.patchouli.common.book.BookRegistry')
@@ -13,21 +16,21 @@ let CARNET_ID = $RL.parse('patchouli:carnet')
 ItemEvents.rightClicked(event => {
   let m = String(event.item.id).match(/^dernier_moteur:journal_(\d)$/)
   if (!m) return
-  event.cancel()
   try {
     let entryId = $RL.parse('patchouli:journaux/journal_' + m[1])
     let book = $BookRegistry.INSTANCE.books.get(CARNET_ID)
     let contents = book ? book.getContents() : null
     if (contents && !contents.isErrored() && contents.entries.containsKey(entryId)) {
       $PatchouliAPI.get().openBookEntry(CARNET_ID, entryId, 0)
-      return
+    } else {
+      let known = []
+      if (contents) contents.entries.keySet().forEach(k => known.push(String(k)))
+      console.warn('Journal ' + entryId + ' pas encore chargé dans le Carnet (book=' + !!book
+        + ', errored=' + (contents ? contents.isErrored() : 'n/a') + ', entrées=' + known.join(', ') + ')')
+      $PatchouliAPI.get().openBookGUI(CARNET_ID)
     }
-    let known = []
-    if (contents) contents.entries.keySet().forEach(k => known.push(String(k)))
-    console.warn('Journal ' + entryId + ' introuvable dans le Carnet (book=' + !!book
-      + ', errored=' + (contents ? contents.isErrored() : 'n/a') + ', entrées=' + known.join(', ') + ')')
-    $PatchouliAPI.get().openBookGUI(CARNET_ID)
   } catch (err) {
     console.error('Ouverture du Carnet impossible : ' + err)
   }
+  event.cancel()
 })
